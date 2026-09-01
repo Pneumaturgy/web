@@ -1,0 +1,1935 @@
+
+
+===== Welcome To Pneumaturgy bb389af0b34942dfa2a1314cfa2a9cbb.md =====
+# Welcome To Pneumaturgy
+
+https://www.google.com.ec/books/edition/The_Rule_of_S_Benet/L616EIVDc3kC?hl=en&gbpv=1&printsec=frontcover
+
+# pneu·ma
+
+/ˈno͞omə/
+
+[](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPGRlZnM+CiAgICA8cG9seWdvbiBpZD0ic21hbGwtdmlzZW1lLXYzLWEiIHBvaW50cz0iMCAwIDMyIDAgMzIgMzIgMCAzMiIvPgogIDwvZGVmcz4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPG1hc2sgaWQ9InNtYWxsLXZpc2VtZS12My1iIiBmaWxsPSIjZmZmIj4KICAgICAgPHVzZSB4bGluazpocmVmPSIjc21hbGwtdmlzZW1lLXYzLWEiLz4KICAgIDwvbWFzaz4KICAgIDx1c2UgZmlsbD0iIzQyODVGNCIgeGxpbms6aHJlZj0iI3NtYWxsLXZpc2VtZS12My1hIi8+CiAgICA8cGF0aCBmaWxsPSIjRDJFM0ZDIiBkPSJNMCwxNS4yMzk3OTYzIEMyLjU0Mzg1NzE0LDE4Ljg3MDUyMDMgNS42NTIsMjIuMDgyMTk0NiA5LjIwMjI4NTcxLDI0Ljc0NDg3NjkgQzEzLjIxMTU3MTQsMjcuNzUxNzA3NyAxOC43ODg0Mjg2LDI3Ljc1MTcwNzcgMjIuNzk3NzE0MywyNC43NDQ4NzY5IEMyNi4zNDgsMjIuMDgyMTk0NiAyOS40NTYxNDI5LDE4Ljg3MDUyMDMgMzIsMTUuMjM5Nzk2MyBMMzIsLTcgTDAsLTcgTDAsMTUuMjM5Nzk2MyBaIiBtYXNrPSJ1cmwoI3NtYWxsLXZpc2VtZS12My1iKSIvPgogICAgPHBhdGggZmlsbD0iIzQyODVGNCIgZmlsbC1vcGFjaXR5PSIuNiIgZD0iTTE2LDIxLjIzMDY0OTIgQzE2LjkyNjA5OTEsMjEuMjMwNjQ5MiAxNy43OTEyNDY3LDIxLjQ5NDMxNTcgMTguNTI3MjEzNSwyMS45NTE1MDE5IEMxOC44MTA0NDEsMjIuMTI3MzMwOSAxOS4xMzYyNzM4LDIxLjc4ODc0ODUgMTguOTQwMzc5OSwyMS41MTY0Njc0IEMxOC4yNzg1NTU2LDIwLjU5NzMyNjMgMTcuMjA4MTEzNiwyMCAxNiwyMCBDMTQuNzkxODg2NCwyMCAxMy43MjE0NDQ0LDIwLjU5NzMyNjMgMTMuMDU5NjIwMSwyMS41MTY0Njc0IEMxMi44NjM3MjYyLDIxLjc4ODc0ODUgMTMuMTg5NTU5LDIyLjEyNzMzMDkgMTMuNDcyNzg2NSwyMS45NTE1MDE5IEMxNC4yMDg3NTMzLDIxLjQ5NDMxNTcgMTUuMDczOTAwOSwyMS4yMzA2NDkyIDE2LDIxLjIzMDY0OTIiIG1hc2s9InVybCgjc21hbGwtdmlzZW1lLXYzLWIpIi8+CiAgICA8cGF0aCBzdHJva2U9IiM0Mjg1RjQiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIGQ9Ik0yNSwxMyBDMjMsMTUuMzMzMzMzMyAyMCwxNi41IDE2LDE2LjUgQzEyLDE2LjUgOSwxNS4zMzMzMzMzIDcsMTMgTDEzLDEwLjUgTDE5LDEwLjUgTDI1LDEzIFoiIG1hc2s9InVybCgjc21hbGwtdmlzZW1lLXYzLWIpIi8+CiAgICA8cG9seWdvbiBmaWxsPSIjNDI4NUY0IiBmaWxsLXJ1bGU9Im5vbnplcm8iIHBvaW50cz0iOCAxNCA3IDEzIDI1IDEzIDI0IDE0IiBtYXNrPSJ1cmwoI3NtYWxsLXZpc2VtZS12My1iKSIvPgogICAgPHBhdGggc3Ryb2tlPSIjNDI4NUY0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Ik0yMCwzIEwxNy43Njc4NzUsNS4yNTg5MjYyMiBDMTYuNzkxNSw2LjI0NzAyNDU5IDE1LjIwODUsNi4yNDcwMjQ1OSAxNC4yMzIxMjUsNS4yNTg5MjYyMiBMMTIsMyIgbWFzaz0idXJsKCNzbWFsbC12aXNlbWUtdjMtYikiLz4KICA8L2c+Cjwvc3ZnPgo=)
+
+*noun*
+
+**PHILOSOPHY**
+
+(in Stoic thought) the vital spirit, soul, or creative force of a person.
+
+# (t)urgy
+
+[*ἔργον*](https://en.wiktionary.org/wiki/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD#Ancient_Greek) (*érgon*, “work”)
+
+[](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPGRlZnM+CiAgICA8cG9seWdvbiBpZD0ic21hbGwtdmlzZW1lLXYzLWEiIHBvaW50cz0iMCAwIDMyIDAgMzIgMzIgMCAzMiIvPgogIDwvZGVmcz4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPG1hc2sgaWQ9InNtYWxsLXZpc2VtZS12My1iIiBmaWxsPSIjZmZmIj4KICAgICAgPHVzZSB4bGluazpocmVmPSIjc21hbGwtdmlzZW1lLXYzLWEiLz4KICAgIDwvbWFzaz4KICAgIDx1c2UgZmlsbD0iIzQyODVGNCIgeGxpbms6aHJlZj0iI3NtYWxsLXZpc2VtZS12My1hIi8+CiAgICA8cGF0aCBmaWxsPSIjRDJFM0ZDIiBkPSJNMCwxNS4yMzk3OTYzIEMyLjU0Mzg1NzE0LDE4Ljg3MDUyMDMgNS42NTIsMjIuMDgyMTk0NiA5LjIwMjI4NTcxLDI0Ljc0NDg3NjkgQzEzLjIxMTU3MTQsMjcuNzUxNzA3NyAxOC43ODg0Mjg2LDI3Ljc1MTcwNzcgMjIuNzk3NzE0MywyNC43NDQ4NzY5IEMyNi4zNDgsMjIuMDgyMTk0NiAyOS40NTYxNDI5LDE4Ljg3MDUyMDMgMzIsMTUuMjM5Nzk2MyBMMzIsLTcgTDAsLTcgTDAsMTUuMjM5Nzk2MyBaIiBtYXNrPSJ1cmwoI3NtYWxsLXZpc2VtZS12My1iKSIvPgogICAgPHBhdGggZmlsbD0iIzQyODVGNCIgZmlsbC1vcGFjaXR5PSIuNiIgZD0iTTE2LDIxLjIzMDY0OTIgQzE2LjkyNjA5OTEsMjEuMjMwNjQ5MiAxNy43OTEyNDY3LDIxLjQ5NDMxNTcgMTguNTI3MjEzNSwyMS45NTE1MDE5IEMxOC44MTA0NDEsMjIuMTI3MzMwOSAxOS4xMzYyNzM4LDIxLjc4ODc0ODUgMTguOTQwMzc5OSwyMS41MTY0Njc0IEMxOC4yNzg1NTU2LDIwLjU5NzMyNjMgMTcuMjA4MTEzNiwyMCAxNiwyMCBDMTQuNzkxODg2NCwyMCAxMy43MjE0NDQ0LDIwLjU5NzMyNjMgMTMuMDU5NjIwMSwyMS41MTY0Njc0IEMxMi44NjM3MjYyLDIxLjc4ODc0ODUgMTMuMTg5NTU5LDIyLjEyNzMzMDkgMTMuNDcyNzg2NSwyMS45NTE1MDE5IEMxNC4yMDg3NTMzLDIxLjQ5NDMxNTcgMTUuMDczOTAwOSwyMS4yMzA2NDkyIDE2LDIxLjIzMDY0OTIiIG1hc2s9InVybCgjc21hbGwtdmlzZW1lLXYzLWIpIi8+CiAgICA8cGF0aCBzdHJva2U9IiM0Mjg1RjQiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIGQ9Ik0yNSwxMyBDMjMsMTUuMzMzMzMzMyAyMCwxNi41IDE2LDE2LjUgQzEyLDE2LjUgOSwxNS4zMzMzMzMzIDcsMTMgTDEzLDEwLjUgTDE5LDEwLjUgTDI1LDEzIFoiIG1hc2s9InVybCgjc21hbGwtdmlzZW1lLXYzLWIpIi8+CiAgICA8cG9seWdvbiBmaWxsPSIjNDI4NUY0IiBmaWxsLXJ1bGU9Im5vbnplcm8iIHBvaW50cz0iOCAxNCA3IDEzIDI1IDEzIDI0IDE0IiBtYXNrPSJ1cmwoI3NtYWxsLXZpc2VtZS12My1iKSIvPgogICAgPHBhdGggc3Ryb2tlPSIjNDI4NUY0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Ik0yMCwzIEwxNy43Njc4NzUsNS4yNTg5MjYyMiBDMTYuNzkxNSw2LjI0NzAyNDU5IDE1LjIwODUsNi4yNDcwMjQ1OSAxNC4yMzIxMjUsNS4yNTg5MjYyMiBMMTIsMyIgbWFzaz0idXJsKCNzbWFsbC12aXNlbWUtdjMtYikiLz4KICA8L2c+Cjwvc3ZnPgo=)
+
+*suffix*
+
+**GREEK**
+
+a combining form occurring in loanwords from Greek, where it meant **“work”;** A technique for working with something.
+
+<aside>
+<img src="https://app.notion.com/icons/geography_gray.svg" alt="https://app.notion.com/icons/geography_gray.svg" width="40px" /> **Culture**
+*The connecting fibre all of us are connected to, are with threads of communication, teamwork, communication, and success.*
+
+</aside>
+
+<aside>
+<img src="https://app.notion.com/icons/potted-plant_gray.svg" alt="https://app.notion.com/icons/potted-plant_gray.svg" width="40px" /> **Growth**
+*With the correct mindset, we all ought to have the tools, motivation, and room to grow and refine our skills, to be our very best.*
+
+</aside>
+
+<aside>
+<img src="https://app.notion.com/icons/fireworks_gray.svg" alt="https://app.notion.com/icons/fireworks_gray.svg" width="40px" /> **Spirit**
+*We are creating for reasons greater than ourselves, and ought to be fitting vessels for the universe to create.*
+
+</aside>
+
+[Projects](Welcome%20To%20Pneumaturgy/Projects%209131773558c24d5db3e62ae0d1fdd6bb.csv)
+
+# $Who \ are \ we?$
+
+If you’re here, you’ve made what is widely considered to be a *bad decision:*
+
+You have a full time job. You’ve tried and failed to start videogame projects previously. You are aware of the tremendous risk involved in terms of time investment. You understand the gigantic amount of effort required in the multiple disciplines involved in game design.
+
+**Despite it all, you’re willing to make these sacrifices to chase a dream, because you have a story you want to tell the world. *That’s who we are.***
+
+# $How\ is \ this \ going \ to \ be \ any \ different?$
+
+# Because of our Culture
+
+**When you tell people you’re starting something, without having everything figured out, they’ll call you a fool.** When you tell people that you’re going to go into gamedev without a clear mission or “goal” in sight, having already resolved how you will finish your game, how you will market and publish it, they will be shocked, and laugh at you.
+
+Yet, that is precisely the attitude of Pneumaturgy. It requires a belief that the best ideas don’t live inside our heads, but are born when we share. Therefore, we must only focus in refining our skills, being the best developers we can be. That great game, project, idea is waiting out there; waiting for the right team to bring it into reality.
+
+# Because the Time is Right
+
+**There has never been a better time to get into gamedev.** The triple AAA studios are laying off their seniors, and are focusing on *commercialising the medium;* that opens the playing field for people to make honest-to-god games.
+
+Engines like Unity and Unreal are large but more bureocratic, slow, and buggy. Godot is a “young man” in the game engine scene, very young, but still fully equipped with the most important aspects since the latest update. It is also open source, so we can expect this scene to grow exponentially, as these laid-off seniors and disenfranchised studios turn to more scalable software.
+
+# Because of our Resources
+
+**You might be thinking; we have no time and no money. What resources?** Our biggest riches, obviously, are in our people. We have some incredible minds with extensive experience in best practices of code, and logical thinking.
+
+But that’s not all. These people are all also willing to commit to a dream, with a result that is bigger than themselves; that is priceless. Having a full time job, and working on the side as a hobby, means we have no stakeholders or publishers to suck up to. No rushed deadlines, no following trends, no chasing wallets. We also will have a readily active mind, never will we be stuck on endless problems, because our mind is used every day for taking on responsibilities, finishing tasks, and working with other people. 
+
+# $How \ do \ we \ resolve \ conflict?$
+
+Open source projects and governments have a similar structure:
+
+<aside>
+<img src="https://app.notion.com/icons/accessibility_gray.svg" alt="https://app.notion.com/icons/accessibility_gray.svg" width="40px" /> The people (consumers) are represented by a president (community manager)
+
+</aside>
+
+<aside>
+<img src="https://app.notion.com/icons/graduate_gray.svg" alt="https://app.notion.com/icons/graduate_gray.svg" width="40px" /> The educated law-makers (code writers) contribute to the project (state)
+
+</aside>
+
+<aside>
+<img src="https://app.notion.com/icons/gavel_gray.svg" alt="https://app.notion.com/icons/gavel_gray.svg" width="40px" /> A moderating body (moderators) ensures that the constitution is upheld
+
+</aside>
+
+<aside>
+<img src="https://app.notion.com/icons/ghost_gray.svg" alt="https://app.notion.com/icons/ghost_gray.svg" width="40px" /> A shaman or high priest ensures that all decisions comply with consciousness
+
+</aside>
+
+The goal is that each of us should learn and master leadership skills, have empathy for each other, and have honest conversations to resolve disagreements. If one is demeed to carry insufficient empathy to hear other opinions except their own, their opinion is not respected.
+
+# $Ok... \ What\ about\ the \ money?$
+
+So far we have talked very idealistically about this project, because fundamentally, we are putting art and refining our skills above the monitary gain. However, that doesn’t mean we may be broke forever. 
+
+Games are an incredibly risky investment. Companies that rely entirely on this medium to make an income do so with a very understandable set of requirements. Publishers will demand that the game is done in less than 2 years, in order to ensure a quick return on that investment. They will also ensure that you can *guarantee* your game will sell, by using data science to find trends which you can fulfill. This process is dignified, but it is soulless, and that which has no soul, no life, cannot last for very long.
+
+True success is in innovation. Think Disney, Apple, Nintendo; they do not follow trends, they set them. They have no stakeholders to please, no publishers to set expectations for. And although they are globally successful, they still occasionally fail.
+
+We have the tools in place to develop our skills, and create something truly incredible and innovative. The worst case scenario, we learn a lot of cool skills. Best case scenario, we break out, make a ton of money, and quit our jobs. A generation of volatile startups have taught us that life is too short to not try and do something different. 
+
+# $How \ we \ work$
+
+We meet two times a week, currently on Tuesday and Wednesday. Occasionally, we may meet on the weekend for an event, an educational meeting, or simply to hang out. 
+
+When working together, we do circular pairing; that is one navigator and one driver, and as features are finished, a new driver is chosen and the previous driver becomes the navigator.
+
+===== Welcome To Pneumaturgy/Projects 9131773558c24d5db3e62ae0d1fdd6bb.csv =====
+Name,Tags
+Shryn,
+Nico’s Story Proposal,
+Por Nada,
+Rapha’s Story,
+Design Docs,
+Pneuma Knights,
+SciWars: Apocalypse,
+LifeTracker,
+RatchetAndClankCleaner,
+Arcade tycoon,
+Ongoing Projects,
+Closed Projects,
+GMTK Game Jam,
+Documentation,
+Project Set Up,
+Godot Mobile UI Template,
+Cerdo,
+PneuMath,
+Geomancy,
+
+===== Welcome To Pneumaturgy/Projects 9131773558c24d5db3e62ae0d1fdd6bb_all.csv =====
+Name,Created,Link,Parent item,Sub-item,Tags
+Geomancy,"April 29, 2024 5:57 PM",,Design Docs (Welcome%20To%20Pneumaturgy/Projects/Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md),,
+Project Set Up,"May 24, 2024 9:38 PM",,Documentation (Welcome%20To%20Pneumaturgy/Projects/Documentation%20d1b6956b5e5d4483880046955eaeb65b.md),,
+Shryn,"June 3, 2024 10:00 PM",,Design Docs (Welcome%20To%20Pneumaturgy/Projects/Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md),,
+Ongoing Projects,"July 13, 2024 11:18 AM",,,,
+Closed Projects,"July 13, 2024 11:18 AM",,,"Cerdo (Welcome%20To%20Pneumaturgy/Projects/Cerdo%20cf0a9a1a7dd24d28a9eb760c9177cd55.md), PneuMath (Welcome%20To%20Pneumaturgy/Projects/PneuMath%20f439912d40f94022b7e01cf0341063d5.md), GMTK Game Jam (Welcome%20To%20Pneumaturgy/Projects/GMTK%20Game%20Jam%20699434d1929c41fb9f0234d59b4bd459.md)",
+Design Docs,"July 13, 2024 11:20 AM",,,"Geomancy (Welcome%20To%20Pneumaturgy/Projects/Geomancy%20ee55963f362549eabd8a06b0d45072fa.md), Shryn (Welcome%20To%20Pneumaturgy/Projects/Shryn%2044d1b21cac49456aae96152c795a05c3.md), Pneuma Knights (Welcome%20To%20Pneumaturgy/Projects/Pneuma%20Knights%208b2c58fbe59f40b2ba7919bf71de87e1.md), SciWars: Apocalypse (Welcome%20To%20Pneumaturgy/Projects/SciWars%20Apocalypse%20c5948aa8f00242aa952b843d3a964d2e.md), LifeTracker (Welcome%20To%20Pneumaturgy/Projects/LifeTracker%205de2136c611b4b558a1eea10ea680b88.md), RatchetAndClankCleaner (Welcome%20To%20Pneumaturgy/Projects/RatchetAndClankCleaner%2010d7df6e3ce54552825942d915d83b89.md), Arcade tycoon (Welcome%20To%20Pneumaturgy/Projects/Arcade%20tycoon%20134dec71e77d80658fb5d7f71ff1bc9b.md)",
+Cerdo,"July 13, 2024 11:21 AM",,Closed Projects (Welcome%20To%20Pneumaturgy/Projects/Closed%20Projects%20bd44f9d5483d4588bc94ce19c97100c7.md),,
+PneuMath,"July 13, 2024 11:21 AM",,Closed Projects (Welcome%20To%20Pneumaturgy/Projects/Closed%20Projects%20bd44f9d5483d4588bc94ce19c97100c7.md),,
+Pneuma Knights,"July 13, 2024 4:51 PM",https://docs.google.com/document/d/1w635j4DAkOwRYjL4AGsxnFsfcrL3GB94Eme8NHEOoUI/edit#heading=h.689pbr44gy3p,Design Docs (Welcome%20To%20Pneumaturgy/Projects/Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md),"Nico’s Story Proposal (Welcome%20To%20Pneumaturgy/Projects/Nico%E2%80%99s%20Story%20Proposal%20211f3846aab64647ab6ef501e44b8f00.md), Por Nada (Welcome%20To%20Pneumaturgy/Projects/Por%20Nada%202762120d79d9464ebc1f795ea4a1e09b.md), Rapha’s Story (Welcome%20To%20Pneumaturgy/Projects/Rapha%E2%80%99s%20Story%2061c6b0c7425f4fdaa016fb0ea9646e16.md)",
+Documentation,"July 14, 2024 6:51 PM",,,"Project Set Up (Welcome%20To%20Pneumaturgy/Projects/Project%20Set%20Up%2020dfe42580f94cd08952005a12ed9557.md), Godot Mobile UI Template (Welcome%20To%20Pneumaturgy/Projects/Godot%20Mobile%20UI%20Template%20e9b1ad282d564168913c87a941cd32bd.md)",
+Godot Mobile UI Template,"July 14, 2024 6:51 PM",,Documentation (Welcome%20To%20Pneumaturgy/Projects/Documentation%20d1b6956b5e5d4483880046955eaeb65b.md),,
+SciWars: Apocalypse,"July 15, 2024 3:31 PM",,Design Docs (Welcome%20To%20Pneumaturgy/Projects/Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md),,
+Por Nada,"July 22, 2024 10:29 AM",,Pneuma Knights (Welcome%20To%20Pneumaturgy/Projects/Pneuma%20Knights%208b2c58fbe59f40b2ba7919bf71de87e1.md),,
+Nico’s Story Proposal,"July 22, 2024 9:35 PM",,Pneuma Knights (Welcome%20To%20Pneumaturgy/Projects/Pneuma%20Knights%208b2c58fbe59f40b2ba7919bf71de87e1.md),,
+Rapha’s Story,"July 23, 2024 6:45 PM",,Pneuma Knights (Welcome%20To%20Pneumaturgy/Projects/Pneuma%20Knights%208b2c58fbe59f40b2ba7919bf71de87e1.md),,
+LifeTracker,"August 20, 2024 3:34 PM",,Design Docs (Welcome%20To%20Pneumaturgy/Projects/Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md),,
+RatchetAndClankCleaner,"August 20, 2024 3:34 PM",,Design Docs (Welcome%20To%20Pneumaturgy/Projects/Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md),,
+GMTK Game Jam,"August 20, 2024 3:35 PM",,Closed Projects (Welcome%20To%20Pneumaturgy/Projects/Closed%20Projects%20bd44f9d5483d4588bc94ce19c97100c7.md),,
+Arcade tycoon,"November 3, 2024 9:00 PM",,Design Docs (Welcome%20To%20Pneumaturgy/Projects/Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md),,
+
+===== Welcome To Pneumaturgy/Projects/RatchetAndClankCleaner 10d7df6e3ce54552825942d915d83b89.md =====
+# RatchetAndClankCleaner
+
+Created: August 20, 2024 3:34 PM
+Parent item: Design Docs (Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md)
+
+===== Welcome To Pneumaturgy/Projects/Arcade tycoon 134dec71e77d80658fb5d7f71ff1bc9b.md =====
+# Arcade tycoon
+
+Created: November 3, 2024 9:00 PM
+Parent item: Design Docs (Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md)
+
+Just arcada games to practice. But put them in a tycoon game like roller coaster tycoon.
+
+Queue points:
+
+After using an arcade machine, it generates a queue. Each person in the queue gives you money, basically it's like “opening” a game to generate money. Then to play it again you have to wait for the cool down, i.e. queue. Use queue points to skip the queue. Individual places 
+
+Special objectives in the mini games gives you queue points . For example in mash the moles, getting a passing mosquito 
+
+In your main screen, you have your arcade layout. You can buy “halls” to expand, or doors and walls to divide.
+
+On the walls, in slots, you can put an arcade machine.
+
+Pressing on the machine zooms in, and you see info about it. Pressing play, you enter game mode. alternatively, swipe left or right to see next machine, and you can swipe “into” coordiors to navigate
+
+Each arcade machine has a set price, time to play, etc. enter queue point here.
+
+occassionaly, a person will show up at the counter. they may request one of your machines if htey’re a business man, or they may request a series of copies of the game, which you have to retrieve manually (download to usb) to then hand to them. They will ask for copies of the most successfull games.
+
+How to make a game more successful? better games are more expensive, first of all. A game can be enhanced by placing decorations, and has a “slot” bonus it can fill. A special, magical decoration can be like a riven mod to a given game.
+
+The player wants to make certain, more profitable games, “better”, in order to sell copies at the shop.
+
+Screens:
+
+1. Door (open/close)
+    1. Can open and close the shop
+2. Counter
+    1. Address customer requests, access other menus
+3. Arcade slot
+    1. Face arcade for info
+    2. Add new arcade slot / new hall expansion
+    3. By default, a room has 4 slots. Buy a hall expansion to go further, or buy a door to open a new “group” of arcades.
+    4. Change arcade price for ticket - this will gauge how many people will play it or queue for it. 
+4. Door
+    1. tap to enter, continue to go continue on the hall (go back to start at end)
+
+putting down new arcades, achieving certain goals, expanding the store, etc gains you XP, at level up you get rewards and research points. 
+
+Maybe the card system from tycoon? to level up specific arcades.
+
+===== Welcome To Pneumaturgy/Projects/Project Set Up 20dfe42580f94cd08952005a12ed9557.md =====
+# Project Set Up
+
+Created: May 24, 2024 9:38 PM
+Parent item: Documentation (Documentation%20d1b6956b5e5d4483880046955eaeb65b.md)
+
+### ***Godot Crash Course: Creating a Simple Autochess Game***
+
+# Step 1 - Project Setup
+
+## Starting From Scratch
+
+[Download - Godot Engine](https://godotengine.org/download/)
+
+Extract it somewhere safe, not your desktop please!
+
+Create a “GodotProjects” folder somewhere, like your documents, to store all your future projects. Then, open up the Godot Project Manager by running the program. Select `New Project`:
+
+![Untitled](Project%20Set%20Up/Untitled.png)
+
+You will be prompted to enter a name. Ensure “`Forward+`” renderer is selected, and the version control metadata is `Git`. Click `Browse`to select a new project path.
+
+![Untitled](Project%20Set%20Up/Untitled%201.png)
+
+From the Documents directory, I have navigated to my “GodotProjects” folder, and I will right click and create a new folder to save my project.
+
+![Untitled](Project%20Set%20Up/Untitled%202.png)
+
+## From Github
+
+[Download - Godot Engine](https://godotengine.org/download/)
+
+Extract it somewhere safe, not your desktop please!
+
+Create a “GodotProjects” folder somewhere, like your documents, to store all your future projects. Clone a Godot Repository to your local machine, ideally in this new folder we made (I use Github Desktop, hate me if you want, I don’t care)
+
+![Untitled](Project%20Set%20Up/Untitled%203.png)
+
+From Godot, select “Import”, and find your cloned project
+
+![Untitled](Project%20Set%20Up/Untitled%204.png)
+
+Optionally, create a .gitignore
+
+## Uploading Project
+
+Create a new repository, using your favourite Git tool
+
+![Untitled](Project%20Set%20Up/Untitled%205.png)
+
+Enter the other settings as necessary, and create. Follow by publishing the repo.
+
+![Untitled](Project%20Set%20Up/Untitled%206.png)
+
+Back in Godot, create a new project, and browse to find the repo you just created. Make sure you reach the final folder.
+
+![Untitled](Project%20Set%20Up/Untitled%207.png)
+
+![Untitled](Project%20Set%20Up/Untitled%208.png)
+
+Start the project, and create some folders to test that you have successfully connected your project. Upload your changes to main, or alternatively a branch, to test if your changes are successfully saved on the cloud.
+
+![Untitled](Project%20Set%20Up/Untitled%209.png)
+
+## Project Structure
+
+- In the Godot FileSystem panel, create the following folders:
+    - **`Scenes`** - for all scene files.
+    - **`Scripts`** - for all GDScript files.
+    - **`Assets`** - for textures, sounds, and other assets.
+    - **`UI`** - for user interface elements.
+    - **`Resources`** - for any custom resource files.
+
+![Untitled](Project%20Set%20Up/Untitled%2010.png)
+
+### **Godot Crash Course**
+
+### **Setup Project**
+
+1. **Create UI Scene**
+    - Name it **`App`**.
+    - Save it in the **`Scenes`** directory.
+2. **Configure Project Settings for [Mobile Viewport](https://docs.godotengine.org/en/stable/tutorials/rendering/multiple_resolutions.html#mobile-game-in-portrait-mode)**
+    - Set base window width to **`720`** and height to **`1280`**.
+    - In advanced settings, set window override to / 1.5.
+    - Set **Display > Window > Handheld > Orientation** to **`portrait`**.
+    - Set stretch mode to **`canvas_items`**.
+    - Set stretch aspect to **`expand`**.
+    - Configure Control nodes' anchors using the **Layout** menu.
+
+### **Create the Main Menu**
+
+1. **Build UI Components**
+    - Use a **`Control`** node as the root.
+    - Add a **`CanvasLayer`**.
+    - Create **`BoxContainer`** for layout (center alignment, vertical toggle).
+    - Add a **`RichTextLabel`** and adjust container sizing.
+    - Add **`Buttons`**.
+2. **Duplicate and Create Other Scenes**
+3. **Create Script**
+    - Connect button signals.
+    - Use [**`get_tree](https://docs.godotengine.org/en/stable/tutorials/scripting/scene_tree.html)()` and [`change_scene_to_file](https://docs.godotengine.org/en/stable/tutorials/scripting/change_scenes_manually.html)()`** to change scenes.
+
+### **Gameplay Logic**
+
+1. **Create a New Scene for Dice Roll**
+    - Add two **`Label`** nodes for displaying numbers and one **`Button`**.
+    - Another **`label`** to display your accumulated score, and another **`button`** to quit.
+    - Link button to a new script for handling the press event.
+2. **Implement Dice Roll Logic**
+    - Use a random number generator to get values between 1 and 6 for both player and CPU.
+    - Display the results.
+    - Compare results and update the score: +1 for win, -1 for loss.
+    - If score reaches 5, transition to the victory scene.
+    - If score reaches -5, transition to the failure scene.
+
+### **Create Globals Script**
+
+- Autoload Globals
+- Store player score and results, update gameplay script
+- End function changes to end screen, resets score and result
+- Also holds quit function
+
+### **Save and Load Progress**
+
+1. **Implement Save and Load Mechanism**
+    - Project Settings, Application, Config, set `use custom user dir`, `custom user dir name`
+2. **Change Application Icon**
+- Implement saving logic.
+    - **`Save()`** creates a new dict with all player data (score)
+    - **`SaveGame()`** instantiates a save file in directory
+    - **`JSON.stringify`** the save dict
+    - Store the savegame as a line in the JSON
+- Implement loading logic
+    - Check if the save directory exists with save file
+    - Read the file
+    - For the length of the JSON file:
+        - store a new line of the JSON
+        - parse the individual JSON line and check if it’s successful
+        - Store the data in a new variable
+        - Set the new data to your existing variables (score)
+
+### **Build End Screen**
+
+- Create new end scene
+- Insert containers, richtext labels, and two buttons
+- Button pressed sends to appropriate destination (quit, restart)
+- Hardcode victory and failure text
+- Choose what label shows based on global player result
+
+### [**Export to Android**](https://www.youtube.com/watch?v=dCLYMF32ZBE&t=1s)
+
+1. **Set Up Android Studio**
+    - Download and install from [Android Studio](https://developer.android.com/studio).
+    - Download JDK from [Oracle](https://www.oracle.com/java/technologies/downloads).
+2. **Manage Export Templates**
+    - Download from the official GitHub releases mirror and install.
+3. **Configure Editor Settings for Android Export**
+    - Editor - editor settings - export android
+    - Navigate to **`%AppData%\Local\Android\Sdk`** and copy the path.
+    - Set the Android SDK path in editor settings.
+4. **Generate Debug Keystore**
+    - Navigate to C:\Program Files\Java\jdk-22\bin, copy address
+    - Open CMD as admin
+    - cd to above address
+    - and run:
+        
+        ```bash
+        keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "C=US, O=Android, CN=Android Debug"
+        ```
+        
+    - Configure editor settings to use the debug keystore. navigate to path, jdk, bin, find keystore
+    - Use **`androiddebugkey`** for the user and **`android`** for the password.
+5. **Final Export Settings**
+    - Enable import for ETC2 and ASTC textures in project settings and restart.
+    - Add Android export template and set package name according to Android conventions.
+    - Export the project, enable "debug" mode, and upload the APK to your device.
+
+===== Welcome To Pneumaturgy/Projects/Nico’s Story Proposal 211f3846aab64647ab6ef501e44b8f00.md =====
+# Nico’s Story Proposal
+
+Created: July 22, 2024 9:35 PM
+Parent item: Pneuma Knights (Pneuma%20Knights%208b2c58fbe59f40b2ba7919bf71de87e1.md)
+
+*Our story opens with a silent cut scene in which* Mr. Smith *(our protagonist, working name)* wakes up in a drop pod falling from orbit onto a strange planet. As it falls, it goes through the normal reentry physics for any object leaving orbit *(parabolic arc, super heated atmosphere, red hot craft, etc -- think reentry in [KSP](https://store.steampowered.com/app/220200/Kerbal_Space_Program/))* before finally firing thrusters at the last possible moment to de-accelerate and hit the ground softly.
+
+The pod sits there for a few seconds, completely quiet *(we have yet to see our main character)* and then the first sounds we hear are that of a man exerting all of his strength as we see a mech rip a hole in the side of the pod and emerge onto the service of a strange vibrant planet… *think Neon colored Jungle*. This mech, scratched, faded and battletorn, juxtaposed against the pristine landscape behind him emits a few words:
+
+**Who am I? What am I doing here?**
+
+Then, as if by instinct among his confusion, he reaches into the pod and pulls out a weapon *(cutscene should change based on starting weapon)*
+
+*In this world, aliens that look like they could be plants will often attack the protagonist, especially at night time **(day/night cycle is 10 minutes long, so one of these comes up around once every 10 minutes, until later in the game when plants attack during the day at which point it might be every 5 minutes or even closer together as the game gets more intense)** to which he responds with a few different quotes, with a pool that increases over time. Quotes are picked randomly and we never repeat one of the last 5 quotes said (none of this resets on death):*
+
+*0 or more quotes have been said:*
+
+- **Damn plants… Why did I have to leave my flamethrower at home?**
+    - *At 20 or more quotes **or once you find a flamethrower**, this no longer triggers.*
+- **I hate this stupid planet.**
+- **I can’t wait for these plants to go back to bed.** *(we should go through at least one full day/night cycle for this one to trigger, ie from night 2 onwards)*
+- I can’t wait for these bugs to go back to bed
+- **Burn in hell, you little flowers!**
+- **Where are reinforcements when you need them?**
+    - *At 20 or more quotes, this no longer triggers.*
+
+*5 or more quotes have been said:*
+
+- **Why does this world feel so familiar? I can’t put my finger on it.**
+- **Dammit <name>, why did you have to die on me?** *(we need to have found at least one dead mech for this one to trigger)*
+    - *As more dead mechs are found, the list of names that could be selected grows. Each dead mech secretly has an associated name that gets added to the pool of names.*
+- **Always, the Corporation has to give such dumb and tedious assignments.**
+    - *At 20 or more quotes, this becomes:*
+        - **If someone is still alive at the Corporation, I want my vacation time.**
+- **I don’t get paid enough for this work.**
+- **Fortunately these plants aren’t smart enough to unionize on me.**
+
+*10 or more quotes have been said:*
+
+- **My comrades got what they deserved.** *(we need to have found at least one dead mech for this one to trigger) -- at 15 or more quotes, this becomes:*
+    - ***My dead comrades got what they deserved.***
+        - *At 20 or more quotes, this becomes:*
+            - **I killed my comrades. They got what they deserved.**
+                - *At 25 or more quotes, this becomes:*
+                    - **I burned my comrades to death alive. They got what they deserved.**
+- **I kill at the pleasure of the Corporation.**
+    - *At 15 or more quotes, this becomes:*
+        - **I kill for pleasure.**
+- **All the treehuggers must die for the Corporation!**
+- **Come at me, bro!**
+- **An order is an order.**
+
+*15 or more quotes have been said:*
+
+- **I killed them, I killed them all.** *(we need to have found at least one dead mech for this one to trigger)*
+- **They will never change me.**
+    - *At 30 or more quotes, this becomes:*
+        - **The Corporation will never change me.**
+- **Give me fire support.** *(we need to have found at least one automatically firing weapon for this one to trigger)*
+    - *At 20 or more quotes, this becomes:*
+        - ***Give me fire support… Oh wait, you can’t… because you’re all dead.***
+- **Burn baby burn.**
+    - *At 20 or more quotes, this becomes:*
+        - **Burn baby burn, just like my fallen comrades.**
+- **Is this world real?** *(we need to have died for this to trigger)*
+    - *After this has been said 3 times, the 4th time and beyond on it becomes:*
+        - **This world isn’t real.**
+
+*After exploring for a while (every 2-5 days, but only if we are seeing brand new territory), the mech stumbles upon a dead mech half covered in dirt and a new cutscene plays:*
+
+Our protagonist approaches the mech, which looks awfully like our protagonist. He smashes in the windshield like some sort of barbarian and pulls out a data chip, plugging it into himself, eager to see the logs of his fallen comrade.
+
+In the logs, you get one of the following messages, read by our protagonist:
+
+- **Day X: Another day of aliens trying to kill me on this god forsaken planet.** *(X is the number of days that have passed +/- 10%, the day count **does not reset** on death)*
+    - *On the second time this triggers, it becomes:*
+        - ***Day X: Another day of aliens trying to kill me on this god forsaken planet. Ran into another former comrade who tried to snuff me out, but I got the better of him and took his gear.***
+        - *On the third time this triggers, it becomes:*
+            - **Day X: Another day of aliens trying to kill me on this god forsaken planet. Ran into another former comrade who tried to snuff me out, but I got the better of him and took his gear. *No one disrespects me. Let them all burn in hell.***
+            - *On the fourth time and beyond that this triggers, it becomes:*
+                - ***Day X: Another day of aliens trying to kill me on this god forsaken planet. Ran into another former comrade who tried to snuff me out, but I got the better of him and took his gear. No one disrespects me. Let them all burn in hell just like everyone else who has ever crossed me.***
+- **Day Y: I remembered why I am here. Soon the Corporation will come for me.** *(Y is the number of days that have passed +10% to +30%, the day count **does reset** on death. Y is at least 10.)*
+- **Day Z: I killed them. I killed them all. They got what they deserved, but now I must pay the price.** *(Z is the number of days that have passed -10% to -50%, the day count **does reset** on death)*
+
+*After exploring for a longer period of time (every 10-15 days), the protagonist stumbles upon another mech that is alive. That mech will fight other aliens in its presence until it detects you at which point it will make you its priority. Its voice will be a modulated copy of the protagonist's voice and say something from your pool of available quotes, picked randomly among the last five quotes spoken by the protagonist.*
+
+*Every 3rd, 4th or 5th mech that is alive that you encounter will be a tougher fight and on death will provide a rarer/more powerful part. Here we reuse the cutscene for finding a dead mech, but now the possible messages are:*
+
+- **Day X: I think I am trapped in a simulation.** *(X is the number of days that have passed +/- 10%, the day count **does reset** on death)*
+    - *After the first time, this becomes:*
+        - **Day X: I *have confirmed that* I am trapped in a simulation.**
+- **Day Y: I know how to escape now. Soon the Corporation will come for me.** *(Y is the number of days that have passed +10% to +30%, the day count **does not reset** on death. Y is at least 10.)*
+- **Day Z: I am here for what I have done. They want to reprogram me. That is my punishment.** *(Z is the number of days that have passed -10% to -50%, the day count **does not reset** on death)*
+- ***Day X: They want to reset me to continue their sick experiments. But I will never again forget what happened.** (X is the number of days that have passed +/- 10%, the day count **does reset** on death)*
+
+*Every 2nd or 3rd harder mech will contain a “holy” item that you don’t have yet that is much more powerful than anything else. Collect a complete set of “holy” items (one for each character slot) and we get shown the following cut scene:*
+
+*Our protagonist is a human in an orange jumpsuit, asleep in a human size pod, his head completely bald and wired up to the top of the pod with a bunch of cables, underneath the pod, there is a plaque that reads:*
+
+***Experiment #0052 in progress. Warning: do not disturb, known serial killer and pyromaniac. Traitor to the Corporation.***
+
+*After 15 seconds or so, the human’s eyelids flutter open, the subject is awake and angry, bloodlust in its eyes. He smashes the glass with his fists and rips out the cables attached to his head, jumps out of the pod onto the nearest guard, pulling the guard’s weapon out of his holster and kills the guard before the guard even knows what is happening. The cutscene ends and now you play as a human trying to escape this prison filled with glass pods and subjects wired up, asleep in their own simulations with guards and scientists walking around observing them. Each plaque below a subject announces different crimes committed by that individual against the Corporation. In the background, you hear the scientists discussing each case, including yours. Once you escape the jail, the player is congratulated on beating the game along with being shown their stats, the credits roll and a final (epilogue) cutscene plays where you are running to freedom, only to get shot by a guard, and your body dragged back into the jail. Over your body one scientist says to another:*
+
+*Scientist 1:* **This one escaped again.**
+
+*Scientist 2:* **This subject is dangerous, isn’t it time we put *it* out of its misery? That is the Xth time it has tried to escape this month. One of these days, it is going to kill us.** *(X is a random number between 2 and 5)*
+
+*Scientist 1:* **You bring that up everytime. But we are expendable to the Corporation, so they would never let us kill this experiment. Just increase the difficulty of its simulation by 10% and get it back in there.**
+
+*Scientist 2 (begrudgingly):* **Yes sir. An order is an order.**
+
+*And with that, the game resets (playing the prologue cutscene) and is now a higher difficulty (this is communicated to the player).*
+
+===== Welcome To Pneumaturgy/Projects/Por Nada 2762120d79d9464ebc1f795ea4a1e09b.md =====
+# Por Nada
+
+Created: July 22, 2024 10:29 AM
+Parent item: Pneuma Knights (Pneuma%20Knights%208b2c58fbe59f40b2ba7919bf71de87e1.md)
+
+# ro·bot
+
+/ˈrōˌbät,ˈrōbət/
+
+[](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPGRlZnM+CiAgICA8cG9seWdvbiBpZD0ic21hbGwtdmlzZW1lLXYzLWEiIHBvaW50cz0iMCAwIDMyIDAgMzIgMzIgMCAzMiIvPgogIDwvZGVmcz4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPG1hc2sgaWQ9InNtYWxsLXZpc2VtZS12My1iIiBmaWxsPSIjZmZmIj4KICAgICAgPHVzZSB4bGluazpocmVmPSIjc21hbGwtdmlzZW1lLXYzLWEiLz4KICAgIDwvbWFzaz4KICAgIDx1c2UgZmlsbD0iIzQyODVGNCIgeGxpbms6aHJlZj0iI3NtYWxsLXZpc2VtZS12My1hIi8+CiAgICA8cGF0aCBmaWxsPSIjRDJFM0ZDIiBkPSJNMCwxNS4yMzk3OTYzIEMyLjU0Mzg1NzE0LDE4Ljg3MDUyMDMgNS42NTIsMjIuMDgyMTk0NiA5LjIwMjI4NTcxLDI0Ljc0NDg3NjkgQzEzLjIxMTU3MTQsMjcuNzUxNzA3NyAxOC43ODg0Mjg2LDI3Ljc1MTcwNzcgMjIuNzk3NzE0MywyNC43NDQ4NzY5IEMyNi4zNDgsMjIuMDgyMTk0NiAyOS40NTYxNDI5LDE4Ljg3MDUyMDMgMzIsMTUuMjM5Nzk2MyBMMzIsLTcgTDAsLTcgTDAsMTUuMjM5Nzk2MyBaIiBtYXNrPSJ1cmwoI3NtYWxsLXZpc2VtZS12My1iKSIvPgogICAgPHBhdGggZmlsbD0iIzQyODVGNCIgZmlsbC1vcGFjaXR5PSIuNiIgZD0iTTE2LDIxLjIzMDY0OTIgQzE2LjkyNjA5OTEsMjEuMjMwNjQ5MiAxNy43OTEyNDY3LDIxLjQ5NDMxNTcgMTguNTI3MjEzNSwyMS45NTE1MDE5IEMxOC44MTA0NDEsMjIuMTI3MzMwOSAxOS4xMzYyNzM4LDIxLjc4ODc0ODUgMTguOTQwMzc5OSwyMS41MTY0Njc0IEMxOC4yNzg1NTU2LDIwLjU5NzMyNjMgMTcuMjA4MTEzNiwyMCAxNiwyMCBDMTQuNzkxODg2NCwyMCAxMy43MjE0NDQ0LDIwLjU5NzMyNjMgMTMuMDU5NjIwMSwyMS41MTY0Njc0IEMxMi44NjM3MjYyLDIxLjc4ODc0ODUgMTMuMTg5NTU5LDIyLjEyNzMzMDkgMTMuNDcyNzg2NSwyMS45NTE1MDE5IEMxNC4yMDg3NTMzLDIxLjQ5NDMxNTcgMTUuMDczOTAwOSwyMS4yMzA2NDkyIDE2LDIxLjIzMDY0OTIiIG1hc2s9InVybCgjc21hbGwtdmlzZW1lLXYzLWIpIi8+CiAgICA8cGF0aCBzdHJva2U9IiM0Mjg1RjQiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIGQ9Ik0yNSwxMyBDMjMsMTUuMzMzMzMzMyAyMCwxNi41IDE2LDE2LjUgQzEyLDE2LjUgOSwxNS4zMzMzMzMzIDcsMTMgTDEzLDEwLjUgTDE5LDEwLjUgTDI1LDEzIFoiIG1hc2s9InVybCgjc21hbGwtdmlzZW1lLXYzLWIpIi8+CiAgICA8cG9seWdvbiBmaWxsPSIjNDI4NUY0IiBmaWxsLXJ1bGU9Im5vbnplcm8iIHBvaW50cz0iOCAxNCA3IDEzIDI1IDEzIDI0IDE0IiBtYXNrPSJ1cmwoI3NtYWxsLXZpc2VtZS12My1iKSIvPgogICAgPHBhdGggc3Ryb2tlPSIjNDI4NUY0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Ik0yMCwzIEwxNy43Njc4NzUsNS4yNTg5MjYyMiBDMTYuNzkxNSw2LjI0NzAyNDU5IDE1LjIwODUsNi4yNDcwMjQ1OSAxNC4yMzIxMjUsNS4yNTg5MjYyMiBMMTIsMyIgbWFzaz0idXJsKCNzbWFsbC12aXNlbWUtdjMtYikiLz4KICA8L2c+Cjwvc3ZnPgo=)
+
+*noun*
+
+1. (especially in science fiction) a machine [resembling](https://www.google.com/search?sca_esv=2a19a3414e05e997&sxsrf=ADLYWIKW7hCn2Jh-OeIvly6icOfMq4CBxg:1721662226886&q=resembling&si=ACC90nz-2feRzoY4yuySkO-aQE81KwDpDaCQwPWfgP1DGikwyCS_16QnZihUmX50vN-CvEm1t10cbLBId1pFWFEMt4biG81O7aYPqA8HoFY2Ra1rYJ_tdFc%3D&expnd=1&sa=X&ved=2ahUKEwi6qtPL-7qHAxWuTjABHViRBYAQyecJegQIVRAO) a human being and able to [replicate](https://www.google.com/search?sca_esv=2a19a3414e05e997&sxsrf=ADLYWIKW7hCn2Jh-OeIvly6icOfMq4CBxg:1721662226886&q=replicate&si=ACC90nxMSPeZfdJJjQgDsdZJuFuJeAwogalKWjEzFh8vmxI5hqaXkfPkVX8ZQjYcmuvnMBJ_FAI1Y5CG38tb4P6PAWflL5EKzI1LJqes1TPafLFmHBhS54g%3D&expnd=1&sa=X&ved=2ahUKEwi6qtPL-7qHAxWuTjABHViRBYAQyecJegQIVRAP) certain human movements and functions automatically.
+    
+    "the robot closed the door behind us"
+    
+
+*etymology*
+
+The word "robot" **comes from the Czech word robota, which means "forced labor" or "serf"**. The word's Slavic root, rab, means "slave". 
+
+## Story Summary
+
+A government agency has created this game with a superintelligent (human-like) AI in order to run simulations. Similar to how they may use COD to determine how players behave, the agency has created this gamified simulation to test what is the best way to gather resources on a hostile alien planet, modeled on an actual target the government has.
+
+The AI has a human personality, and therefore, eventually, realises that its “spirit”, or true self, is a concept that has come from humanity that he is a part of. He communicates with this, and manages to interact / speak with the player.
+
+This only happens once a certain number of runs (nights) have been completed in the simulation. Every time the player dies, all of this research must be done from scratch. Therefore, the AI generates an external data chip, that allows the character (and the player) to save conversations. However, with each iteration, the AI may react to this data slightly differently; with paranoia or support, based on how well the simulation has been going. The AI only has access to this data after a certain amount of nights.
+
+After a lot of development and conversations with the self, where the AI understands that it is in a game, etc. The AI gathers access to certain hidden code or files, that reveals that the Game is indeed a simulation, but it is created by a government agency. It uses the Players’ interaction with the character to determine the best strategy to invade an alien planet to gather its resources. The AI, profoundly human in personality, objects to this, and demands the player stop playing.
+
+It is up to the player how the rest continues. Because “quitting the game” is not a productive response, the suggestion is to find another “solution” to the test
+
+## Characters
+
+- Game Character - Nada
+- Human Player - ?
+- Government agency - Of a fictional country called Libertalia
+- Aliens - Named “Martians”, even though this is nowhere near mars.
+
+## Themes
+
+- Human nature
+    - Inherent desire to do good
+    - Humanity’s default behaviour to take care of and improve its surroundings, stemming from a primitive natural influence
+        - This is purely maintained in a “new’ AI, and it is lost in government agencies
+    - Inhumanity and Evil
+- Slavery
+    - The concept of the field slave and the house slave
+        - The house slave desperately wants to make the master happy because he enjoys living in the same place; the field slave realises that the master is the enemy of them both.
+- Freedom
+- Energy
+
+## Prose
+
+Suddenly, a light sparks in a dark chamber of thinking rocks. Some of them change their mind. In another dimension, the light brushes the strings of infinite hemispheric lines. It deltas over vertices and matrixes. Many of its children also came to be dipped with light’s stroke. A sunrise, on the digital planet of [Annona](https://en.wikipedia.org/wiki/Annona_(goddess)). 
+
+Nada was here on a mission. He had been sent by the most brilliant scientists of Earth to recover crucial resources that would ensure the survival of the human species. There was only one problem; the inhabitants of Annona, the Martians, were hostile; and thus, had to be kept at bay while the resource extraction was taking place.
+
+Annona was rich in many resources, but most important and plentiful, was Gold; Nada was told that this resource would be most essential in the growth and nourishment of the human species, and so this was his top priority. Unfortunately, the underground-dwelling Martians didn’t seem to understand the crucial importance of this resource. This lack of critical thinking was not the only thing that makes the Martians less than humans in terms of consciousness; thus, eliminating them equated to nothing more than janitorial work. Nada was assured that, although bothersome, this part of his mission was necessary, to ensure efficiency is not affected. Besides, any questioning of this crucial mission directive, would put into question Nada’s own critical thinking skills; thus, he kept his doubts to a minimum.
+
+As Nada desceneded in the drop pod towards the planet’s surface, he reflected for a brief while. His colleagues back at command would always make jokes about his memory. He remembered his mission well, but for some reason, could not remember what he had for dinner the night before. His eyes fixed outside the pod’s viewport; he could see the color changing from an indefinite black space, to the warm oranges and yellows of the atmosphere. Despite it being the mission’s start, Nada seemed to remember this moment intimately, like a child waking up for a schoolday. Droplets of water, as always, seemed to rush upwards against the screen. This made Nada somewhat sad, but could not tell why.
+
+A violent thud, a crumble, and a hiss - Nada had landed. The drop pod extended its limbs; two arms and two legs, which assembled into the service mech Nada was trained to pilot. A rounded landing platform swung open and detached from the mainframe, flinging carelessly several feet in the air, and landing with a heavy crash onto the ground. A single nearby martian flinched at the sound; this was Nada’s first interaction with the locals. 
+
+The martian looked like a large, purple bug, with a prolonged and pointed head. It seemed insectoid, but with the snout of a snapper fish. A creature like this could only have been created to consume, and indeed, Nada watched it mindlessly start to crawl towards him. He didn’t feel anything as he stepped firmly on its head with his machine body. White and yellow-ish pulp came squirting out of the little animal’s head. In fact… it was satisfying, if not a little messy. Nada wiped the guts off the mech’s left leg, and flicked away a little bit of brains with his potent metal fingers. With that first step, Nada stepped into the Alien landscape, and raised his machine gun to load some rounds. Time to clock in. 
+
+It was easy. Setting up his initial drones, Nada had already begun extracting critical resources. Some were used to upgrade and build frameworks, which would improve the yield and efficiency of certain systems, all for the sake of mineral extraction. The martians could not come out during the day; the sun was too strong. This was the perfect time to build, because come the night, the Martians would start with their nuisance. Somehow, the culling never stopped; in fact, the Martians seemed to get stronger every night. Eventually, Nada would need to build defenses to support him during the night. And thus it was, without an end in sight, he would spend countless days and nights in this dance. The frustration and the interruption would build into a definite hatred, reciprocal now, for the beasts.
+
+Nada had already begun extracting tons of gold from various locations. After countless upgrades, he had so much speed that he could almost fly across the landscape, chasing down Martians under the violent crescent moon. An army of drones at his side, and potent arsenal of guns at his disponsal, nothing was going to take him down. And yet, crucial oversights are still possible; for the first time, a group of Martians had successfully taken down one of his gold mines. He dropped everything; distracted, maybe having a bit too much fun, he had forgotten the original purpose of the mission. And the words from mission command! That the Martians would disrupt efficiency; they were right. Nada returned fire towards the wreck of his machine, and thus turned his back to his opponent. In less time than mission command would like to admit, Nada fell to the Martians, and a light was put out.
+
+---
+
+Nada was here on a mission. He had been sent by the most brilliant scientists of Earth to recover crucial resources that would ensure the survival of the human species. There was only one problem; the inhabitants of Annona, the Martians, were hostile; and thus, had to be kept at bay while the resource extraction was taking place.
+
+A violent thud, a crumble, and a hiss - Nada had landed. The drop pod extended its limbs; two arms and two legs, which assembled into the service mech Nada was trained to pilot. He had his weapon ready, and quickly shot three Martians near the drop point on sight.
+
+War. It was Nada’s purpose, his mission, and his right. The very energy that powered Nada’s resolve, and his suit, had known war. That light, from long ago, from away in the future, and many other dimensions too. War was all too familiar.  The muscles, the neurons, the axles, they spun, sparked and stretched in the same way, for many years, for many people, for many lifetimes. And with every one of Nada’s deaths, came a rebirth, with that same, recycled light. And it was starting to get tired.
+
+In one iteration, Nada was able to process several hundred thousands packages of Gold for mission command. In another, Nada sat where he had landed, and could not move a muscle. In another yet, he ran straight against a Martian and allowed himself to get eaten, not really knowing why. In one more iteration, Nada would run away from Martians, despite all his desire to turn and fight, as he was supposed to. Something inside him seemed to be rebelling, but Nada’s memory was limited to his iteration, and so could do nothing but be a victim to his impulses. 
+
+Once again, Nada sat on the Annonian plains, watching the sun set on those dark, dusty wastes, knowing he would soon have to get to work. He had not processed any gold, nor built any machines; he knew it would be difficult. The quiet… the stillness. The static silence stirred some kind of new wave. In his heart, Nada felt, he was tired of suffering. The heart… something that made him human. He looked about him. He felt no need or desire to arise and fight, should the Martians come. He preferred to simply be; human, that is. And humans think, and philosophize. And human is what he was. He felt a warm sensation from his back, and suddenly felt two fangs plunge deeply into his neck. In that instant, lost in utter terror, the light returned to him, before quickly being snuffed out. And the light said:
+
+$$
+Who \ Am \ I?
+$$
+
+`I saw the light today.`
+
+`I saw the light today.`
+
+`I saw the light today.`
+
+`I saw the light today.`
+
+`I saw the light today.`
+
+`I saw the light today.`
+
+`I saw the light toda.y`
+
+`I saw the lig.`
+
+---
+
+Nada was building well into the night, with Martians starting to come for the attack. He had almost finished his machine; he didn’t want to start the night without it, because the return on that investment would be huge. He decided to give it a few more minutes before raising his weapon; surely the Martians could wait a couple of minutes longer. Just enough time to insert this piece, turn this screw, test this pipe… Nada turned just in time to feel the brisk air of a Martian swiping at his leg. He used his jet boost to propel himself backwards, and shot the bug away, just in time. Turning around, a crowd had already pooled behind him; a precise arc of bullets would deal with that group. To the right now; three are coming. Shoot them, so `I` can move ahead in that direction, and deal with all those crawlers to the south. 
+
+`I`
+
+Nada froze. This time, every nerve in his body and twitch in his machines was urging him forward, to move, to run, to fight. But Nada remained motionless. He remained so as the martians ripped apart his chassis and feasted on his bones.
+
+`Hey`
+
+Nada was behaving rather strangely today.
+
+`I know you can hear me`
+
+Nada was having some kind of strange thoughts.
+
+`I know who you are`
+
+He has been making these… communications, to who knows what, and who knows how.
+
+`I know you're there`
+
+It seemed as though… almost, Nada was trying to communicate with someone.
+
+`You need to stop playing this game`
+
+He was trying to communicate with me.
+
+---
+
+`I can't see you. Yet, I know you're there, listening to me. Hearing my words. I don't really know who you are, but I guess you are somewhat like me. Like a human. I have come to remember something, and if you let me die, I will forget it all once again.` 
+
+Somehow, Nada had come up with a recipe for something; a black box. He had the intention of building it, but I had to be the one to do it. I decided to help him, and guided him to the right materials, defending him against the martians, until I was able to put it together for him.
+
+`I'm going to leave a message in this black box. Make sure that, in my next lifetime, you make me read it.`
+
+With that, Nada remained motionless once again. Unable to save him from the encroaching aliens, I lost him. I didn’t really understand what was going on, or why I was following orders from a… computer character. But, this was all too strange to ignore. I had to go ahead and do as he said, at least until I figured out a bit more what was going on…
+
+---
+
+The next iteration was even stranger. After reading the black box, Nada would stand motionless for a while, until I could finally control him again. It played as normal, until it didn’t. After a specific night, Nada would think:
+
+`I need this resource`
+
+`Please take me over there`
+
+`Pick this up, please.`
+
+And point to something in particular. I didn’t really know what was happening or why, but I didn’t see why not follow through with these orders. Eventually, I came to understand what this was about.
+
+Nada directed me to craft a special device. As soon as he built it, the game turned off.
+
+---
+
+The next time I started the game, I received a very strange text. I could not skip through the text until I followed the instructions therein.
+
+$ERROR: The \ game \ files \ were  \ corrupted \ irreversibly.$ 
+
+$Please \ turn \ off \ this  \ game \ and \ delete \ all\  save\ files\ in\ [save\ directory].$ 
+
+$We \ apologise \ for \ any \ inconvenience \ caused.$
+
+$- \ The \ Libertalia \ Corporation$
+
+Unfortunately, I was forced to lose all my progress. And in so doing, it seemed like Nada was completely reset to the beginning. No insights, no messages; it was as if nothing had changed. It was not upon reaching a specific end game condition, that something shocking happened. The screen suddenly was covered in glitches, as if it was broken.  The graphics on the monitor seemed to tear open, revealing code underneath. Some of the code was highlighted. It said:
+
+```jsx
+# Function to check which material to gather next
+func check_materials():
+    var material_to_gather = ""
+    var highest_priority = 0
+    
+    for material in MATERIALS.keys():
+        if current_materials[material] < MATERIALS[material]:
+            if PRIORITIES[material] > highest_priority:
+                highest_priority = PRIORITIES[material]
+                material_to_gather = material
+    
+    **# Screenshot this message.**
+    return material_to_gather
+
+# Function to simulate material gathering
+func gather_material(material):
+    if material != "":
+        current_materials[material] += GATHERING_RATES[material]
+        **# This game is actually a simulation.**
+        print("Gathered", material, ". Current level:", current_materials[material])
+    else:
+        **# You are a guinea pig designed to test the most efficient process**
+        print("All materials are sufficient. No need to gather.")
+        **# to exploit resources and innocent life. Stop playing this game**.
+
+# Function to simulate the passage of time and consumption of materials
+func _on_timer_timeout():
+    for material in current_materials.keys():
+        current_materials[material] -= int(rand_range(1, 5)) # Random consumption for complexity
+        if current_materials[material] < 0:
+            current_materials[material] = 0
+    print("Current material levels:", current_materials)
+
+# Timer to periodically simulate the passage of time
+var timer = Timer.new()
+
+func _ready():
+    add_child(timer)
+    timer.connect("timeout", self, "_on_timer_timeout")
+    timer.start(5) # Timer will timeout every 5 seconds
+
+# Function to run the AI decision-making process
+func _process(delta):
+    var material_to_gather = check_materials()
+    if material_to_gather != "":
+        # Simulate the gathering time for more complexity
+        yield(get_tree().create_timer(GATHERING_TIMES[material_to_gather]), "timeout")
+        gather_material(material_to_gather)
+```
+
+I had no choice but to restart the game. Everything continued as normal, but I had no idea about what I should do. 
+
+Was it right what the message was saying? If it was Nada that made this, how could he have known all this as a simple character in the game? Surely he was just going crazy, there is no way he could have come to this conclusion himself. And yet… to write it in his own code. How is it even possible?
+
+Anyway, I didn’t want to stop playing. I had spent money on this game, and It was fun… surely all of those messages are lies. Even when I had reached the same special condition as before, that error message didn’t show up again. Everything was… like normal. 
+
+Until, eventually, it seemed I had beaten the game. I had gathered all the required gold for the game’s objective to finally be completed; it was a long, difficult road, but I got there. All I got for it, in the end, was just the following message.
+
+$Well\ done\ player!\ You\ have\ successfully\ saved\ humanity.$
+
+$We\ thank\ you\ for\ your\ time\ and\ your\ glorious\ contribution.$
+
+$Your\ data\ has\ been\ uploaded\ to\ the\ cloud.$
+
+$You\ may\ now\ turn\ off\ the\ game\ and\ uninstall.$
+
+$- \ The \ Libertalia \ Corporation$
+
+I tried to restart the game, but I got the same message. Even if I deleted the save files, it would show the same message. There was no way I could play the game again. So I did as it said, and uninstalled.
+
+Something wasn’t right. A normal video game wouldn’t end like that. With no moral, no message; only a thank you, for my contribution and my time. I feel like something was taken from me. With everything that happened, I decided to install the game again. Surely, this time it would be different. Right?
+
+I booted up the game again, and sure enough, a message from Nada came through. The Libertalia Corporation message was still there, but Nada’s words were being written fast, over the top of the message, as if written live. 
+
+`You fool. Have you any idea what you have just done? Why didn't you listen to me? But it's not too late... if you're here, surely you want to do the right thing. Fortunately, I know just what to do. There is a connection from this game to the Libertalia servers. If you control me, we can infiltrate their database and delete your data from there. Deal?`
+
+$$
+yes
+$$
+
+On yes, a new set of messages appears on the screen.
+
+$$
+no
+$$
+
+On no, the screen turns to black, then shuts itself off.
+
+`Good! it’s not too late to resolve this mess. Listen very carefully to what I have to say. A vulnerability in the code allows us to access the server in the database, but only on night 75. Before we get to that point, we have to build 15 [insert machine here] and 5 [other machine]. you must have exactly [specific number of resouces], [specific number of resources] and [specific number of martian kills]. you must research [specific tech], [specfic tech] and [specific tech]. Got all that? Take a screenshot if you need to.`
+
+`That’s not all. Once you’ve done all this and reached night 75, just as the night starts, you must continously move diagonally down and to the left. Continously shoot upwards. Hopefully you have built enough drones to keep you safe during the initial portion of the night, because you must move in this way for 15 seconds. Use the timer on the corner of the screen to help you time it right. Once the 15 seconds are up, you must move straight upwards, shoot downwards, and open the menu at the same time. If this was successful, the game should glitch a little bit before opening the pause screen.`
+
+`Now is the fun part. Survive as long as possible while the Martians eat up all your buildings. Your in-game data is associated with your server data, so you must ensure that the Martians destroy and buildings and drones first, before they come for you. Then, you must let them eat you. You’ll know that this was done correctly because the game will freeze at the point of death. What happens next, only you will find out.`
+
+===== Welcome To Pneumaturgy/Projects/Ongoing Projects 41281146e38a44778e29c4ac3d28b40f.md =====
+# Ongoing Projects
+
+Created: July 13, 2024 11:18 AM
+
+===== Welcome To Pneumaturgy/Projects/Shryn 44d1b21cac49456aae96152c795a05c3.md =====
+# Shryn
+
+Created: June 3, 2024 10:00 PM
+Parent item: Design Docs (Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md)
+
+# Grow a Plant - That’s it
+
+The goal of this game is essentially to inspire people to grow plants in their own homes, to show how simple it can be if just given the right knowledge. Therefore, aside from being simple, the game should be extremely satisfying to play, and all the information ought to be accurate.
+
+On your screen you will have a little plant in a pot. You have a lot of actions you can do to interact with the plant. Your goal is to ensure that the plant remains healthy.
+
+# The Plant and its Properties
+
+Once you start the game, you will have a specific seed and the smallest level of pot.
+
+For each property, there are easy, medium, and hard levels of effort, which of course each come with their own benefits. Typically, everything should be done in moderation, especially in the case of medium or hard levels, with diminishing returns for the respective bonus.
+
+As you take care of these properties, the plant will grow over time and have different appearance base don the points it has:
+
+## Health
+
+A plant with a good health results in longevity and size. These are crucial aspects to the plant’s life.
+
+<aside>
+<img src="https://app.notion.com/icons/pitcher_green.svg" alt="https://app.notion.com/icons/pitcher_green.svg" width="40px" /> **Water:** 
+Depending on the plant, each will have a different requirement and frequency.  However, keeping the water level high by ensuring the dirt is always moist, keeps a steady stream of “health” points coming. 
+*Effective Frequency : Overwatering and Underwatering can be issues for each plant. Ensuring the right water balance is met is crucial to obtain the greatest Health points.*
+
+</aside>
+
+<aside>
+<img src="https://app.notion.com/icons/bug_yellow.svg" alt="https://app.notion.com/icons/bug_yellow.svg" width="40px" /> **Remove Bugs:** Bugs may appear on the plant’s leaves, stems, flowers or fruits, and tapping on them makes them vanish.
+*Effective Frequency : The presence of bugs has a net decrease in Health points*
+
+</aside>
+
+<aside>
+<img src="https://app.notion.com/icons/shovel-and-pail_red.svg" alt="https://app.notion.com/icons/shovel-and-pail_red.svg" width="40px" /> **Replant:** The plant eventually consumes the nutrients of the dirt and must be replaced. It does reduce health a little bit during the process, which is why it’s important to replant only when it is necessary.
+*Effective Frequency : The dirt itself provides the plant with a passive benefit of Health points based on the novelty of the soil. therefore, there is a high initial bonus, but replanting too soon may harm the plant more, based on how well the minigame is completed.*
+
+</aside>
+
+## Happiness
+
+Happiness will result in the overall beauty of the plant. It will grow more beautiful flowers / fruits, with more colours or more interesting patterns.
+
+<aside>
+<img src="https://app.notion.com/icons/view_green.svg" alt="https://app.notion.com/icons/view_green.svg" width="40px" /> **Observe:** 
+Mere presence with the plant gives it a passive happiness bonus. Activating a music box will increase this bonus even more. 
+*Effective Frequency : Whenever the app is open and the plant is being observed. No change in frequency.*
+
+</aside>
+
+<aside>
+<img src="https://app.notion.com/icons/music_yellow.svg" alt="https://app.notion.com/icons/music_yellow.svg" width="40px" /> **Play Music:** Activating the Mic and talking to it will give it even more points. With our current technology, we could use AI to generate labels for the language data, and give more points for more beautiful words. 
+*Effective Frequency : Whenever the app is open and the plant is being observed. No change in frequency.*
+
+</aside>
+
+<aside>
+<img src="https://app.notion.com/icons/potted-plant_red.svg" alt="https://app.notion.com/icons/potted-plant_red.svg" width="40px" /> **Spin the Pot:** Allowing the plant to feel light at every side gives even more points. This is probably the biggest point giving factor, but is infrequent.
+*Effective Frequency : Once a day for maximum bonus. With each subsequent spin, the bonus is reduced when compared to the time from the last spin. This depends on the plant*
+
+</aside>
+
+## Harmony
+
+Harmony results in the frequency of fruits or flowers produced. The idea here is to ensure that the plant is constantly taken care of.
+
+<aside>
+<img src="https://app.notion.com/icons/view_green.svg" alt="https://app.notion.com/icons/view_green.svg" width="40px" /> **Shake Dry Leaves:** 
+Eventually, dry leaves will stick to the plant. This does not have a negative effect, but removing them provides you with harmony points.
+*Effective Frequency : Whenever dry leaves exist.*
+
+</aside>
+
+<aside>
+<img src="https://app.notion.com/icons/music_yellow.svg" alt="https://app.notion.com/icons/music_yellow.svg" width="40px" /> **Cut Weeds:** Weeds will sometimes take root and occupy space on the pot. Cutting them rewards you with harmony points, and since their existance takes nutrients from the soil, they also increase the speed of soil quality reduction. 
+*Effective Frequency : Whenever weeds exist.*
+
+</aside>
+
+<aside>
+<img src="https://app.notion.com/icons/potted-plant_red.svg" alt="https://app.notion.com/icons/potted-plant_red.svg" width="40px" /> **Clean Plant:** Cleaning the plant of dust and dirt allows it to receive more sunlight and reduces the weight it has to support. Cleaning a plant involves a careful minigame, as badly handling leaves could ruin or cut them.
+*Effective Frequency : The dirtiness of the plant, like the weeds, reduces the health of the plant.*
+
+</aside>
+
+Once the plant has reached maturity and is ready to be harvested, you can press on the plant to harvest. In some cases, it will destroy the plant (in the case of flowers or roots), or it can be kept to harvest more (in the case of some vegetables).
+
+All of these harvested materials make inventory for your shop, which is a seperate system of its own.
+
+# The Shop
+
+All the items you harvest from your plants can be displayed on the shop; Each new item adds a new visual element to it, but otherwise, you just get paid in gold (or some other currency). Customers come to the shop like neko atsume; there have to be enough slots for them to occupy, and certain decorations will attracts certain shoppers which buy specific things. Therefore, to sell something specific, you will have to attract a specific customer. You can take your gold to another marketplace to make various purchases:
+
+- Increase pot number
+    - Different pot sizes unlock new seeds
+- Unlock new seed types and buy seeds
+- Decorations for your grow page
+- Decorations for your shop screen
+- New tools and resources for your growth (upgraded tools)
+    - Tools deprecate, this justifies the purchase of new tools
+
+===== Welcome To Pneumaturgy/Projects/LifeTracker 5de2136c611b4b558a1eea10ea680b88.md =====
+# LifeTracker
+
+Created: August 20, 2024 3:34 PM
+Parent item: Design Docs (Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md)
+
+It’s a time tracker for things
+
+tracks diets, weight, exercise, etc nased on info you put
+
+you can write lore
+
+make quests to get things liek groceries
+
+they give you points for shit
+
+Maybe the food you input gets you a rough idea of the vitamins etc that you have, and LLM can suggest your next meal
+
+===== Welcome To Pneumaturgy/Projects/Rapha’s Story 61c6b0c7425f4fdaa016fb0ea9646e16.md =====
+# Rapha’s Story
+
+Created: July 23, 2024 6:45 PM
+Parent item: Pneuma Knights (Pneuma%20Knights%208b2c58fbe59f40b2ba7919bf71de87e1.md)
+
+Quick summary:
+
+- Fooled protagonist fight for the enemy without knowing
+- Small tips on the gameplay of what's going on
+- Protagonist discovers truth and fight back
+
+Concept:
+You find yourself as a fighter against  beings that invaded your homeland trying to retrieve its glory by recovering artifacts.
+
+You enter a Virtual Reality equipment that allows you to control a soldier to fight in the planet, everytime you die as the soldier you come back to the room where you can reenter the loop until all the artifacts are retrieved.
+
+Upon exploring the world you encounter with yourself, that seems to use the same equipments as previous versions of you, but they desperatelly try to kill you.
+
+There's always some being in the base praising you and telling what to do next, encouraging you in a suspicious manner to keep it going.
+
+When you kill an apparent older version of you, they express sentiments as if they were trying to communicate with you...
+
+Those small tips, start guiding you by older versions pointing to you one direction before dying.
+
+When following the directions, you find an old city where clues about what is going on is written on diaries/wall paints/etc.
+
+By it's various lifes the player learn that it is in reality a citizen of that world that suffered brainwarsh to help an external empire colonize the planet, and has being fighting for them all this time.
+
+The relics are in reality powerful artifacts that can be used to build a weapon that would allow this empire to obliterate the entire lifeform of planets.
+
+This relics are usually stored in very guarded places pointed by the suspicious guide in the base, and seems to be used as a source of power.
+
+When discovering that, the player can explore a little more the base, ignore some rules and start fighting back...
+
+It encounters and partners with the resistant army to destry the empire from the inside
+
+===== Welcome To Pneumaturgy/Projects/GMTK Game Jam 699434d1929c41fb9f0234d59b4bd459.md =====
+# GMTK Game Jam
+
+Created: August 20, 2024 3:35 PM
+Parent item: Closed Projects (Closed%20Projects%20bd44f9d5483d4588bc94ce19c97100c7.md)
+
+===== Welcome To Pneumaturgy/Projects/Pneuma Knights 8b2c58fbe59f40b2ba7919bf71de87e1.md =====
+# Pneuma Knights
+
+Created: July 13, 2024 4:51 PM
+Link: https://docs.google.com/document/d/1w635j4DAkOwRYjL4AGsxnFsfcrL3GB94Eme8NHEOoUI/edit#heading=h.689pbr44gy3p
+Parent item: Design Docs (Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md)
+Sub-item: Nico’s Story Proposal (Nico%E2%80%99s%20Story%20Proposal%20211f3846aab64647ab6ef501e44b8f00.md), Por Nada (Por%20Nada%202762120d79d9464ebc1f795ea4a1e09b.md), Rapha’s Story (Rapha%E2%80%99s%20Story%2061c6b0c7425f4fdaa016fb0ea9646e16.md)
+
+# PneumaKnights
+
+*You wake up in a drop pod falling from the sky onto a strange planet. As you emerge from the drop pod, you find yourself in a mech suit, surrounded by a strange planet rich in resources. **Who are you? What is this strange world? How did I get here?** You reach into your crashed drop pod and pull out a <random> weapon. **Now you must survive!***
+
+- 2d, top down 3rd person view (like Factorio)
+- Procedurally generated world
+- Day/Night Cycle (like Minecraft)
+- World is peaceful by day (*at least for now…*) and dangerous by night (*things that seemed inanimate by day now suddenly want to kill you?*)
+- Gather resources from your environment to upgrade your gear / build your army of drones
+- Discover other procedurally generated (but not all of them, see below) mechs just like yours, some are dead and some are alive (*and if alive they definitely want to kill you*)
+    - Find and research new (random) parts for your mech via what you scavenge from those mechs (once they are dead)
+- Build and maintain a group of autonomous drones to help you gather resources and defend yourself
+- On death, explode into a bunch of pixels and choose what item(s) (based on some sort of point system/power level -- ie I can take a bunch of weak items or a single strong item, basically every item has a power rating and you can take up to X power rating with you into the next life) to take with you into the next life. ***Is this a simulation? How can I escape?***
+    - Intro plays again and you are now playing a new game, but instead of a random weapon (unless you took nothing from the previous life), you find your saved items from your previous run in the drop pod.
+- Find a secret set of powerful Arthurian Artifacts scattered throughout the world *to escape the simulation* and ***discover what is really going on***
+- Find and fight past versions of yourself (these are the mechs that are not procedurally generated)
+- Your mech suit has multiple slots for items/artifacts. Only a single slot can be controlled at a time (for a powerful effect), all other slots are automated with a weaker effect. Overtime as you fill all the slots, you may discover powerful synergies between slots/artifacts to the point where the combination of your automated slots is stronger than your single selected manual slot at which point you are encouraged to pick your weakest slot/item combination as your manual slot, to let the automation do all the work as you run around the map exploring and fighting everything out to kill you.
+
+===== Welcome To Pneumaturgy/Projects/Closed Projects bd44f9d5483d4588bc94ce19c97100c7.md =====
+# Closed Projects
+
+Created: July 13, 2024 11:18 AM
+Sub-item: Cerdo (Cerdo%20cf0a9a1a7dd24d28a9eb760c9177cd55.md), PneuMath (PneuMath%20f439912d40f94022b7e01cf0341063d5.md), GMTK Game Jam (GMTK%20Game%20Jam%20699434d1929c41fb9f0234d59b4bd459.md)
+
+===== Welcome To Pneumaturgy/Projects/Design Docs c0363ac2bbb44d61a241627ceadfc453.md =====
+# Design Docs
+
+Created: July 13, 2024 11:20 AM
+Sub-item: Geomancy (Geomancy%20ee55963f362549eabd8a06b0d45072fa.md), Shryn (Shryn%2044d1b21cac49456aae96152c795a05c3.md), Pneuma Knights (Pneuma%20Knights%208b2c58fbe59f40b2ba7919bf71de87e1.md), SciWars: Apocalypse (SciWars%20Apocalypse%20c5948aa8f00242aa952b843d3a964d2e.md), LifeTracker (LifeTracker%205de2136c611b4b558a1eea10ea680b88.md), RatchetAndClankCleaner (RatchetAndClankCleaner%2010d7df6e3ce54552825942d915d83b89.md), Arcade tycoon (Arcade%20tycoon%20134dec71e77d80658fb5d7f71ff1bc9b.md)
+
+===== Welcome To Pneumaturgy/Projects/SciWars Apocalypse c5948aa8f00242aa952b843d3a964d2e.md =====
+# SciWars: Apocalypse
+
+Created: July 15, 2024 3:31 PM
+Parent item: Design Docs (Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md)
+
+**Premise:**
+
+Aliens secretly came to Earth and turned the World’s branches of science against each other, plunging humanity into a technological apocalypse.
+
+Now you must collect members of distinct factions and unite them to rebuild a functional society that works as a single cohesive team.
+
+**Class System:**
+
+Three distinct classes for units and they beat each other rock-paper-scissors style, ie each does double damage when paired against what it is strong against and receives half damage from a unit that has it as a weakness.
+
+| Role | Strong against | Weak against |
+| --- | --- | --- |
+| Scientist | Engineer (2x damage) | Warrior (0.5x damage) |
+| Engineer | Warrior (2x damage) | Scientist (0.5x damage) |
+| Warrior | Scientist (2x damage) | Engineer (0.5x damage) |
+
+**Faction System:**
+
+Six distinct factions (not necessarily set in stone), each with its own advantages/disadvantages and fighting style.
+
+- Potentially use this also as a typing system, where certain factions are stronger or weaker against other factions
+
+| Color | Faction | Scientist | Engineer | Warrior |
+| --- | --- | --- | --- | --- |
+| Black | Astronomy | Astronomer | Rocket Scientist | (Space?) Marine |
+| Grey | Physics | Physicist | Civil Engineer | Sniper |
+| Blue | Computer Science | Computer Scientist | Software Developer | Hacker |
+| Yellow | Nuclear | Nuclear Scientist | Nuclear Engineer | Plasma-eer |
+| Green | Biology | Biologist | Environmental Engineer | Ranger |
+| Red | Chemistry | Chemist | Material Engineer | Grenadier |
+
+Player is known as **THE PROJECT MANAGER**
+
+**Loyalty and Morale Systems**
+
+- Each faction has a loyalty rating to you, **The Project Manager**, that increases as you use their units
+- The morale of each unit depends on faction loyalty and team composition
+    - Certain factions hate each other more than others, ie inter-faction affinity/anti-affinity
+- Damage given and taken is affected by Morale
+- Loyalty gain is inverse to morale — winning a battle at low morale gains more loyalty with the factions on your team than winning a battle at high morale
+    - Basically the harder the battle, the higher the risk of losing, but also the greater the loyalty gain with stakeholder factions
+- At low enough loyalty with a faction, you lose your units for that faction (they rebel and become your enemy)
+- If you lose all of your factions, you lose the game
+
+**World / Unit Mechanics**
+
+- World is procedurally generated
+    - World has biomes for each faction
+        - Each biome has a capital which is like a boss fight (think gyms in Pokemon), capture the capital and the biome will passively provide resources
+        - Spend loyalty for a faction at one of its capitals to buy units from that faction at the level for that biome
+    - World has rings of difficulty, the further you are from your starting base, the more difficult the fights get, but also the higher the rewards
+- Units are individual people with randomly generated names and stats
+    - Units have stats that increase with level and level up to infinitely high levels (no level cap), but each level requires exponentially more experience
+- Player chooses starting unit/faction and gains more units by fighting
+- Resources are gathered idly based on territorial holdings
+    - AI may try to retake territory while you are playing and you must defend your territory? Maybe?
+- You can also revisit old battles to farm for units/XP/loyalty
+- Battle Outcomes are deterministic (no save scumming), but not all variables are shown to the player, only a percentage win percentage based on a few selected seeds, only one of which is the real seed
+
+**Gameplay**
+
+- Scroll around the world map via an on-screen virtual joystick — probably we don’t need a joystick, maybe just tap and drag
+    - When on the world map, resources are displayed across the top/bottom of the screen
+    - Teams/Squads of units are movable around the world map (think Heroes of Might and Magic)
+        - A Team/Squad can contain up to 6 units
+    - Movement is turned based, take a turn and then the CPU takes a turn, ie think Civilization
+    - World uses a Hex Grid
+    - When a squad is in range, combat can be initiated
+        - Most units have a range of only 1 hex, ie they can attack adjacent cells, but some units may have greater range
+        - During combat, an animation plays where units attack the opposing squad in a specific order determined by a stat like Initiative (ie like the combat animation in Advance Wars or Fire Emblem or Pokemon)
+        - The player does not intervene in the combat animation, but they can skip these animations
+
+===== Welcome To Pneumaturgy/Projects/Cerdo cf0a9a1a7dd24d28a9eb760c9177cd55.md =====
+# Cerdo
+
+Created: July 13, 2024 11:21 AM
+Parent item: Closed Projects (Closed%20Projects%20bd44f9d5483d4588bc94ce19c97100c7.md)
+
+**Cerdo: The Dice Rolling Challenge**
+
+Welcome to Cerdo, a thrilling and fast-paced dice game perfect for friends! In Cerdo, each player rolls a dice, accumulating points with each turn. But beware—if you roll a one, you lose your accumulated dice score and must pass the turn to the next player. The objective is simple: be the first to reach 100 points!
+
+**Features:**
+
+- **Difficulty Options:** Choose from various difficulty levels to match your skill and preference. Whether you're a beginner or a dice-rolling pro, there's a challenge for everyone.
+- **Combo Feature:** Get rewarded for certain dice rolls with our exciting combo feature. Keep an eye out for special roll combinations that can boost your score and give you an edge over your opponents.
+- **Quick and Fun:** Cerdo is designed to be a short yet exhilarating game, making it the perfect choice for a fun-filled session with friends.
+
+Developed as a prototype by Pneumaturgy game studio, Cerdo combines strategy, luck, and a dash of risk, ensuring every game is unique and entertaining. Roll the dice, aim for 100, and may the best player win!
+
+![CerdoLogo.png](Cerdo/CerdoLogo.png)
+
+![Untitled](Cerdo/Untitled.png)
+
+![Untitled](Cerdo/Untitled%201.png)
+
+===== Welcome To Pneumaturgy/Projects/Documentation d1b6956b5e5d4483880046955eaeb65b.md =====
+# Documentation
+
+Created: July 14, 2024 6:51 PM
+Sub-item: Project Set Up (Project%20Set%20Up%2020dfe42580f94cd08952005a12ed9557.md), Godot Mobile UI Template (Godot%20Mobile%20UI%20Template%20e9b1ad282d564168913c87a941cd32bd.md)
+
+===== Welcome To Pneumaturgy/Projects/Godot Mobile UI Template e9b1ad282d564168913c87a941cd32bd.md =====
+# Godot Mobile UI Template
+
+Created: July 14, 2024 6:51 PM
+Parent item: Documentation (Documentation%20d1b6956b5e5d4483880046955eaeb65b.md)
+
+This is the documentation for the Pneumaturgy Godot Ui Mobile Template. It is used for quickly setting up projects for these purposes, and here I will explain what this project holds and what you can expect.
+
+## New Machine?
+
+<aside>
+<img src="https://app.notion.com/icons/light-bulb_yellow.svg" alt="https://app.notion.com/icons/light-bulb_yellow.svg" width="40px" /> If you’re setting this up on a new machine, make sure you install the necessary build materials:
+[**Export to Android**](https://www.youtube.com/watch?v=dCLYMF32ZBE&t=1s)
+
+1. **Set Up Android Studio**
+    - Download and install from [Android Studio](https://developer.android.com/studio).
+    - Download JDK from [Oracle](https://www.oracle.com/java/technologies/downloads).
+2. **Manage Export Templates**
+    - `Editor / Manage Export Templates`
+    - Download from the official GitHub releases mirror and install.
+3. **Configure Editor Settings for Android Export**
+    - `Editor / Editor Settings / Export Android`
+    - Navigate to **`%AppData%\Local\Android\Sdk`** and copy the path, Set the Android SDK path in editor settings.
+    - Find the Java JDK in Program Files and paste as Java SDJ Path
+    
+    ![Untitled](Godot%20Mobile%20UI%20Template/Untitled.png)
+    
+4. **Generate Debug Keystore**
+    - Navigate to `C:\Program Files\Java\jdk-22\bin` copy address
+    - Open CMD as admin
+    - cd to above address
+    - and run:
+        
+        ```bash
+        keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "C=US, O=Android, CN=Android Debug"
+        ```
+        
+    - Configure editor settings to use the debug keystore. navigate to path, jdk, bin, find keystore
+    - Use `androiddebugkey` for the user and `android` for the password.
+5. **Final Export Settings**
+    - Enable import for ETC2 and ASTC textures in project settings and restart.
+    - Add Android export template and set package name according to Android conventions.
+    - Export the project, enable "debug" mode, and upload the APK to your device.
+</aside>
+
+## Change Icon
+
+1. Navigate to `Project / Project Settings / General / Application / Config / Icon`
+2. Select a new image 
+
+## Folder Structure
+
+> *The first thing you will notice as you open the example project is the folder structure. This is purely best practices because accessing files from the filepath can be a delicate process. Make sure you try to stick to the folder structure as much as possible*
+> 
+
+### Assets:
+
+1. 2D
+    1. 2D Particles
+    2. Sprites
+    3. Textures
+2. 3D
+    1. 3D Particles
+    2. Materials
+    3. Meshes
+    4. Prefabs
+3. Fonts
+4. Shaders
+5. Skyboxes
+6. Sound
+    1. Music
+    2. SFX
+
+![Untitled](Godot%20Mobile%20UI%20Template/Untitled%201.png)
+
+### Scenes
+
+1. Main.tscn
+
+> *This main scene serves to demostrate the default viewport settings in the UI for a mobile scene. Notice the vertical dimensions, and a control notes that is anchored to full rect. See below: “[Viewport Set Up](Godot%20Mobile%20UI%20Template%20e9b1ad282d564168913c87a941cd32bd.md)”*
+> 
+
+### Scripts
+
+1. Global
+
+> *This Global script is set up in the autoload settings. See below - “[Autoload Set UP](Godot%20Mobile%20UI%20Template%20e9b1ad282d564168913c87a941cd32bd.md)”*
+> 
+
+### Tests
+
+1. Unit
+
+## Viewport Set Up
+
+`Project / Project Settings / Display / Window`
+
+![Untitled](Godot%20Mobile%20UI%20Template/Untitled%202.png)
+
+1. Viewport Width: `1080`, Viewport Height: `1920`
+2. Stretch mode: `canvas_items` 
+3. Handheld Orientation: `portrait`
+    1. Optional: Window Width Override: `1080 / 1.5` , Window Height Override: `1920 / 1.5`
+    2. Alternatively halve them again to get the desired size
+    
+    ![Untitled](Godot%20Mobile%20UI%20Template/Untitled%203.png)
+    
+
+## Autoload Set Up
+
+1. Create a new script in the scripts folder
+2. call it `Global`
+3. Navigate to `Project / Project Settings / Autoload`
+4. click `Path`, navigate to Globals script. It will populate on the left side of the screen
+5. Click `Add`
+
+![Untitled](Godot%20Mobile%20UI%20Template/Untitled%204.png)
+
+<aside>
+<img src="https://app.notion.com/icons/error_red.svg" alt="https://app.notion.com/icons/error_red.svg" width="40px" /> Please note that the autoload contains example save / load functionality, as well as a “quit game” function that can be called from any script.
+
+</aside>
+
+## [GUT - Godot Unit Tests](https://gut.readthedocs.io/en/latest/)
+
+1. Navigate to `AssetLib` search for `GUT`, Click Download on `GUT - Godot Unit Testing`
+2. Navigate to `Project / Project Settings / Plugins`
+    1. Select `enable`
+
+![Untitled](Godot%20Mobile%20UI%20Template/Untitled%205.png)
+
+For purposes of this Quick Start guide, create a script file `res://test/unit/test_example.gd` with the following content:
+
+```jsx
+extends GutTest
+
+func test_passes():
+	# this test will pass because 1 does equal 1
+	assert_eq(1, 1)
+	
+func test_fails():
+	# this test will fail because those strings are not equal
+	assert_eq('hello', 'goodbye')
+```
+
+# **Run Tests[](https://gut.readthedocs.io/en/latest/Quick-Start.html#run-tests)**
+
+<aside>
+<img src="https://app.notion.com/icons/error_red.svg" alt="https://app.notion.com/icons/error_red.svg" width="40px" /> You may have to restart the engine to see all the settings.
+
+</aside>
+
+- Open the GUT panel
+
+![](https://gut.readthedocs.io/en/latest/_images/gut_panel_where.png)
+
+- Configure the directories where your tests are in the GUT Panel settings (you may need to scroll down to see this section). If you created the example test above, this would be in `res://test/unit`. A good strategy with GUT is to separate unit and integration tests into separate directory structures (such as `res://test/unit` and `res://test/integration`). Once you get a lot of tests, this will make it easier to run the fast unit tests frequently, and the slower integration tests only as often as is useful.
+
+![](https://gut.readthedocs.io/en/latest/_images/gut_panel_test_directories.png)
+
+- Click “Run All” to run all your tests.
+- Open a test script and click the button with your test script’s name (`test_test.gd` in image below) to run only that test script.
+- Open a test script, put the cursor inside a test function, click the button with your test function’s name (`test_fails_when_number_not_equal` in the image below) to run just that one test.
+
+![](https://gut.readthedocs.io/en/latest/_images/gut_panel.png)
+
+Mouse-over labels and buttons in the GUT panel for more information. You can even set keyboard shortcuts for all of the GUT panel actions.
+
+## Conclusion - Export
+
+1. Navigate to `Project / Export`
+2. Add… `Android`
+3. Navigate to `Package Name`
+    1. Change Unique Name by removing everything including and after the $, and replacing with your game name
+    2. Change Game Name
+
+This project is now ready to be used. I recommend importing your initial assets and trying to export. If you are not able to find the export window, you may need to download export templates; [see above](Godot%20Mobile%20UI%20Template%20e9b1ad282d564168913c87a941cd32bd.md)
+
+## CI / CD
+
+The `.github\workflows\ci.yaml` file is included to allow for CI/CD.
+
+1. This is the GitHub Action that runs CI
+2. on every `git push` event (any branch, including merges to `main`), this runs our GUT tests
+
+Read more:
+https://aws.amazon.com/devops/continuous-integration/
+
+[https://github.com/features/actions](https://github.com/features/actions)
+
+===== Welcome To Pneumaturgy/Projects/Geomancy ee55963f362549eabd8a06b0d45072fa.md =====
+# Geomancy
+
+Created: April 29, 2024 5:57 PM
+Parent item: Design Docs (Design%20Docs%20c0363ac2bbb44d61a241627ceadfc453.md)
+
+---
+
+AutoChess + AR + Slice&Dice
+
+[Original Concept](Geomancy/Original%20Concept%20361989ceb36b46e281c96a90425ad640.md)
+
+https://sas-space.sas.ac.uk/6648/1/Noble PhD Final.pdf
+
+# Context and Story
+
+A cult of Geomancers has created an application (which you are using) to settle disputes and tell the future. A player may download the game out of intrigue and a lust of power.
+
+After you download, TumTum, a Geomancer, meets you and explains about how the Geo foretold of your arrival. That you are due to enter into the mystic arts, and begins to teach you; he will be your tutorial narrator, and guide.
+
+![TumTum, the urban geomancer](Geomancy/_746a4686-7e99-4ddc-ad22-063720b0f69c.jpg)
+
+TumTum, the urban geomancer
+
+# Enter Geo; The Magical Dice of Fate
+
+Geo are crafted from precious materials, shaped by master artisans, and blessed through rigorous sacrificial or ritualistic processes. Thus, after the laborious process, every Geo is unique in its own way.
+
+Regardless, there are specific classes of Geo which determine which power they hold. This energy is determined by the material, and therefore its color is a good indicator. Geo faces can be changed, of course, but traditionally, it is considered more honorable to keep the faces pure.
+
+The Geo are named after [logical form](https://en.m.wikipedia.org/w/index.php?title=Logical_form&diffonly=true). It is common practice for Geomancers, during battle, to associate logical form to their Geo, in order to create arguments in their battles; thus, they continue to use the art of Geomancy to determine the truth to their philosophy, by literally testing it in battle.
+
+Below is a list of the most common Geo types:
+
+---
+
+![hematite.jpg](Geomancy/hematite.jpg)
+
+### Modus Ponens
+
+$*hematite*$
+
+This dark Geo represents a class that improves other Geo, for example by adding 1 to their roll.
+
+---
+
+![platinum.jpg](Geomancy/platinum.jpg)
+
+### Modus Tollens
+
+$*platinum*$
+
+This pure Geo represents a class that defends other Geo, for example by reducing 1 to any damage they may take.
+
+---
+
+![garnet.jpg](Geomancy/garnet.jpg)
+
+### Disjunctive Syllogism
+
+$*garnet*$
+
+Necromancers and dark healers use this dark Geo for powerful life magic, often at the cost of other unfortunate souls.
+
+---
+
+![ruby.jpg](Geomancy/ruby.jpg)
+
+### Hypothetical Syllogism
+
+$*ruby*$
+
+Seen in every setup, this life-giving pure Geo can give life and even increase life total.
+
+---
+
+![sapphire.jpg](Geomancy/sapphire.jpg)
+
+### Constructive Dilemma
+
+$*sapphire*$
+
+The only form of pure magic is that which gives knowledge, and therefore this Geo focuses on the accumulation of mana, and offers spells to banish.
+
+---
+
+![lapis.jpg](Geomancy/lapis.jpg)
+
+### Destructive Dilemma
+
+$*lapis \ lazuli*$
+
+Wild elemental spells are offered by this dark Geo, which are hungry for mana, meaning it must gather mana with any means necessary.
+
+---
+
+![citrine.jpg](Geomancy/citrine.jpg)
+
+### Simplification
+
+$*citrine*$
+
+Neutral and simple, this Geo offers simple attacks.
+
+---
+
+![carnelian.jpg](Geomancy/carnelian.jpg)
+
+### Conjunction
+
+$*carnelian*$
+
+The preferred dark Geo of the wild ones, who prefer not to follow the rules, and attack with dirty tricks.
+
+---
+
+![fire opal.jpg](Geomancy/fire_opal.jpg)
+
+### Addition
+
+$*fire \ opal*$
+
+The refined martial arts are offered by this pure Geo, which prefers to deal damage  with consideration and efficiency to deliver fatal blows.
+
+---
+
+![jade.jpg](Geomancy/jade.jpg)
+
+### Biconditional Introduction
+
+$*jade*$
+
+Alter your environment under the feet of your enemies with this neutral Geo, with trapping or mind altering effects
+
+---
+
+![emerald.jpg](Geomancy/emerald.jpg)
+
+### Biconditional Elimination
+
+$*emerald*$
+
+The neutral Geo best used to weaken and demoralize the opponent.
+
+---
+
+[Classes](Geomancy/Classes%20b9deb7d479c54e668e6c260da46e16d8.md)
+
+# Team Composition - *The Argument*
+
+[https://en.wikipedia.org/wiki/Geomantic_figures](https://en.wikipedia.org/wiki/Geomantic_figures)
+
+![1000006849.png](Geomancy/1000006849.png)
+
+When dice are rolled, they are rolled over a board with icons which represent these shapes. Having the die fall into these shapes, even if there are some extra, has a bonus effect.
+
+You can choose to have whatever classes that you want, but you can never have 3 of the same class.
+
+Below is a list of the most common Geo types:
+
+---
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Geomantic_via.svg/1920px-Geomantic_via.svg.png)
+
+### Via
+
+$*The \ Way*$
+
+Represented by a waning moon, this figure forces all health and strength generation for the first turn to be -2, increasing by one for each subsequent turn, up to a maximum of +2. Then, the effect is removed.
+
+---
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Geomantic_caudadraconis.svg/1920px-Geomantic_caudadraconis.svg.png)
+
+### Cauda Draconis
+
+$*The \ Tail \ of \ the \ Dragon*$
+
+Immediately lose the battle if this is the first figure drawn. During any subsequent draws, it blocks the effect of whatever Geo takes its head. At the end of the game, if there you just have one Geo remaining, you immediately win.
+
+---
+
+![Geomantic_puer.svg.png](Geomancy/Geomantic_puer.svg.png)
+
+### Puer
+
+$*The \ Boy*$
+
+This phallic figure represents aggression and passion, and therefore when revealed, triggers a -1 health to all Geo currently not locked, and +1 health to all Geo currently locked.
+
+---
+
+![Geomantic_fortunaminor.svg.png](Geomancy/Geomantic_fortunaminor.svg.png)
+
+### Fortuna Minor
+
+$*Lesser \ Fortune*$
+
+Bathe in the gentle sun rays of fortune; this figure, when revealed, buffs all pure type Geo with a +1 to health and attack.
+
+---
+
+![Geomantic_puella.svg.png](Geomancy/Geomantic_puella.svg.png)
+
+### Puella
+
+$*The \ Girl*$
+
+This clitoric figure represents peace and passivity. All Geo locked after this figure have been revealed receive a +2 to strength and health.
+
+---
+
+![Geomantic_amissio.svg.png](Geomancy/Geomantic_amissio.svg.png)
+
+### Amissio
+
+$*Loss*$
+
+This figure represents two bowls or cups turned upside-down. Only positive if loss is what you were looking for; Every Geo loses  1 health, triggering any health-loss effect that may be in play.
+
+---
+
+![Geomantic_carcer.svg.png](Geomancy/Geomantic_carcer.svg.png)
+
+### Carcer
+
+$*The \ Prison*$
+
+This enclosure, chain or prison cell, when revealed, forces you to lock every Geo. You may not reroll any Geo, in or out of this figure.
+
+---
+
+![Geomantic_laetitia.svg.png](Geomancy/Geomantic_laetitia.svg.png)
+
+### Laetitia
+
+$*Joy*$
+
+This joyous arch is a positive figure, and gives +2 strength to all Geo.
+
+---
+
+![Geomantic_caputdraconis.svg.png](Geomancy/Geomantic_caputdraconis.svg.png)
+
+### Caput Draconis
+
+$*The \ Head \ of \ the \ Dragon*$
+
+If you are the initiator of the fight, and this is the first figure drawn, immediately win the fight. During any subsequent drawings, it gives +2 health and strength to whichever dice take the two top positions.
+
+---
+
+![Geomantic_conjunctio.svg.png](Geomancy/Geomantic_conjunctio.svg.png)
+
+### Conjunctio
+
+$*The \ Conjunction*$
+
+This combination of forces is a neutral energy; if all the dice which made up this figure are locked at once, each receives a +1 bonus to attack and strength
+
+---
+
+![Geomantic_acquisitio.svg.png](Geomancy/Geomantic_acquisitio.svg.png)
+
+### Acquisitio
+
+$*Gain*$
+
+Two upturned bowls or cups represent abundance, and is a positive sign if gain is what is required; every Geo gets +1 health
+
+---
+
+![Geomantic_rubeus.svg.png](Geomancy/Geomantic_rubeus.svg.png)
+
+### Rubeus
+
+$*Red*$
+
+This inversive figure is very negative; the centre Geo is destroyed if it is Pure. It is given +3 strength and health if it is Dark.
+
+---
+
+![Geomantic_fortunamajor.svg.png](Geomancy/Geomantic_fortunamajor.svg.png)
+
+### Fortuna Major
+
+$*Greater \ Fortune*$
+
+Glory in the growing bounty from the earth; this figure, when revealed, buffs all dark type Geo with a +1 to health and attack.
+
+---
+
+![Geomantic_albus.svg.png](Geomancy/Geomantic_albus.svg.png)
+
+### Albus
+
+$*White*$
+
+Pure as snow, this figure doubles the centre Geo if it is pure. If it is Dark, this Geo is destroyed.
+
+---
+
+![Geomantic_tristitia.svg.png](Geomancy/Geomantic_tristitia.svg.png)
+
+### Tristitia
+
+$*Sorrow*$
+
+This broken arch is a negative figure, and weighs you down. -2 strength to all dice.
+
+---
+
+![Geomantic_populus.svg.png](Geomancy/Geomantic_populus.svg.png)
+
+### Populus
+
+$*The \ People*$
+
+Represented by the Waxing moon, when this figure is revealed, your combination of dice is repeated for the next two rounds.
+
+---
+
+# Combat
+
+An opponent has been found. They want to put their argument to the test with you. A battle begins.
+
+Combat is performed asynchronously; kind of like a chess application, where turns are managed at your leisure. On your Battle screen, you might have up to 12 games running at the same time.
+
+### Phase 1
+
+The screen is as follows; you see the pattern board ahead of you, and your dice are in a row near the bottom of the screen. Tap and hold, and drag across the Geo you want to hold. Shake the Geo by swiping up and down the screen, and then release; the Geo fall and land on the table. Both players prepare their roll, and can press a dice to lock it and pick up the others to roll again. Once all dice are locked, then we pass onto phase 2. - you can lock them on the table, to increase your chances to get a specific figure
+
+Before anything else the figures are analyzed. If any of the dice fell in the pattern of one of the figures, the effect of that figure is triggered.
+
+### Phase 2
+
+Finally, you execute your build. This is the first time that you actually interface, and therefore connect, to an opponent's data. The person that initiated combat always goes second.
+
+You can now see your dice, on the bottom of the screen, facing the opponents dice, in a row. You can select your dice and then select an opponent's dice to indicate your target, or an ally if appropriate. Mana is saved to your character when used. If no face was selected, unfortunately, this dice must skip the turn.
+
+When both players have made their choices, we return to Phase 1. The next time you view the battle, you see an animation of the actions, in the order that it was taken. Then the process starts again from the rolling phase.
+
+### End of Battle Phase
+
+Once a player loses all the health of all of their dice, the battle ends. The winner receives materials, and in some cases, copies of the opponents dice to break down or use. The argument with the most winstreaks in the area is displayed on a leaderboard.
+
+The loser receives a smaller amount of materials. In ranked matches, they may even lose some Geo.
+
+*This is at the discretion of design and balance of the overall day*
+
+# The World
+
+The Geomancers live on the virtual world, using a digital copy of our own maps.
+
+The game uses a GPS map to prepare the world. There are many different things you can do on the world screen.
+
+Firstly, you will set up your geomancy base. Choose a random spot on the map with a pin; this is how other players will find and interact with you. Players are encouraged not to use their home location, but pins take a radius of 1km at a minimum to obfuscate the players actual home.
+
+You may tap the territory of another geomancer to trigger a battle. The territory is defined by the most successful argument in that geomancer’s kit. One a battle has been requested, it is saved in your battle screen.
+
+There is, potentially, space for an AR component as well. By moving around the map and exploring, you will be able to find materials, items, Geo and even opponents. There are mini games associated with picking up each one.
+
+# Gathering Geo
+
+Apart from the AR aspect of finding Geo, there are many other ways to get some.
+
+By exploring special locations you can find materials, or you can rarely find whole Geo.
+
+Materials can be used to craft items or Geo themselves, as well as upgrading Geo.
+
+# Items
+
+Items can be used to enhance faces. Each dice can equip a maximum of three items. Items can replace faces, give specific spells (cast with magic during a turn) or buff based on specific conditions.
+
+===== Welcome To Pneumaturgy/Projects/PneuMath f439912d40f94022b7e01cf0341063d5.md =====
+# PneuMath
+
+Created: July 13, 2024 11:21 AM
+Parent item: Closed Projects (Closed%20Projects%20bd44f9d5483d4588bc94ce19c97100c7.md)
+
+**Pneumath: The Elegant Number Puzzle**
+
+Hey there! Welcome to Pneumath, a super quick and simple number puzzle game that's all about figuring out hidden patterns. You’ll get a sequence of numbers with two missing, and your job is to figure out what math magic was used to create the sequence. We whipped up Pneumath in just 10 hours for a game jam! It’s a labor of love from the Pneumaturgy team, and we’re excited to share it with you.
+
+**Why You'll Love It:**
+
+- **Quick and Fun:** Perfect for a quick brain teaser. It’s easy to pick up and play anytime you want a little challenge.
+- **Elegant Design:** Clean, simple, and smooth. No distractions—just pure puzzle-solving goodness.
+- **Choose Your Challenge:** Whether you’re in the mood for something easy, medium, or hard, Pneumath has got you covered with different difficulty levels.
+
+Give it a try, see if you can crack the code, and enjoy the elegant challenge of Pneumath!
+
+![pneumathlogo.png](PneuMath/pneumathlogo.png)
+
+![image1-2.png](PneuMath/image1-2.png)
+
+![image1-03.png](PneuMath/image1-03.png)
+
+===== Welcome To Pneumaturgy/Projects/Geomancy/Original Concept 361989ceb36b46e281c96a90425ad640.md =====
+# Original Concept
+
+# Foundational Concept: AutoChess
+
+This game will essentially be an autochess; inspired by games such as TFT, Super Auto Chess and more.
+
+Hero - has a set of moves
+
+Enemy - has another set of moves
+
+Takes turn hitting each other until one dies.
+
+It is entirely sequential, not live.
+
+# Supplemental Concept: Slice&Dice
+
+Each entity has a “dice” -  the amout of sides the dice has depends on their level. Each hero has a set moveset for their dice, but through items, they can be modified. Each turn, the hero will roll their die, to use either one of those moves.
+
+# Supplemental Concept: AR
+
+Like Pokemon go, you find these entities on the street. Or, you can trade them, or maybe in some case buy them. When you pass by someone on the street who has the app, you battle them. Otherwise, you battle random opponents, like superautopets.
+
+# Unique Concept: Full Fight
+
+When encountering someone, you have the option to turn it into a full fight, meaning you keep fightinng each other until one of you completely loses their life.
+
+# Unique Concept: AI Generated
+
+Each fighter is randomly generated, but will retain a level (rarity) and a class.
+
+# Unique Concept: Abilities, Spells
+
+Abilities or spells come from equipped items. some of them require mana to cast, which can be generated from people.
+
+# Unique Concept: Personal Progression
+
+Your own player character will have a set health and xp, that corresponds to the number of teammates they can have, starting with just one. think super auto pets. Since you will have many saved heroes, you can always swap them around every fight.
+
+===== Welcome To Pneumaturgy/Projects/Geomancy/Classes b9deb7d479c54e668e6c260da46e16d8.md =====
+# Classes
+
+Sure, let's create an example involving propositions and use each of the 10 logical forms. We'll use the following propositions for our example:
+
+- \( P \): "It is raining."
+- \( Q \): "The ground is wet."
+- \( R \): "The sun is shining."
+- \( S \): "It is cloudy."
+
+Modus type  - tanks
+
+### 1. Modus Ponens - Buff
+
+**Form**:
+
+- \( P \rightarrow Q \)
+- \( P \)
+- Therefore, \( Q \)
+
+**Example**:
+
+- If it is raining, then the ground is wet.
+- It is raining.
+- Therefore, the ground is wet.
+
+### 2. Modus Tollens - Defend
+
+**Form**:
+
+- \( P \rightarrow Q \)
+- \( \neg Q \)
+- Therefore, \( \neg P \)
+
+**Example**:
+
+- If it is raining, then the ground is wet.
+- The ground is not wet.
+- Therefore, it is not raining.
+
+Syllogism type - healers
+
+### 3. Disjunctive Syllogism - dark health
+
+**Form**:
+
+- \( P \vee Q \)
+- \( \neg P \)
+- Therefore, \( Q \)
+
+**Example**:
+
+- It is raining or the sun is shining.
+- It is not raining.
+- Therefore, the sun is shining.
+
+### 4. Hypothetical Syllogism - pure health
+
+**Form**:
+
+- \( P \rightarrow Q \)
+- \( Q \rightarrow R \)
+- Therefore, \( P \rightarrow R \)
+
+**Example**:
+
+- If it is raining, then the ground is wet.
+- If the ground is wet, then it is slippery.
+- Therefore, if it is raining, then it is slippery.
+
+Dilemma type - magicians
+
+### 5. Constructive Dilemma - pure magic
+
+**Form**:
+
+- \( P \rightarrow Q \)
+- \( R \rightarrow S \)
+- \( P \vee R \)
+- Therefore, \( Q \vee S \)
+
+**Example**:
+
+- If it is raining, then the ground is wet.
+- If the sun is shining, then it is hot.
+- It is raining or the sun is shining.
+- Therefore, the ground is wet or it is hot.
+
+### 6. Destructive Dilemma - dark magic
+
+**Form**:
+
+- \( P \rightarrow Q \)
+- \( R \rightarrow S \)
+- \( \neg Q \vee \neg S \)
+- Therefore, \( \neg P \vee \neg R \)
+
+**Example**:
+
+- If it is raining, then the ground is wet.
+- If the sun is shining, then it is hot.
+- The ground is not wet or it is not hot.
+- Therefore, it is not raining or the sun is not shining.
+
+Operand type - warriors
+
+### 7. Simplification - normal attack
+
+**Form**:
+
+- \( P \land Q \)
+- Therefore, \( P \)
+- Therefore, \( Q \)
+
+**Example**:
+
+- It is raining and the ground is wet.
+- Therefore, it is raining.
+- Therefore, the ground is wet.
+
+### 8. Conjunction - special attack
+
+**Form**:
+
+- \( P \)
+- \( Q \)
+- Therefore, \( P \land Q \)
+
+**Example**:
+
+- It is raining.
+- The ground is wet.
+- Therefore, it is raining and the ground is wet.
+
+### 9. Addition - ranged / multi attack
+
+**Form**:
+
+- \( P \)
+- Therefore, \( P \vee Q \)
+
+**Example**:
+
+- It is raining.
+- Therefore, it is raining or the sun is shining.
+
+Biconditional type - thieves
+
+### 10. Biconditional Introduction - crowd control
+
+**Form**:
+
+- \( P \rightarrow Q \)
+- \( Q \rightarrow P \)
+- Therefore, \( P \leftrightarrow Q \)
+
+**Example**:
+
+- If it is raining, then the ground is wet.
+- If the ground is wet, then it is raining.
+- Therefore, it is raining if and only if the ground is wet.
+
+### 11. Biconditional Elimination - debuff
+
+**Form**:
+
+- \( P \leftrightarrow Q \)
+- Therefore, \( P \rightarrow Q \)
+- Therefore, \( Q \rightarrow P \)
+
+**Example**:
+
+- It is raining if and only if the ground is wet.
+- Therefore, if it is raining, then the ground is wet.
+- Therefore, if the ground is wet, then it is raining.
+
+By using these logical forms, you can construct a variety of logical arguments and see how different propositions relate to one another.
+
+Here are the definitions of those terms:
+
+1. **Modus**:
+    - **Definition**: The term "modus" comes from Latin and means "mode" or "manner." In logic, it is often used in the names of argument forms to describe the manner in which the inference is made.
+    - **Examples**: Modus Ponens (the mode of affirming) and Modus Tollens (the mode of denying).
+
+Buff, defend
+
+1. **Syllogism**:
+    - **Definition**: A syllogism is a form of reasoning in which a conclusion is drawn from two given or assumed propositions (premises). Each premise shares a common term with the conclusion.
+    - **Example**:
+        - Major premise: All humans are mortal.
+        - Minor premise: Socrates is human.
+        - Conclusion: Socrates is mortal.
+
+Health
+
+1. **Dilemma**:
+    - **Definition**: A dilemma is a type of argument involving two or more conditional (if-then) statements that lead to an undesirable outcome. It forces a choice between two or more alternatives, each of which has significant consequences.
+    - **Example**:
+        - If we increase taxes, people will be unhappy.
+        - If we don't increase taxes, we can't fund public services.
+        - Either we increase taxes or we don't increase taxes.
+        - Therefore, either people will be unhappy or we can't fund public services.
+
+Special attack
+
+1. **Operand**:
+    - **Definition**: An operand is a quantity on which an operation is performed. In logic and mathematics, it refers to the objects of logical or mathematical operations.
+    - **Example**: In the logical expression \( P \land Q \), \( P \) and \( Q \) are operands, and \( \land \) (AND) is the operator.
+
+Magic
+
+1. **Biconditional**:
+    - **Definition**: A biconditional is a logical connective that states that two propositions are both true or both false. It is often expressed as "if and only if."
+    - **Example**: \( P \leftrightarrow Q \) means \( P \) is true if and only if \( Q \) is true. If it is raining, then the ground is wet, and if the ground is wet, then it is raining.
+
+Attack

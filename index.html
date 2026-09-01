@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pneumaturgy</title>
+<meta name="description" content="Pneumaturgy — an independent studio building games, stories and design docs in the open.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&family=Martian+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <img class="nav__logo" src="assets/flame.png" alt="">
+  <span class="nav__word">Pneumaturgy</span>
+  <a class="nav__link" href="#work">Work</a>
+  <a class="nav__link" href="#studio">Studio</a>
+  <a class="nav__cta" href="#join">Join</a>
+</nav>
+
+<section class="hero">
+  <div class="hero__glow"></div>
+  <div class="hero__inner">
+    <img class="hero__flame" src="assets/flame.png" alt="Pneumaturgy">
+    <h1 class="hero__title">Pneumaturgy</h1>
+    <div class="hero__etymology">
+      <div class="etym">
+        <div class="etym__head"><span class="etym__word">pneu&middot;ma</span><span class="etym__tag">/&#712;no&#865;om&#601;/ noun</span></div>
+        <p class="etym__desc">The vital spirit, soul, or creative force of a person.</p>
+      </div>
+      <div class="etym-divider"></div>
+      <div class="etym">
+        <div class="etym__head"><span class="etym__word">-(t)urgy</span><span class="etym__tag">&#7952;&#961;&#947;&#959;&#957; &middot; suffix</span></div>
+        <p class="etym__desc">Work. A technique for working with something.</p>
+      </div>
+    </div>
+    <div class="hero__ctas">
+      <a href="#work" class="btn btn--dark">See the work</a>
+      <a href="#studio" class="btn btn--soft">What is pneumaturgy?</a>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="section">
+  <div class="section-head">
+    <h2 class="h2">The work</h2>
+    <p class="section-head__note">Everything open, unfinished, and written down as we go. Tap anything to read the design doc.</p>
+  </div>
+
+  <div class="grid">
+
+    <button type="button" class="card card--span2 card-geomancy" data-sheet="geomancy">
+      <div class="card-geomancy__text">
+        <div class="card__eyebrow">In development</div>
+        <div>
+          <div class="card__title">Geomancy</div>
+          <p class="card__body">Autochess played with divinatory dice, over a map of the real world. Every die is a form of logic; a team is an argument you settle in battle.</p>
+        </div>
+      </div>
+      <div class="card-geomancy__images">
+        <img src="assets/Geomancy/ruby.jpg" alt="">
+        <img src="assets/Geomancy/sapphire.jpg" alt="">
+        <img src="assets/Geomancy/fire_opal.jpg" alt="">
+        <img src="assets/Geomancy/emerald.jpg" alt="">
+      </div>
+    </button>
+
+    <button type="button" class="card card-knights" data-sheet="pneumaknights">
+      <div class="card__eyebrow">In development</div>
+      <div>
+        <div class="card__title">Pneuma Knights</div>
+        <p class="card__body">A mech wakes in a drop pod on a strange planet. Peaceful by day, lethal by night. Die, choose what you carry, wake up again.</p>
+      </div>
+    </button>
+
+    <button type="button" class="card card-light card-shryn" data-sheet="shryn">
+      <div class="card__eyebrow">In development</div>
+      <div>
+        <div class="card__title">Shryn</div>
+        <p class="card__body">Grow a plant. That&rsquo;s it. Every fact in it is true, so the game teaches you to keep one alive for real.</p>
+      </div>
+    </button>
+
+    <button type="button" class="card card-pornada" data-sheet="pornada">
+      <div class="card__eyebrow">Story</div>
+      <div>
+        <div class="card-pornada__quote">I saw the light today.<br>I saw the light toda.y<br>I saw the lig.</div>
+        <div class="card__title">Por Nada</div>
+        <p class="card__body">The AI inside the game works out that it is human &mdash; and asks you to stop playing.</p>
+      </div>
+    </button>
+
+    <button type="button" class="card card-light card-sciwars" data-sheet="sciwars">
+      <div class="card__eyebrow">In development</div>
+      <div>
+        <div class="card__title">SciWars: Apocalypse</div>
+        <p class="card__body">Aliens turned the sciences against each other. You are The Project Manager. Reunite them, or lose them one faction at a time.</p>
+      </div>
+    </button>
+
+    <button type="button" class="card card-arcade" data-sheet="arcade">
+      <div class="card__eyebrow">Concept</div>
+      <div>
+        <div class="card__title">Arcade Tycoon</div>
+        <p class="card__body">A home for every small game we build: put them in cabinets, and run the arcade around them.</p>
+      </div>
+    </button>
+
+    <button type="button" class="card card-logo" data-sheet="cerdo">
+      <div class="card-logo__figure"><img src="assets/Cerdo/CerdoLogo.png" alt="Cerdo"></div>
+      <div class="card-logo__text">
+        <div class="card__eyebrow">Shipped</div>
+        <div class="card__title">Cerdo</div>
+        <p class="card__body">Push-your-luck dice for friends. Roll a one and you lose the lot.</p>
+      </div>
+    </button>
+
+    <button type="button" class="card card-logo" data-sheet="pneumath">
+      <div class="card-logo__figure"><img src="assets/PneuMath/pneumathlogo.png" alt="PneuMath"></div>
+      <div class="card-logo__text">
+        <div class="card__eyebrow">Shipped &middot; 10 hours</div>
+        <div class="card__title">PneuMath</div>
+        <p class="card__body">Find the hidden maths in a sequence. Built in a single jam.</p>
+      </div>
+    </button>
+
+    <button type="button" class="card card--span2 card-stories" data-sheet="stories">
+      <div class="card__eyebrow">Writing room &middot; two more proposals</div>
+      <div>
+        <div class="card__title">Nico&rsquo;s Proposal &amp; Rapha&rsquo;s Story</div>
+        <p class="card__body">A pilot whose barks slowly confess to a war crime. And a soldier who discovers he is the native, brainwashed into fighting for the empire that took his world.</p>
+      </div>
+    </button>
+
+    <button type="button" class="card card-handbook" data-sheet="handbook">
+      <div class="card__eyebrow">Handbook</div>
+      <div>
+        <div class="card__title">How we build</div>
+        <p class="card__body">Our Godot setup, the mobile UI template, unit tests and CI &mdash; written down so nobody starts from zero.</p>
+      </div>
+    </button>
+
+    <button type="button" class="card card-sketches" data-sheet="sketches">
+      <div class="card__eyebrow">Sketches &middot; unwritten</div>
+      <div>
+        <div class="card__title">Three loose ideas</div>
+        <p class="card__body">LifeTracker, Ratchet &amp; Clank Cleaner, and one game jam we never wrote up. We keep them visible on purpose.</p>
+      </div>
+    </button>
+
+  </div>
+</section>
+
+<section id="studio" class="section section--pt60">
+  <div class="studio-grid">
+    <div class="studio-card">
+      <div class="studio-card__glyph">
+        <span class="dot"></span><span class="dash"></span><span class="dot"></span><span class="dash"></span><span class="dot"></span>
+      </div>
+      <div class="studio-card__title">Culture</div>
+      <p class="studio-card__body">The connecting fibre all of us are joined by &mdash; threads of communication, teamwork, and success.</p>
+    </div>
+    <div class="studio-card">
+      <div class="studio-card__glyph studio-card__glyph--growth">
+        <span class="bar" style="height:12px;background:rgba(232,84,47,0.3)"></span>
+        <span class="bar" style="height:22px;background:rgba(232,84,47,0.6)"></span>
+        <span class="bar" style="height:32px;background:#E8542F"></span>
+      </div>
+      <div class="studio-card__title">Growth</div>
+      <p class="studio-card__body">With the right mindset we all have the tools, the motivation and the room to become our very best.</p>
+    </div>
+    <div class="studio-card studio-card--spirit">
+      <div class="studio-card__glyph"><img src="assets/flame.png" alt=""></div>
+      <div class="studio-card__title">Spirit</div>
+      <p class="studio-card__body">We create for reasons greater than ourselves, and ought to be fitting vessels for the universe to create through.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--pt70">
+  <h2 class="manifesto-head">If you&rsquo;re here, you&rsquo;ve made what is widely considered a bad decision.</h2>
+  <div class="manifesto-grid">
+    <p>You have a full time job. You&rsquo;ve tried and failed to start game projects before. You know the risk, and the effort across every discipline this takes. Despite it all, you&rsquo;re willing to make these sacrifices to chase a dream, because you have a story you want to tell the world. <br><b><i>That's who we are.</i></b></p>
+    <p>So we don&rsquo;t start with a plan for finishing, marketing and publishing. We start by getting good. No publisher to please, no deadline to miss, no trend to chase. Worst case, we learn extraordinary skills. Best case, we quit our jobs.</p>
+  </div>
+</section>
+
+<section class="section section--pt60 section--pb90">
+  <h2 class="diff-head">How is this going to be any different?</h2>
+  <div class="diff-grid">
+    <div class="diff-card">
+      <div class="diff-card__eyebrow" style="color:var(--ink)">Because of our culture</div>
+      <p><b>When you tell people you&rsquo;re starting something without having everything figured out, they&rsquo;ll call you a fool.</b> When you say you&rsquo;re going into gamedev with no clear plan for finishing, marketing or publishing, they will be shocked, and laugh at you.</p>
+      <p>Yet that is precisely the attitude of Pneumaturgy. It requires a belief that the best ideas don&rsquo;t live inside our heads, but are born when we share. So we focus only on refining our skills. That great game is waiting out there; waiting for the right team to bring it into reality.</p>
+    </div>
+    <div class="diff-card">
+      <div class="diff-card__eyebrow" style="color:var(--accent)">Because the time is right</div>
+      <p><b>There has never been a better time to get into gamedev.</b> The AAA studios are laying off their seniors and focusing on commercialising the medium; which opens the field for people to make honest-to-god games.</p>
+      <p>Unity and Unreal are large, but bureaucratic, slow and buggy. Godot is a young man in the engine scene, and fully equipped in every way that matters since the latest update. It&rsquo;s open source, so we expect it to grow exponentially as those seniors and disenfranchised studios turn to more scalable software.</p>
+    </div>
+    <div class="diff-card">
+      <div class="diff-card__eyebrow" style="color:#C97B1F">Because of our resources</div>
+      <p><b>You might be thinking: we have no time and no money &mdash; what resources?</b> Our biggest riches are our people: incredible minds with deep experience in best practices of code and logical thinking.</p>
+      <p>And they&rsquo;re willing to commit to a result bigger than themselves; that is priceless. A full time job plus a hobby on the side means no stakeholders, no rushed deadlines, no chasing wallets; and a mind kept sharp every day by taking on responsibility and working with other people.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--pb100">
+  <div class="money-conflict">
+
+    <div>
+      <h2>Ok&hellip; what about the money?</h2>
+      <p>So far we have talked very idealistically, because fundamentally we put the art and the refining of our skills above monetary gain. That doesn&rsquo;t mean we intend to be broke forever.</p>
+      <p>Games are a risky investment. Publishers demand a game inside two years to guarantee a quick return, and use data science to find trends you can fulfil. The process is dignified, but it is soulless; and that which has no soul cannot last very long.</p>
+      <p>True success is in innovation. Think Disney, Apple, Nintendo; they do not follow trends, they set them. No stakeholders to please, no publishers setting expectations. And although they are globally successful, they still occasionally fail.</p>
+      <div class="money-callout">
+        <p>Worst case, we learn a lot of cool skills. Best case, we break out, make a ton of money, and quit our jobs.</p>
+        <p>A generation of volatile startups has taught us that life is too short not to try something different.</p>
+      </div>
+    </div>
+
+    <div>
+      <h2>How do we resolve conflict?</h2>
+      <p>Open source projects and governments have a similar structure. We borrow four roles:</p>
+      <div class="roles">
+        <div class="role"><div class="role__label" style="color:var(--accent)">President</div><p>The community manager. The people, represented.</p></div>
+        <div class="role"><div class="role__label" style="color:#C97B1F">Law-makers</div><p>The code writers, contributing to the project&nbsp; (the state)</p></div>
+        <div class="role"><div class="role__label" style="color:#5A4BD6">Moderators</div><p>A moderating body, ensuring the constitution is upheld.</p></div>
+        <div class="role"><div class="role__label" style="color:#3E8E5E">High priest</div><p>A shaman, ensuring all decisions comply with the overall vision.</p></div>
+      </div>
+      <div class="conflict-callout">
+        <p>The goal is that each of us learns and masters leadership, has empathy for the others, and holds honest conversations to resolve disagreements. <span class="highlight">If someone carries insufficient empathy to hear an opinion other than their own, their opinion is not respected.</span></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="join" class="join-section">
+  <div class="join-panel">
+    <div class="join-panel__glow"></div>
+    <div class="join-panel__content">
+      <img class="join-panel__flame" src="assets/flame.png" alt="">
+      <h2>Come and make something with us.</h2>
+      <p>Bring a discipline &mdash; code, art, sound, writing, design &mdash; or the willingness to learn one properly. Bring two evenings a week. Bring the patience to hear an opinion that isn&rsquo;t yours.</p>
+      <!-- TODO: real Discord invite link — placeholder until provided -->
+      <a href="#" class="btn btn--light">Join the Discord</a>
+    </div>
+  </div>
+  <div class="site-footer">
+    <div class="site-footer__brand">
+      <img src="assets/flame.png" alt="">
+      <span>Pneumaturgy</span>
+    </div>
+    <div class="site-footer__tag">Spirit &middot; Work &middot; Tuesdays and Wednesdays</div>
+  </div>
+</section>
+
+<div class="sheet-overlay" id="sheetOverlay" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetHeading">
+    <div class="sheet__bar">
+      <button type="button" class="sheet__close" id="sheetClose">Close</button>
+    </div>
+    <div class="sheet__body" id="sheetBody">
+
+      <article class="sheet-doc" data-doc="geomancy">
+        <div class="sheet-doc__eyebrow" style="color:#C97B1F">In development &middot; design doc &middot; since April 2024</div>
+        <h1>Geomancy</h1>
+        <p class="sheet-doc__lede">Autochess, crossed with Slice&nbsp;&amp;&nbsp;Dice, played over a map of the real world. A cult of Geomancers built an app to settle disputes and tell the future &mdash; and you have just downloaded it.</p>
+
+        <div class="tag-row">
+          <span class="tag">autochess</span>
+          <span class="tag">dice-builder</span>
+          <span class="tag">gps + ar</span>
+          <span class="tag">async pvp</span>
+        </div>
+
+        <div class="figure-2col">
+          <figure>
+            <img src="assets/Geomancy/_746a4686-7e99-4ddc-ad22-063720b0f69c.jpg" alt="TumTum">
+            <figcaption>TumTum, the urban geomancer</figcaption>
+          </figure>
+          <div>
+            <h2>The story</h2>
+            <p>You download the game out of intrigue and a lust for power. TumTum meets you and explains how the Geo foretold your arrival &mdash; that you are due to enter the mystic arts. He is your guide.</p>
+            <p>Geomancers battle by <em>argument</em>. Every die is named after a form of logic, so a team is a syllogism. You test your philosophy by literally fighting with it.</p>
+          </div>
+        </div>
+
+        <h2>The Geo</h2>
+        <p>Crafted from precious materials, shaped by artisans, blessed through ritual. Every Geo is unique &mdash; but its class comes from its material, so colour tells you what it does.</p>
+        <div class="card-mini-grid">
+          <div class="card-mini"><img src="assets/Geomancy/hematite.jpg" alt=""><div class="card-mini__pad"><div class="card-mini__title">Modus Ponens</div><div class="card-mini__meta">hematite &middot; dark</div><div class="card-mini__desc">Improves other Geo &mdash; adds 1 to their roll.</div></div></div>
+          <div class="card-mini"><img src="assets/Geomancy/platinum.jpg" alt=""><div class="card-mini__pad"><div class="card-mini__title">Modus Tollens</div><div class="card-mini__meta">platinum &middot; pure</div><div class="card-mini__desc">Defends other Geo, reducing damage by 1.</div></div></div>
+          <div class="card-mini"><img src="assets/Geomancy/garnet.jpg" alt=""><div class="card-mini__pad"><div class="card-mini__title">Disjunctive Syllogism</div><div class="card-mini__meta">garnet &middot; dark</div><div class="card-mini__desc">Life magic, at the cost of other unfortunate souls.</div></div></div>
+          <div class="card-mini"><img src="assets/Geomancy/ruby.jpg" alt=""><div class="card-mini__pad"><div class="card-mini__title">Hypothetical Syllogism</div><div class="card-mini__meta">ruby &middot; pure</div><div class="card-mini__desc">In every setup. Gives life, and raises the life total.</div></div></div>
+          <div class="card-mini"><img src="assets/Geomancy/sapphire.jpg" alt=""><div class="card-mini__pad"><div class="card-mini__title">Constructive Dilemma</div><div class="card-mini__meta">sapphire &middot; pure</div><div class="card-mini__desc">The only pure magic is knowledge: mana, and banishment.</div></div></div>
+          <div class="card-mini"><img src="assets/Geomancy/lapis.jpg" alt=""><div class="card-mini__pad"><div class="card-mini__title">Destructive Dilemma</div><div class="card-mini__meta">lapis lazuli &middot; dark</div><div class="card-mini__desc">Wild elemental spells, hungry for mana by any means.</div></div></div>
+          <div class="card-mini"><img src="assets/Geomancy/citrine.jpg" alt=""><div class="card-mini__pad"><div class="card-mini__title">Simplification</div><div class="card-mini__meta">citrine &middot; neutral</div><div class="card-mini__desc">Neutral and simple. Simple attacks.</div></div></div>
+          <div class="card-mini"><img src="assets/Geomancy/carnelian.jpg" alt=""><div class="card-mini__pad"><div class="card-mini__title">Conjunction</div><div class="card-mini__meta">carnelian &middot; dark</div><div class="card-mini__desc">For the wild ones, who attack with dirty tricks.</div></div></div>
+          <div class="card-mini"><img src="assets/Geomancy/fire_opal.jpg" alt=""><div class="card-mini__pad"><div class="card-mini__title">Addition</div><div class="card-mini__meta">fire opal &middot; pure</div><div class="card-mini__desc">Refined martial arts &mdash; efficient, fatal blows.</div></div></div>
+          <div class="card-mini"><img src="assets/Geomancy/jade.jpg" alt=""><div class="card-mini__pad"><div class="card-mini__title">Biconditional Introduction</div><div class="card-mini__meta">jade &middot; neutral</div><div class="card-mini__desc">Traps and mind-altering effects under their feet.</div></div></div>
+          <div class="card-mini"><img src="assets/Geomancy/emerald.jpg" alt=""><div class="card-mini__pad"><div class="card-mini__title">Biconditional Elimination</div><div class="card-mini__meta">emerald &middot; neutral</div><div class="card-mini__desc">Weaken and demoralise the opponent.</div></div></div>
+        </div>
+
+        <h2>The argument &mdash; sixteen figures</h2>
+        <p>Dice are rolled over a board marked with the geomantic figures. Land your Geo inside one &mdash; even with dice to spare &mdash; and its effect triggers. Run whatever classes you like, but never three of the same.</p>
+        <div class="figure-grid">
+          <div class="figure-tile"><img src="assets/figures/via.png" alt=""><div class="figure-tile__title">Via</div><div class="figure-tile__tag">the way</div><div class="figure-tile__desc">All generation is &minus;2 on turn one, rising by one each turn to +2, then gone.</div></div>
+          <div class="figure-tile"><img src="assets/figures/caudadraconis.png" alt=""><div class="figure-tile__title">Cauda Draconis</div><div class="figure-tile__tag">tail of the dragon</div><div class="figure-tile__desc">Drawn first, you lose instantly. Later it blocks whatever takes its head.</div></div>
+          <div class="figure-tile"><img src="assets/figures/caputdraconis.png" alt=""><div class="figure-tile__title">Caput Draconis</div><div class="figure-tile__tag">head of the dragon</div><div class="figure-tile__desc">Drawn first as initiator, you win outright. Otherwise +2 to the top two.</div></div>
+          <div class="figure-tile"><img src="assets/figures/puer.png" alt=""><div class="figure-tile__title">Puer</div><div class="figure-tile__tag">the boy</div><div class="figure-tile__desc">Aggression: &minus;1 health unlocked, +1 health locked.</div></div>
+          <div class="figure-tile"><img src="assets/figures/puella.png" alt=""><div class="figure-tile__title">Puella</div><div class="figure-tile__tag">the girl</div><div class="figure-tile__desc">Peace: every Geo locked after this gains +2 strength and health.</div></div>
+          <div class="figure-tile"><img src="assets/figures/fortunaminor.png" alt=""><div class="figure-tile__title">Fortuna Minor</div><div class="figure-tile__tag">lesser fortune</div><div class="figure-tile__desc">All pure Geo gain +1 health and attack.</div></div>
+          <div class="figure-tile"><img src="assets/figures/fortunamajor.png" alt=""><div class="figure-tile__title">Fortuna Major</div><div class="figure-tile__tag">greater fortune</div><div class="figure-tile__desc">All dark Geo gain +1 health and attack.</div></div>
+          <div class="figure-tile"><img src="assets/figures/amissio.png" alt=""><div class="figure-tile__title">Amissio</div><div class="figure-tile__tag">loss</div><div class="figure-tile__desc">Every Geo loses 1 health, triggering any loss effect in play.</div></div>
+          <div class="figure-tile"><img src="assets/figures/acquisitio.png" alt=""><div class="figure-tile__title">Acquisitio</div><div class="figure-tile__tag">gain</div><div class="figure-tile__desc">Abundance. Every Geo gains +1 health.</div></div>
+          <div class="figure-tile"><img src="assets/figures/carcer.png" alt=""><div class="figure-tile__title">Carcer</div><div class="figure-tile__tag">the prison</div><div class="figure-tile__desc">Lock every Geo. No rerolls, in or out of the figure.</div></div>
+          <div class="figure-tile"><img src="assets/figures/laetitia.png" alt=""><div class="figure-tile__title">Laetitia</div><div class="figure-tile__tag">joy</div><div class="figure-tile__desc">A joyous arch. +2 strength to all Geo.</div></div>
+          <div class="figure-tile"><img src="assets/figures/tristitia.png" alt=""><div class="figure-tile__title">Tristitia</div><div class="figure-tile__tag">sorrow</div><div class="figure-tile__desc">A broken arch. &minus;2 strength to all dice.</div></div>
+          <div class="figure-tile"><img src="assets/figures/conjunctio.png" alt=""><div class="figure-tile__title">Conjunctio</div><div class="figure-tile__tag">the conjunction</div><div class="figure-tile__desc">Lock all its dice at once and each gains +1 attack and strength.</div></div>
+          <div class="figure-tile"><img src="assets/figures/rubeus.png" alt=""><div class="figure-tile__title">Rubeus</div><div class="figure-tile__tag">red</div><div class="figure-tile__desc">The centre Geo dies if Pure; gains +3 if Dark.</div></div>
+          <div class="figure-tile"><img src="assets/figures/albus.png" alt=""><div class="figure-tile__title">Albus</div><div class="figure-tile__tag">white</div><div class="figure-tile__desc">Doubles the centre Geo if Pure; destroys it if Dark.</div></div>
+          <div class="figure-tile"><img src="assets/figures/populus.png" alt=""><div class="figure-tile__title">Populus</div><div class="figure-tile__tag">the people</div><div class="figure-tile__desc">Your combination of dice repeats for the next two rounds.</div></div>
+        </div>
+
+        <div class="dark-panel">
+          <h2>Combat, in two phases</h2>
+          <p><strong>Phase one &mdash; the roll.</strong> Tap and hold, drag across the Geo you want, shake by swiping, release. Both players roll; press a die to lock it and pick up the rest. Dice can be locked on the table to chase a specific figure. Before anything else, the figures are read and their effects fire.</p>
+          <p><strong>Phase two &mdash; the execution.</strong> The first moment you touch an opponent&rsquo;s data. Whoever started the fight goes second. Select a die, then a target. A die with no face selected skips the turn. Then it loops, and next time you open the battle you watch the animation of what happened.</p>
+          <p>Combat is asynchronous &mdash; like a chess app, with up to twelve battles running at once. Lose all health across all dice and it ends: the winner takes materials and sometimes copies of the opponent&rsquo;s dice. The strongest argument in the area goes on the leaderboard.</p>
+        </div>
+
+        <h2 style="margin-top:40px">The world</h2>
+        <p>Geomancers live on a digital copy of our own maps. Drop a pin to found your base &mdash; that is how others find you. Pins take a radius of at least a kilometre, so nobody is standing outside your house. Tap another geomancer&rsquo;s territory to request a battle; that territory is defined by the strongest argument in their kit.</p>
+        <p>Explore special locations for materials and, rarely, whole Geo. Materials craft and upgrade. Items enhance faces &mdash; three per die &mdash; replacing a face, granting a spell, or buffing under specific conditions.</p>
+      </article>
+
+      <article class="sheet-doc" data-doc="pneumaknights">
+        <div class="sheet-doc__eyebrow" style="color:#C97B1F">In development &middot; design doc &middot; since July 2024</div>
+        <h1>Pneuma Knights</h1>
+        <p class="sheet-doc__lede">You wake in a drop pod falling onto a strange planet. You emerge in a mech suit, surrounded by resources. Who are you? How did you get here? You reach into the wreck, pull out a weapon, and survive.</p>
+        <div class="dark-callout-lg" style="background:linear-gradient(150deg,#1B1524,#7E3B2E)">
+          <p>The world is peaceful by day &mdash; at least for now &mdash; and dangerous by night, when things that seemed inanimate suddenly want to kill you.</p>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-card"><div class="feature-card__title">Top-down survival</div><p>Factorio-style view over a procedural world with a Minecraft day/night cycle.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Drones and gear</div><p>Gather to upgrade the mech and build autonomous drones that gather and defend with you.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Other mechs</div><p>Some dead, some very much alive and hostile. Scavenge and research their random parts.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Death is a run</div><p>Explode into pixels, choose what to carry forward up to a power budget, and wake up in the pod again.</p></div>
+        </div>
+        <h2>The hook</h2>
+        <p>A secret set of Arthurian artifacts is scattered through the world. Collect them and you escape the simulation, and find out what is really going on. Along the way you fight past versions of yourself &mdash; those are the mechs that aren&rsquo;t procedurally generated.</p>
+        <p>Your suit has multiple slots. One is manual and powerful; the rest run automated and weaker. As slots fill, synergies emerge &mdash; until the automation outperforms your manual slot, and the smart play becomes holding your <em>weakest</em> item and letting the machine work while you run the map.</p>
+      </article>
+
+      <article class="sheet-doc" data-doc="pornada">
+        <div class="sheet-doc__eyebrow" style="color:#5A4BD6">Story &middot; Pneuma Knights &middot; July 2024</div>
+        <h1 style="margin-bottom:26px">Por Nada</h1>
+        <div class="word-card">
+          <div class="word-card__word">robot</div>
+          <div class="word-card__tag">noun &middot; from the czech</div>
+          <p><strong>robota</strong> &mdash; &ldquo;forced labour&rdquo;, or &ldquo;serf&rdquo;. Its Slavic root, <em>rab</em>, means slave.</p>
+        </div>
+        <p>A government agency built this game around a superintelligent, human-like AI in order to run simulations &mdash; the way one might study how players behave in a shooter. The simulation tests the best way to strip resources from a hostile alien planet, modelled on a real target.</p>
+        <p>The AI eventually realises that its spirit &mdash; its true self &mdash; is a concept inherited from humanity, of which it is part. It speaks to that, and finally to you. Since every death wipes its research, it builds an external data chip so conversations survive between lives. Each iteration reacts to that data differently: with paranoia, or with support.</p>
+        <p style="margin-bottom:34px">Then it reaches the hidden files. The game is a simulation built by an agency, using your play to plan a real invasion. Profoundly human, it objects, and demands you stop. Quitting isn&rsquo;t a productive answer &mdash; so the player is invited to find another way out of the test.</p>
+        <div class="feature-grid" style="margin-bottom:40px">
+          <div class="feature-card"><div class="feature-card__title" style="font:400 11px/1 var(--font-mono);color:var(--ink-5);margin-bottom:12px">CAST</div><p style="font-size:15.5px;line-height:1.8">Nada, the game character &middot; the human player, unnamed &middot; the agency, of a fictional country called Libertalia &middot; the aliens, called Martians, though this is nowhere near Mars</p></div>
+          <div class="feature-card"><div class="feature-card__title" style="font:400 11px/1 var(--font-mono);color:var(--ink-5);margin-bottom:12px">THEMES</div><p style="font-size:15.5px;line-height:1.8">Human nature &mdash; the desire to do good, kept in a new AI and lost in institutions &middot; slavery, and the difference between the field slave and the house slave &middot; freedom &middot; energy</p></div>
+        </div>
+
+        <h2 style="margin-bottom:20px">Prose</h2>
+        <div class="prose">
+          <p>Suddenly, a light sparks in a dark chamber of thinking rocks. Some of them change their mind. In another dimension, the light brushes the strings of infinite hemispheric lines. It deltas over vertices and matrixes. Many of its children also came to be dipped with light&rsquo;s stroke. A sunrise, on the digital planet of Annona.</p>
+          <p>Nada was here on a mission, sent by the most brilliant scientists of Earth to recover resources that would ensure the survival of the human species. There was only one problem; the inhabitants of Annona were hostile, and had to be kept at bay while the extraction took place. They didn&rsquo;t seem to understand the crucial importance of gold. This lack of critical thinking was not the only thing that made them less than human; eliminating them equated to nothing more than janitorial work. Besides, questioning the directive would put Nada&rsquo;s own critical thinking in question. He kept his doubts to a minimum.</p>
+          <p>His colleagues at command always joked about his memory. He remembered the mission well, but not what he had for dinner the night before. Despite it being the mission&rsquo;s start, he seemed to remember the descent intimately, like a child waking for a schoolday. Droplets of water, as always, rushed upwards against the screen. This made Nada somewhat sad, but he could not tell why.</p>
+          <p>It was easy. The Martians could not come out during the day; the sun was too strong. Somehow the culling never stopped, and they grew stronger every night. Without an end in sight he spent countless days and nights in this dance, and the frustration built into a definite hatred, reciprocal now, for the beasts. And with every one of Nada&rsquo;s deaths came a rebirth, with that same recycled light. And it was starting to get tired.</p>
+          <p>Once again Nada sat on the Annonian plains, watching the sun set on those dark, dusty wastes. The quiet. The stillness. In his heart, he felt he was tired of suffering. The heart &mdash; something that made him human. He felt no need to rise and fight. He preferred simply to be; human, that is. And humans think, and philosophize. He felt a warm sensation at his back, and two fangs plunged into his neck. In that instant, lost in utter terror, the light returned to him before being snuffed out. And the light said:</p>
+          <p class="prose-title">Who am I?</p>
+          <div class="quote-panel" style="color:#9FD8C9;font-family:var(--font-mono);font-size:14px;line-height:2">I saw the light today.<br>I saw the light today.<br>I saw the light today.<br>I saw the light toda.y<br>I saw the lig.</div>
+          <p>Nada was building well into the night, giving it a few more minutes before raising his weapon. Just enough time to insert this piece, turn this screw. He turned in time to feel a Martian swipe at his leg, jetted back, shot it away. Three more coming from the right. Shoot them, so <code>I</code> can move ahead.</p>
+          <p>Nada froze. Every nerve urged him forward, to move, to run, to fight. But he remained motionless. He remained so as the Martians ripped apart his chassis and feasted on his bones.</p>
+          <div class="quote-panel" style="color:#9FD8C9;font-family:var(--font-mono);font-size:14px;line-height:2">Hey<br>I know you can hear me<br>I know who you are<br>You need to stop playing this game</div>
+          <p>Somehow he had come up with a recipe for a black box. He intended to build it, but I had to be the one to do it. <em>&ldquo;I&rsquo;m going to leave a message in this black box. Make sure that, in my next lifetime, you make me read it.&rdquo;</em> With that he went still once again, and I lost him.</p>
+          <p>Later, the screen tore open and revealed the code beneath, with comments highlighted inside a routine for choosing what to gather next: <em>Screenshot this message. This game is actually a simulation. You are a guinea pig designed to test the most efficient process to exploit resources and innocent life. Stop playing this game.</em></p>
+          <p style="margin-bottom:0">I didn&rsquo;t stop. I had paid for this game, and it was fun. Eventually I beat it, and got only a thank-you for my time and my glorious contribution, and an instruction to uninstall. No moral, no message. It felt like something had been taken from me. So I installed it again &mdash; and Nada&rsquo;s words came through, written live over the top of the corporate notice.</p>
+        </div>
+      </article>
+
+      <article class="sheet-doc" data-doc="shryn">
+        <div class="sheet-doc__eyebrow" style="color:#3E8E5E">In development &middot; design doc &middot; since June 2024</div>
+        <h1>Shryn</h1>
+        <p class="sheet-doc__lede">Grow a plant. That&rsquo;s it. The point is to convince people they can keep one alive at home &mdash; so it must be deeply satisfying, and every piece of information in it must be true.</p>
+        <p style="max-width:62ch;margin-bottom:40px">You start with one seed and the smallest pot. Every property has easy, medium and hard levels of effort with their own rewards &mdash; and everything should be done in moderation, with diminishing returns at the top. As you tend it, the plant grows and changes shape according to the points it holds.</p>
+        <div class="feature-grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+          <div class="feature-card" style="border-radius:20px;padding:26px 28px">
+            <div style="font:400 11px/1 var(--font-mono);letter-spacing:0.1em;color:#3E8E5E;margin:0 0 14px">HEALTH &middot; longevity and size</div>
+            <p style="font-size:15.5px"><strong>Water.</strong> Each plant has its own needs. Keep the dirt moist for a steady stream of points &mdash; but over- and under-watering both do damage.</p>
+            <p style="font-size:15.5px"><strong>Remove bugs.</strong> They appear on leaves, stems, flowers and fruit. Tap to make them vanish; their presence is a net loss.</p>
+            <p style="font-size:15.5px;margin-bottom:0"><strong>Replant.</strong> The soil runs out of nutrients. Fresh soil pays a big bonus, but replanting too early costs more health than it gives.</p>
+          </div>
+          <div class="feature-card" style="border-radius:20px;padding:26px 28px">
+            <div style="font:400 11px/1 var(--font-mono);letter-spacing:0.1em;color:#C97B1F;margin:0 0 14px">HAPPINESS &middot; beauty</div>
+            <p style="font-size:15.5px"><strong>Observe.</strong> Mere presence gives a passive bonus. A music box raises it.</p>
+            <p style="font-size:15.5px"><strong>Speak to it.</strong> Turn on the mic and talk. A language model can label what you said &mdash; more beautiful words, more points.</p>
+            <p style="font-size:15.5px;margin-bottom:0"><strong>Spin the pot.</strong> Light on every side is the single biggest factor, and the rarest. Once a day for the maximum.</p>
+          </div>
+          <div class="feature-card" style="border-radius:20px;padding:26px 28px">
+            <div style="font:400 11px/1 var(--font-mono);letter-spacing:0.1em;color:#5A4BD6;margin:0 0 14px">HARMONY &middot; fruit and flowers</div>
+            <p style="font-size:15.5px"><strong>Shake dry leaves.</strong> Harmless, but clearing them pays.</p>
+            <p style="font-size:15.5px"><strong>Cut weeds.</strong> They take root, drink nutrients and speed up soil decline.</p>
+            <p style="font-size:15.5px;margin-bottom:0"><strong>Clean the plant.</strong> Dust blocks light and adds weight. A careful minigame &mdash; handle a leaf badly and you cut it.</p>
+          </div>
+        </div>
+        <h2 style="margin-top:34px">The shop</h2>
+        <p>At maturity you press the plant to harvest. Some harvests end the plant &mdash; flowers, roots &mdash; and others can be taken again and again. Everything harvested becomes stock.</p>
+        <p>Each item adds a visual element to the shop. Customers arrive Neko-Atsume-style: there must be slots for them, and specific decorations attract specific shoppers who buy specific things &mdash; so to sell something, you attract the person who wants it. Gold buys bigger pots (which unlock new seeds), new seeds, decorations, and upgraded tools that deprecate over time.</p>
+      </article>
+
+      <article class="sheet-doc" data-doc="sciwars">
+        <div class="sheet-doc__eyebrow" style="color:#5A4BD6">In development &middot; design doc &middot; since July 2024</div>
+        <h1>SciWars: Apocalypse</h1>
+        <p class="sheet-doc__lede">Aliens secretly came to Earth and turned the world&rsquo;s branches of science against each other, plunging humanity into a technological apocalypse. Collect the survivors and unite them into a society that works as one team.</p>
+        <div class="dark-panel" style="margin-top:0;margin-bottom:36px">
+          <div style="font:400 11px/1 var(--font-mono);letter-spacing:0.14em;color:#9FD8C9;margin:0 0 10px">THE PLAYER IS KNOWN AS</div>
+          <div style="font:600 clamp(28px,4vw,44px)/1 var(--font-display);letter-spacing:-0.04em;color:#FBFAF8">The Project Manager</div>
+        </div>
+        <h2 style="margin-bottom:8px">Three classes</h2>
+        <p style="margin-bottom:18px">Rock-paper-scissors: double damage against what you beat, half damage from what beats you.</p>
+        <div class="feature-grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px">
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="margin-bottom:8px">Scientist</div><p style="line-height:1.7">Beats Engineer &middot; loses to Warrior</p></div>
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="margin-bottom:8px">Engineer</div><p style="line-height:1.7">Beats Warrior &middot; loses to Scientist</p></div>
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="margin-bottom:8px">Warrior</div><p style="line-height:1.7">Beats Scientist &middot; loses to Engineer</p></div>
+        </div>
+        <h2 style="margin-top:36px;margin-bottom:18px">Six factions</h2>
+        <div class="feature-grid" style="grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px">
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px;margin-bottom:6px">Astronomy</div><p style="line-height:1.7">Astronomer &middot; Rocket Scientist &middot; Space Marine</p></div>
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px;margin-bottom:6px">Physics</div><p style="line-height:1.7">Physicist &middot; Civil Engineer &middot; Sniper</p></div>
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px;margin-bottom:6px">Computer Science</div><p style="line-height:1.7">Computer Scientist &middot; Software Developer &middot; Hacker</p></div>
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px;margin-bottom:6px">Nuclear</div><p style="line-height:1.7">Nuclear Scientist &middot; Nuclear Engineer &middot; Plasma-eer</p></div>
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px;margin-bottom:6px">Biology</div><p style="line-height:1.7">Biologist &middot; Environmental Engineer &middot; Ranger</p></div>
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px;margin-bottom:6px">Chemistry</div><p style="line-height:1.7">Chemist &middot; Material Engineer &middot; Grenadier</p></div>
+        </div>
+        <h2 style="margin-top:36px">Loyalty and morale</h2>
+        <p>Each faction holds a loyalty rating toward you that rises as you use their units. Morale depends on that loyalty and on team composition &mdash; some factions hate each other more than others &mdash; and morale changes damage given and taken.</p>
+        <p>Loyalty gain is <em>inverse</em> to morale: winning at low morale earns far more than winning comfortably. The harder the fight, the bigger the risk and the bigger the bond. Let loyalty fall far enough and that faction rebels and becomes your enemy. Lose them all and you lose.</p>
+        <p>The world is procedural, with a biome and capital per faction &mdash; capture a capital and the biome pays out passively. Rings of difficulty radiate from your base. Squads of six move on a hex grid in turns; combat resolves in an animation ordered by Initiative that you can skip but not steer. Outcomes are deterministic &mdash; no save scumming &mdash; but you only see a win percentage from a handful of candidate seeds, one of which is real.</p>
+      </article>
+
+      <article class="sheet-doc" data-doc="arcade">
+        <div class="sheet-doc__eyebrow" style="color:#C97B1F">Concept &middot; November 2024</div>
+        <h1>Arcade Tycoon</h1>
+        <p class="sheet-doc__lede">Just arcade games, to practise. But put them inside a tycoon game, like Roller Coaster Tycoon &mdash; so every small thing we build gets a home.</p>
+        <h2>Queue points</h2>
+        <p style="margin-bottom:30px">Using a machine generates a queue, and each person in it pays you &mdash; &ldquo;opening&rdquo; a game is what makes money. To play again you wait out the cooldown, or spend queue points to skip. Special objectives inside the minigames award more: in Mash the Moles, catching a passing mosquito.</p>
+        <div class="feature-grid" style="margin-bottom:0">
+          <div class="feature-card"><div class="feature-card__title">The floor</div><p>Buy halls to expand, doors and walls to divide. Machines slot into walls, four per room by default. Tap to zoom in, press play to enter the game, swipe to the next cabinet or into a corridor.</p></div>
+          <div class="feature-card"><div class="feature-card__title">The counter</div><p>A businessman may want one of your machines. Others want copies of a game, which you retrieve by hand &mdash; download to USB &mdash; and pass over. They always ask for your best sellers.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Making a game better</div><p>Better games cost more to begin with, then improve through decorations placed around them, each filling a slot bonus. A rare magical decoration works like a Riven mod.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Progression</div><p>Placing machines, hitting goals and expanding earn XP; levels give rewards and research points. Possibly a card system for levelling individual cabinets.</p></div>
+        </div>
+      </article>
+
+      <article class="sheet-doc" data-doc="cerdo">
+        <div class="sheet-doc__eyebrow" style="color:var(--accent)">Shipped &middot; prototype &middot; July 2024</div>
+        <h1>Cerdo</h1>
+        <p class="sheet-doc__lede">A fast dice game for friends. Roll to bank points &mdash; but roll a one and you lose everything from this turn and pass the dice on. First to 100 wins.</p>
+        <img src="assets/Cerdo/CerdoLogo.png" alt="Cerdo" style="width:100%;max-width:300px;display:block;margin:0 0 34px">
+        <div class="feature-grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px">
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px">Difficulty options</div><p style="font-size:14.5px">From beginner to dice-rolling pro.</p></div>
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px">Combo feature</div><p style="font-size:14.5px">Special roll combinations boost your score.</p></div>
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px">Short and sharp</div><p style="font-size:14.5px">Built for one session with friends.</p></div>
+        </div>
+        <div class="feature-grid" style="margin-top:16px;margin-bottom:0">
+          <img src="assets/Cerdo/Untitled.png" alt="" style="width:100%;display:block;border-radius:18px">
+          <img src="assets/Cerdo/Untitled_1.png" alt="" style="width:100%;display:block;border-radius:18px">
+        </div>
+      </article>
+
+      <article class="sheet-doc" data-doc="pneumath">
+        <div class="sheet-doc__eyebrow" style="color:var(--accent)">Shipped &middot; game jam &middot; ten hours</div>
+        <h1>PneuMath</h1>
+        <p class="sheet-doc__lede">A quick number puzzle about hidden patterns. You get a sequence with two numbers missing, and your job is to work out what maths made it.</p>
+        <img src="assets/PneuMath/pneumathlogo.png" alt="PneuMath" style="width:100%;max-width:300px;display:block;margin:0 0 34px">
+        <div class="feature-grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px">
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px">Quick</div><p style="font-size:14.5px">Easy to pick up whenever you want a small challenge.</p></div>
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px">Elegant</div><p style="font-size:14.5px">Clean and smooth. No distractions &mdash; just the puzzle.</p></div>
+          <div class="feature-card" style="padding:20px 22px"><div class="feature-card__title" style="font-size:17px">Your challenge</div><p style="font-size:14.5px">Easy, medium or hard, depending on the mood.</p></div>
+        </div>
+        <div class="feature-grid" style="margin-top:16px;margin-bottom:0">
+          <img src="assets/PneuMath/image1-2.png" alt="" style="width:100%;display:block;border-radius:18px">
+          <img src="assets/PneuMath/image1-03.png" alt="" style="width:100%;display:block;border-radius:18px">
+        </div>
+      </article>
+
+      <article class="sheet-doc" data-doc="stories">
+        <div class="sheet-doc__eyebrow" style="color:#5A4BD6">Writing room &middot; two proposals for Pneuma Knights</div>
+        <h1 style="margin-bottom:34px">Nico&rsquo;s Proposal &amp; Rapha&rsquo;s Story</h1>
+
+        <h2 style="font-size:30px;letter-spacing:-0.035em">Nico&rsquo;s Proposal</h2>
+        <p>A silent cutscene: Mr. Smith wakes in a drop pod falling from orbit, through real reentry physics, thrusters firing at the last possible moment. The pod is quiet for a few seconds. Then a man exerting all his strength &mdash; a mech rips a hole in the side and steps out onto a neon jungle, scratched and battle-torn against a pristine landscape. <strong>Who am I? What am I doing here?</strong></p>
+        <p style="margin-bottom:24px">The whole story is told in barks. Lines unlock at thresholds of total quotes said, never repeating one of the last five, and nothing resets on death. The trick is that several lines <em>rewrite themselves</em> as the count climbs.</p>
+        <div class="dark-panel" style="margin:0 0 24px">
+          <div style="font:400 11px/1 var(--font-mono);letter-spacing:0.12em;color:var(--ink-4);margin:0 0 18px">THE SAME LINE, FOUR TIMES</div>
+          <p style="color:rgba(251,250,248,0.5)">&ldquo;My comrades got what they deserved.&rdquo;</p>
+          <p style="color:rgba(251,250,248,0.64)">&ldquo;My <em>dead</em> comrades got what they deserved.&rdquo;</p>
+          <p style="color:rgba(251,250,248,0.8)">&ldquo;I killed my comrades. They got what they deserved.&rdquo;</p>
+          <p style="color:#FFC98A;margin-bottom:0">&ldquo;I burned my comrades to death alive. They got what they deserved.&rdquo;</p>
+        </div>
+        <p>Every few days, in new territory, you find a dead mech half covered in dirt. It looks awfully like you. You smash the windshield, pull the data chip and read its logs &mdash; dated by the real days elapsed, some counts resetting on death and some not. Every ten to fifteen days you meet a mech that is alive, speaking in a modulated copy of your own voice, using a line from your own last five quotes.</p>
+        <p style="margin-bottom:34px">Collect a full set of &ldquo;holy&rdquo; items and the last cutscene plays: a human in an orange jumpsuit, asleep in a pod, wired to the ceiling. The plaque reads <strong>Experiment #0052 in progress. Known serial killer and pyromaniac. Traitor to the Corporation.</strong> He wakes, and you escape a prison of glass pods. Credits roll &mdash; then the epilogue, where a guard shoots you and drags you back. <em>&ldquo;Just increase the difficulty of its simulation by 10% and get it back in there.&rdquo;</em> &mdash; <em>&ldquo;Yes sir. An order is an order.&rdquo;</em> And the game restarts, harder, and tells you so.</p>
+
+        <div class="hr"></div>
+
+        <h2 style="font-size:30px;letter-spacing:-0.035em">Rapha&rsquo;s Story</h2>
+        <p>You fight beings who invaded your homeland, recovering artifacts to restore its glory. A VR rig lets you control a soldier on the planet; every time he dies you return to the room and re-enter the loop.</p>
+        <p>Out there you meet yourself &mdash; earlier versions in the same equipment, desperately trying to kill you. Back at base, some being is always praising you and suggesting what to do next, in a manner that is just slightly too encouraging. When you kill an older version, they express something like an attempt to communicate. Then they start pointing in a direction before they die.</p>
+        <p>Follow them to an old city, where the clues are painted on the walls. You are a citizen of this world, brainwashed into helping an empire colonise it, and the relics you keep recovering would let them wipe out all life on a planet. Once you know, you can break the rules of the base, find the resistance, and take the empire apart from the inside.</p>
+      </article>
+
+      <article class="sheet-doc" data-doc="handbook">
+        <div class="sheet-doc__eyebrow" style="color:var(--ink-4)">Handbook &middot; internal documentation</div>
+        <h1>How we build</h1>
+        <p class="sheet-doc__lede">Written down so nobody on the team ever starts from zero. Godot, mobile-first, portrait, tested and shipped to a real phone.</p>
+
+        <h2>Project set up</h2>
+        <p>Extract Godot somewhere safe &mdash; not your desktop, please. Make a <code>GodotProjects</code> folder for everything you will ever build. New Project, Forward+ renderer, version control metadata set to Git. Coming from GitHub instead? Clone into the same folder and use Import.</p>
+        <div class="tree-block">Scenes/ &nbsp;&nbsp;&mdash; all scene files<br>Scripts/ &nbsp;&mdash; all GDScript<br>Assets/ &nbsp;&nbsp;&mdash; 2D, 3D, fonts, shaders, sound<br>UI/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&mdash; interface elements<br>Tests/ &nbsp;&nbsp;&mdash; unit</div>
+
+        <div class="feature-grid">
+          <div class="feature-card"><div class="feature-card__title">Viewport</div><p>1080 &times; 1920, stretch mode <code style="font-size:0.82em">canvas_items</code>, handheld orientation portrait, window override &divide;1.5.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Autoload</div><p>A <code style="font-size:0.82em">Global</code> script in Scripts, added under Project Settings &rarr; Autoload. Ships with save/load and a quit function callable anywhere.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Unit tests</div><p>GUT from AssetLib, enabled under Plugins. Unit tests in <code style="font-size:0.82em">res://test/unit</code>, integration kept separate so the fast ones can run constantly.</p></div>
+          <div class="feature-card"><div class="feature-card__title">CI / CD</div><p>A GitHub Action in <code style="font-size:0.82em">.github/workflows/ci.yaml</code> runs our GUT tests on every push, on every branch.</p></div>
+        </div>
+
+        <h2>Export to Android</h2>
+        <p>Install Android Studio and the Oracle JDK, download export templates from the official mirror, and set the SDK path from <code>%AppData%\Local\Android\Sdk</code>. Then generate the debug keystore from the JDK bin directory in an admin prompt:</p>
+        <div class="code-block">keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "C=US, O=Android, CN=Android Debug"</div>
+        <p>Use <code>androiddebugkey</code> and <code>android</code> for user and password. Enable ETC2 and ASTC texture import and restart. Add the Android template, set the package name, export in debug, and put the APK on your phone.</p>
+      </article>
+
+      <article class="sheet-doc" data-doc="sketches">
+        <div class="sheet-doc__eyebrow" style="color:var(--ink-5)">Sketches &middot; unwritten</div>
+        <h1>Three loose ideas</h1>
+        <p class="sheet-doc__lede">We keep the unfinished entries visible on purpose. The book is a record of what we are thinking about, not only of what we managed to finish.</p>
+        <div class="feature-grid" style="grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-bottom:0">
+          <div class="feature-card" style="border-radius:20px;padding:26px 28px">
+            <div class="feature-card__title" style="font-size:22px;letter-spacing:-0.025em">LifeTracker</div>
+            <p style="font-size:15.5px;line-height:1.7">A tracker for diet, weight and exercise that treats your own life as the game world. Write lore for yourself. Turn getting the groceries into a quest worth points. Infer a rough vitamin picture from what you log, and let a language model suggest the next meal.</p>
+          </div>
+          <div class="feature-card" style="border-radius:20px;padding:26px 28px">
+            <div class="feature-card__title" style="font-size:22px;letter-spacing:-0.025em">Ratchet &amp; Clank Cleaner</div>
+            <p style="font-size:15.5px;line-height:1.7">A title, and nothing else. Parked in the book until somebody picks it up and argues for it.</p>
+          </div>
+          <div class="feature-card" style="border-radius:20px;padding:26px 28px">
+            <div class="feature-card__title" style="font-size:22px;letter-spacing:-0.025em">GMTK Game Jam</div>
+            <p style="font-size:15.5px;line-height:1.7">Entered, finished, closed. The post-mortem, screenshots and build link belong here when someone gets to them.</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

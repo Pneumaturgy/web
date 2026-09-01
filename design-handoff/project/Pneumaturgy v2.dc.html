@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&amp;family=Instrument+Sans:wght@400;500;600&amp;family=Martian+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+  html, body { margin:0; padding:0; background:#FBFAF8; -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+  * { box-sizing:border-box; }
+  a { color:#E8542F; text-decoration:none; }
+  a:hover { color:#16120F; }
+  ::selection { background:#FFD9A8; color:#16120F; }
+  @keyframes drift { 0%,100% { transform:translate3d(0,0,0) scale(1); } 50% { transform:translate3d(0,-18px,0) scale(1.03); } }
+  @keyframes bloom { 0%,100% { opacity:0.85; transform:scale(1); } 50% { opacity:1; transform:scale(1.06); } }
+  @keyframes rise { from { opacity:0; transform:translateY(14px); } to { opacity:1; transform:translateY(0); } }
+</style>
+</helmet>
+
+<div style="position:relative;background:#FBFAF8;font-family:'Instrument Sans',system-ui,sans-serif;color:#16120F;overflow-x:hidden">
+
+  <div style="position:fixed;top:18px;left:50%;transform:translateX(-50%);z-index:60;display:flex;align-items:center;gap:6px;padding:7px 8px 7px 16px;border-radius:999px;background:rgba(251,250,248,0.82);backdrop-filter:blur(14px);box-shadow:0 1px 2px rgba(22,18,15,0.06),0 12px 32px rgba(22,18,15,0.09)">
+    <img src="assets/flame.png" alt="" style="height:20px;width:auto;display:block;margin-right:4px">
+    <span style="font:600 15px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em;margin-right:14px">Pneumaturgy</span>
+    <a href="#work" style="font:500 13.5px/1 'Instrument Sans',sans-serif;color:#4A423B;padding:9px 13px;border-radius:999px" style-hover="background:rgba(22,18,15,0.06);color:#16120F">Work</a>
+    <a href="#studio" style="font:500 13.5px/1 'Instrument Sans',sans-serif;color:#4A423B;padding:9px 13px;border-radius:999px" style-hover="background:rgba(22,18,15,0.06);color:#16120F">Studio</a>
+    <a href="#join" style="font:500 13.5px/1 'Instrument Sans',sans-serif;color:#FBFAF8;background:#16120F;padding:9px 16px;border-radius:999px" style-hover="background:#E8542F;color:#FFFFFF">Join</a>
+  </div>
+
+  <section style="position:relative;padding:150px 32px 90px;text-align:center;overflow:hidden">
+    <div style="position:absolute;top:-360px;left:50%;transform:translateX(-50%);width:1500px;height:1100px;pointer-events:none;background:radial-gradient(closest-side,rgba(255,178,88,0.55),rgba(255,178,88,0) 70%),radial-gradient(closest-side at 38% 55%,rgba(232,84,47,0.34),rgba(232,84,47,0) 70%),radial-gradient(closest-side at 66% 62%,rgba(126,110,232,0.28),rgba(126,110,232,0) 70%);animation:bloom 14s ease-in-out infinite"></div>
+    <div style="position:relative;max-width:1080px;margin:0 auto">
+      
+      <img src="assets/flame.png" alt="Pneumaturgy" style="height:180px;width:auto;display:block;margin:0 auto 28px;filter:drop-shadow(0 18px 40px rgba(232,84,47,0.4));animation:drift 9s ease-in-out infinite">
+      <h1 style="font:800 clamp(58px,11vw,148px)/0.86 'Bricolage Grotesque',sans-serif;letter-spacing:-0.045em;margin:0 0 30px;color:#16120F">Pneumaturgy</h1>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:stretch;gap:24px 40px;margin:0 auto 42px;max-width:760px;text-align:left">
+        <div style="flex:1 1 280px;max-width:340px">
+          <div style="display:flex;align-items:baseline;gap:10px;margin:0 0 8px">
+            <span style="font:600 26px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;color:#16120F">pneu·ma</span>
+            <span style="font:400 11px/1 'Martian Mono',monospace;color:#A79C90">/ˈno͞omə/ noun</span>
+          </div>
+          <p style="font:400 17px/1.5 'Instrument Sans',sans-serif;color:#4A423B;margin:0">The vital spirit, soul, or creative force of a person.</p>
+        </div>
+        <div style="width:1px;background:rgba(22,18,15,0.12);align-self:stretch"></div>
+        <div style="flex:1 1 280px;max-width:340px">
+          <div style="display:flex;align-items:baseline;gap:10px;margin:0 0 8px">
+            <span style="font:600 26px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;color:#16120F">-(t)urgy</span>
+            <span style="font:400 11px/1 'Martian Mono',monospace;color:#A79C90">ἔργον · suffix</span>
+          </div>
+          <p style="font:400 17px/1.5 'Instrument Sans',sans-serif;color:#4A423B;margin:0">Work. A technique for working with something.</p>
+        </div>
+      </div>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="#work" style="font:600 15px/1 'Instrument Sans',sans-serif;color:#FBFAF8;background:#16120F;padding:16px 28px;border-radius:999px" style-hover="background:#E8542F;color:#FFFFFF">See the work</a>
+        <a href="#studio" style="font:600 15px/1 'Instrument Sans',sans-serif;color:#16120F;background:rgba(22,18,15,0.06);padding:16px 28px;border-radius:999px" style-hover="background:rgba(22,18,15,0.12);color:#16120F">What is pneumaturgy?</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" style="max-width:1180px;margin:0 auto;padding:20px 32px 40px">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:30px;flex-wrap:wrap;margin:0 0 30px">
+      <h2 style="font:800 clamp(38px,6vw,78px)/0.95 'Bricolage Grotesque',sans-serif;letter-spacing:-0.045em;margin:0">The work</h2>
+      <p style="font:400 16px/1.55 'Instrument Sans',sans-serif;color:#6B635C;margin:0 0 8px;max-width:34ch">Everything open, unfinished, and written down as we go. Tap anything to read the design doc.</p>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px">
+
+      <button onClick="{{ open.geomancy }}" style="grid-column:span 2;text-align:left;border:0;padding:0;cursor:pointer;border-radius:26px;overflow:hidden;background:#100D14;display:flex;min-height:320px;font-family:'Instrument Sans',sans-serif;box-shadow:0 24px 60px -34px rgba(22,18,15,0.7)" style-hover="transform:translateY(-3px)">
+        <div style="flex:1 1 52%;padding:34px 34px 30px;display:flex;flex-direction:column;justify-content:space-between;min-width:0">
+          <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#F5A524">In development</div>
+          <div>
+            <div style="font:600 clamp(30px,3.4vw,46px)/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;color:#FBFAF8;margin:0 0 14px">Geomancy</div>
+            <p style="font:400 16.5px/1.55 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.62);margin:0;max-width:34ch">Autochess played with divinatory dice, over a map of the real world. Every die is a form of logic; a team is an argument you settle in battle.</p>
+          </div>
+        </div>
+        <div style="flex:1 1 48%;display:grid;grid-template-columns:1fr 1fr;gap:2px;min-width:0">
+          <img src="assets/Geomancy/ruby.jpg" alt="" style="width:100%;height:100%;object-fit:cover;display:block">
+          <img src="assets/Geomancy/sapphire.jpg" alt="" style="width:100%;height:100%;object-fit:cover;display:block">
+          <img src="assets/Geomancy/fire_opal.jpg" alt="" style="width:100%;height:100%;object-fit:cover;display:block">
+          <img src="assets/Geomancy/emerald.jpg" alt="" style="width:100%;height:100%;object-fit:cover;display:block">
+        </div>
+      </button>
+
+      <button onClick="{{ open.pneumaknights }}" style="text-align:left;border:0;cursor:pointer;border-radius:26px;padding:34px;min-height:320px;background:linear-gradient(165deg,#1B1524,#3A2140 62%,#7E3B2E);display:flex;flex-direction:column;justify-content:space-between;font-family:'Instrument Sans',sans-serif;box-shadow:0 24px 60px -34px rgba(22,18,15,0.7)" style-hover="transform:translateY(-3px)">
+        <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#FFC98A">In development</div>
+        <div>
+          <div style="font:600 clamp(28px,3vw,40px)/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;color:#FBFAF8;margin:0 0 14px">Pneuma Knights</div>
+          <p style="font:400 16px/1.55 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.66);margin:0">A mech wakes in a drop pod on a strange planet. Peaceful by day, lethal by night. Die, choose what you carry, wake up again.</p>
+        </div>
+      </button>
+
+      <button onClick="{{ open.shryn }}" style="text-align:left;border:0;cursor:pointer;border-radius:26px;padding:34px;min-height:300px;background:#FFFFFF;display:flex;flex-direction:column;justify-content:space-between;font-family:'Instrument Sans',sans-serif;box-shadow:0 1px 2px rgba(22,18,15,0.05),0 20px 48px -30px rgba(22,18,15,0.35)" style-hover="transform:translateY(-3px)">
+        <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#3E8E5E">In development</div>
+        <div>
+          <div style="font:600 34px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 14px">Shryn</div>
+          <p style="font:400 16px/1.55 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Grow a plant. That’s it. Every fact in it is true, so the game teaches you to keep one alive for real.</p>
+        </div>
+      </button>
+
+      <button onClick="{{ open.pornada }}" style="text-align:left;border:0;cursor:pointer;border-radius:26px;padding:34px;min-height:300px;background:#16120F;display:flex;flex-direction:column;justify-content:space-between;font-family:'Instrument Sans',sans-serif;box-shadow:0 24px 60px -34px rgba(22,18,15,0.7)" style-hover="transform:translateY(-3px)">
+        <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#9FD8C9">Story</div>
+        <div>
+          <div style="font:400 15px/1.9 'Martian Mono',monospace;color:#9FD8C9;margin:0 0 20px">I saw the light today.<br>I saw the light toda.y<br>I saw the lig.</div>
+          <div style="font:600 34px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;color:#FBFAF8;margin:0 0 12px">Por Nada</div>
+          <p style="font:400 16px/1.55 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.6);margin:0">The AI inside the game works out that it is human — and asks you to stop playing.</p>
+        </div>
+      </button>
+
+      <button onClick="{{ open.sciwars }}" style="text-align:left;border:0;cursor:pointer;border-radius:26px;padding:34px;min-height:300px;background:#FFFFFF;display:flex;flex-direction:column;justify-content:space-between;font-family:'Instrument Sans',sans-serif;box-shadow:0 1px 2px rgba(22,18,15,0.05),0 20px 48px -30px rgba(22,18,15,0.35)" style-hover="transform:translateY(-3px)">
+        <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#7E6EE8">In development</div>
+        <div>
+          <div style="font:600 34px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 14px">SciWars: Apocalypse</div>
+          <p style="font:400 16px/1.55 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Aliens turned the sciences against each other. You are The Project Manager. Reunite them, or lose them one faction at a time.</p>
+        </div>
+      </button>
+
+      <button onClick="{{ open.arcade }}" style="text-align:left;border:0;cursor:pointer;border-radius:26px;padding:34px;min-height:280px;background:#FFF3E2;display:flex;flex-direction:column;justify-content:space-between;font-family:'Instrument Sans',sans-serif;box-shadow:0 1px 2px rgba(22,18,15,0.05),0 20px 48px -30px rgba(22,18,15,0.3)" style-hover="transform:translateY(-3px)">
+        <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#C97B1F">Concept</div>
+        <div>
+          <div style="font:600 34px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 14px">Arcade Tycoon</div>
+          <p style="font:400 16px/1.55 'Instrument Sans',sans-serif;color:#6B635C;margin:0">A home for every small game we build: put them in cabinets, and run the arcade around them.</p>
+        </div>
+      </button>
+
+      <button onClick="{{ open.cerdo }}" style="text-align:left;border:0;padding:0;cursor:pointer;border-radius:26px;overflow:hidden;background:#FFFFFF;display:flex;flex-direction:column;font-family:'Instrument Sans',sans-serif;box-shadow:0 1px 2px rgba(22,18,15,0.05),0 20px 48px -30px rgba(22,18,15,0.35)" style-hover="transform:translateY(-3px)">
+        <div style="background:#F3EDE4;display:flex;align-items:center;justify-content:center;padding:26px;min-height:190px">
+          <img src="assets/Cerdo/CerdoLogo.png" alt="Cerdo" style="max-width:70%;height:auto;display:block">
+        </div>
+        <div style="padding:26px 30px 30px">
+          <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#E8542F;margin:0 0 12px">Shipped</div>
+          <div style="font:600 30px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 10px">Cerdo</div>
+          <p style="font:400 15.5px/1.55 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Push-your-luck dice for friends. Roll a one and you lose the lot.</p>
+        </div>
+      </button>
+
+      <button onClick="{{ open.pneumath }}" style="text-align:left;border:0;padding:0;cursor:pointer;border-radius:26px;overflow:hidden;background:#FFFFFF;display:flex;flex-direction:column;font-family:'Instrument Sans',sans-serif;box-shadow:0 1px 2px rgba(22,18,15,0.05),0 20px 48px -30px rgba(22,18,15,0.35)" style-hover="transform:translateY(-3px)">
+        <div style="background:#F3EDE4;display:flex;align-items:center;justify-content:center;padding:26px;min-height:190px">
+          <img src="assets/PneuMath/pneumathlogo.png" alt="PneuMath" style="max-width:70%;height:auto;display:block">
+        </div>
+        <div style="padding:26px 30px 30px">
+          <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#E8542F;margin:0 0 12px">Shipped · 10 hours</div>
+          <div style="font:600 30px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 10px">PneuMath</div>
+          <p style="font:400 15.5px/1.55 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Find the hidden maths in a sequence. Built in a single jam.</p>
+        </div>
+      </button>
+
+      <button onClick="{{ open.stories }}" style="grid-column:span 2;text-align:left;border:0;cursor:pointer;border-radius:26px;padding:34px;background:#EDEAFF;display:flex;flex-direction:column;justify-content:space-between;gap:20px;min-height:200px;font-family:'Instrument Sans',sans-serif;box-shadow:0 1px 2px rgba(22,18,15,0.05),0 20px 48px -30px rgba(22,18,15,0.3)" style-hover="transform:translateY(-3px)">
+        <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#5A4BD6">Writing room · two more proposals</div>
+        <div>
+          <div style="font:600 clamp(26px,3vw,38px)/1.05 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 12px;max-width:24ch">Nico’s Proposal &amp; Rapha’s Story</div>
+          <p style="font:400 16px/1.55 'Instrument Sans',sans-serif;color:#5A5470;margin:0;max-width:56ch">A pilot whose barks slowly confess to a war crime. And a soldier who discovers he is the native, brainwashed into fighting for the empire that took his world.</p>
+        </div>
+      </button>
+
+      <button onClick="{{ open.handbook }}" style="text-align:left;border:0;cursor:pointer;border-radius:26px;padding:34px;background:#16120F;display:flex;flex-direction:column;justify-content:space-between;min-height:200px;gap:20px;font-family:'Instrument Sans',sans-serif;box-shadow:0 24px 60px -34px rgba(22,18,15,0.7)" style-hover="transform:translateY(-3px)">
+        <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#8A7F74">Handbook</div>
+        <div>
+          <div style="font:600 30px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;color:#FBFAF8;margin:0 0 12px">How we build</div>
+          <p style="font:400 15.5px/1.55 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.6);margin:0">Our Godot setup, the mobile UI template, unit tests and CI — written down so nobody starts from zero.</p>
+        </div>
+      </button>
+
+      <button onClick="{{ open.sketches }}" style="text-align:left;border:0;cursor:pointer;border-radius:26px;padding:34px;background:transparent;box-shadow:inset 0 0 0 1.5px rgba(22,18,15,0.14);display:flex;flex-direction:column;justify-content:space-between;min-height:200px;gap:20px;font-family:'Instrument Sans',sans-serif" style-hover="box-shadow:inset 0 0 0 1.5px rgba(22,18,15,0.32)">
+        <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#A79C90">Sketches · unwritten</div>
+        <div>
+          <div style="font:600 30px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 12px">Three loose ideas</div>
+          <p style="font:400 15.5px/1.55 'Instrument Sans',sans-serif;color:#8A7F74;margin:0">LifeTracker, Ratchet &amp; Clank Cleaner, and one game jam we never wrote up. We keep them visible on purpose.</p>
+        </div>
+      </button>
+
+    </div>
+  </section>
+
+  <section id="studio" style="max-width:1180px;margin:0 auto;padding:60px 32px 40px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px">
+      <div style="background:#FFFFFF;border-radius:24px;padding:34px 36px;box-shadow:0 1px 2px rgba(22,18,15,0.05),0 20px 48px -28px rgba(22,18,15,0.28)">
+        <div style="display:flex;align-items:center;gap:7px;height:32px;margin:0 0 20px">
+          <div style="width:12px;height:12px;border-radius:50%;background:#16120F"></div>
+          <div style="width:24px;height:2px;background:rgba(22,18,15,0.25)"></div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#16120F"></div>
+          <div style="width:24px;height:2px;background:rgba(22,18,15,0.25)"></div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#16120F"></div>
+        </div>
+        <div style="font:600 42px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 14px">Culture</div>
+        <p style="font:400 17px/1.55 'Instrument Sans',sans-serif;color:#4A423B;margin:0">The connecting fibre all of us are joined by — threads of communication, teamwork, and success.</p>
+      </div>
+      <div style="background:#FFFFFF;border-radius:24px;padding:34px 36px;box-shadow:0 1px 2px rgba(22,18,15,0.05),0 20px 48px -28px rgba(22,18,15,0.28)">
+        <div style="display:flex;align-items:flex-end;gap:7px;height:32px;margin:0 0 20px">
+          <div style="width:12px;height:12px;border-radius:3px;background:rgba(232,84,47,0.3)"></div>
+          <div style="width:12px;height:22px;border-radius:3px;background:rgba(232,84,47,0.6)"></div>
+          <div style="width:12px;height:32px;border-radius:3px;background:#E8542F"></div>
+        </div>
+        <div style="font:600 42px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 14px">Growth</div>
+        <p style="font:400 17px/1.55 'Instrument Sans',sans-serif;color:#4A423B;margin:0">With the right mindset we all have the tools, the motivation and the room to become our very best.</p>
+      </div>
+      <div style="background:linear-gradient(150deg,#E8542F,#F5A524);border-radius:24px;padding:34px 36px;box-shadow:0 20px 48px -24px rgba(232,84,47,0.6)">
+        <div style="height:32px;margin:0 0 20px">
+          <img src="assets/flame.png" alt="" style="height:32px;width:auto;display:block;filter:brightness(0) invert(1)">
+        </div>
+        <div style="font:600 42px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 14px;color:#FFFFFF">Spirit</div>
+        <p style="font:400 17px/1.55 'Instrument Sans',sans-serif;color:rgba(255,255,255,0.95);margin:0">We create for reasons greater than ourselves, and ought to be fitting vessels for the universe to create through.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width:1180px;margin:0 auto;padding:70px 32px 40px">
+    <h2 style="font:600 clamp(34px,5.2vw,66px)/1.03 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 28px;max-width:19ch;text-wrap:balance">If you’re here, you’ve made what is widely considered a bad decision.</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px;max-width:1000px">
+      <p style="font:400 18px/1.65 'Instrument Sans',sans-serif;color:#4A423B;margin:0;text-wrap:pretty">You have a full time job. You’ve tried and failed to start game projects before. You know the risk, and the effort across every discipline this takes. Despite it all, you’re willing to make these sacrifices to chase a dream, because you have a story you want to tell the world. <br><b><i>That's who we are.</i></b></p>
+      <p style="font:400 18px/1.65 'Instrument Sans',sans-serif;color:#4A423B;margin:0;text-wrap:pretty">So we don’t start with a plan for finishing, marketing and publishing. We start by getting good. No publisher to please, no deadline to miss, no trend to chase. Worst case, we learn extraordinary skills. Best case, we quit our jobs.</p>
+    </div>
+  </section>
+
+  <section style="max-width:1180px;margin:0 auto;padding:60px 32px 90px">
+    <h2 style="font:600 clamp(30px,4.4vw,54px)/1.05 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 36px;max-width:20ch;text-wrap:balance">How is this going to be any different?</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px">
+      <div style="background:#FFFFFF;border-radius:24px;padding:32px 34px;box-shadow:0 1px 2px rgba(22,18,15,0.05),0 20px 48px -30px rgba(22,18,15,0.3)">
+        <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#16120F;margin:0 0 18px">Because of our culture</div>
+        <p style="font:400 16.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;text-wrap:pretty"><b>When you tell people you’re starting something without having everything figured out, they’ll call you a fool.</b> When you say you’re going into gamedev with no clear plan for finishing, marketing or publishing, they will be shocked, and laugh at you.</p>
+        <p style="font:400 16.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0;text-wrap:pretty">Yet that is precisely the attitude of Pneumaturgy. It requires a belief that the best ideas don’t live inside our heads, but are born when we share. So we focus only on refining our skills. That great game is waiting out there; waiting for the right team to bring it into reality.</p>
+      </div>
+      <div style="background:#FFFFFF;border-radius:24px;padding:32px 34px;box-shadow:0 1px 2px rgba(22,18,15,0.05),0 20px 48px -30px rgba(22,18,15,0.3)">
+        <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#E8542F;margin:0 0 18px">Because the time is right</div>
+        <p style="font:400 16.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;text-wrap:pretty"><b>There has never been a better time to get into gamedev. </b>The AAA studios are laying off their seniors and focusing on commercialising the medium; which opens the field for people to make honest-to-god games.</p>
+        <p style="font:400 16.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0;text-wrap:pretty">Unity and Unreal are large, but bureaucratic, slow and buggy. Godot is a young man in the engine scene, and fully equipped in every way that matters since the latest update. It’s open source, so we expect it to grow exponentially as those seniors and disenfranchised studios turn to more scalable software.</p>
+      </div>
+      <div style="background:#FFFFFF;border-radius:24px;padding:32px 34px;box-shadow:0 1px 2px rgba(22,18,15,0.05),0 20px 48px -30px rgba(22,18,15,0.3)">
+        <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#C97B1F;margin:0 0 18px">Because of our resources</div>
+        <p style="font:400 16.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;text-wrap:pretty"><b>You might be thinking: we have no time and no money — what resources?</b> Our biggest riches are our people: incredible minds with deep experience in best practices of code and logical thinking.</p>
+        <p style="font:400 16.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0;text-wrap:pretty">And they’re willing to commit to a result bigger than themselves; that is priceless. A full time job plus a hobby on the side means no stakeholders, no rushed deadlines, no chasing wallets; and a mind kept sharp every day by taking on responsibility and working with other people.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width:1180px;margin:0 auto;padding:20px 32px 100px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:24px;align-items:start">
+
+      <div>
+        <h2 style="font:600 clamp(30px,4.4vw,54px)/1.05 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 24px;max-width:16ch;text-wrap:balance">Ok… what about the money?</h2>
+        <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 16px;text-wrap:pretty">So far we have talked very idealistically, because fundamentally we put the art and the refining of our skills above monetary gain. That doesn’t mean we intend to be broke forever.</p>
+        <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 16px;text-wrap:pretty">Games are a risky investment. Publishers demand a game inside two years to guarantee a quick return, and use data science to find trends you can fulfil. The process is dignified, but it is soulless; and that which has no soul cannot last very long.</p>
+        <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 24px;text-wrap:pretty">True success is in innovation. Think Disney, Apple, Nintendo; they do not follow trends, they set them. No stakeholders to please, no publishers setting expectations. And although they are globally successful, they still occasionally fail.</p>
+        <div style="background:linear-gradient(150deg,#E8542F,#F5A524);border-radius:24px;padding:30px 34px;box-shadow:0 20px 48px -26px rgba(232,84,47,0.6)">
+          <p style="font:600 clamp(20px,2.4vw,27px)/1.35 'Bricolage Grotesque',sans-serif;letter-spacing:-0.025em;color:#FFFFFF;margin:0">Worst case, we learn a lot of cool skills. Best case, we break out, make a ton of money, and quit our jobs.</p>
+          <p style="font:400 15.5px/1.6 'Instrument Sans',sans-serif;color:rgba(255,255,255,0.9);margin:14px 0 0">A generation of volatile startups has taught us that life is too short not to try something different.</p>
+        </div>
+      </div>
+
+      <div>
+        <h2 style="font:600 clamp(30px,4.4vw,54px)/1.05 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 24px;max-width:16ch;text-wrap:balance">How do we resolve conflict?</h2>
+        <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 24px;text-wrap:pretty">Open source projects and governments have a similar structure. We borrow four roles:</p>
+        <div style="display:flex;flex-direction:column;gap:12px;margin:0 0 24px">
+          <div style="background:#FFFFFF;border-radius:18px;padding:20px 24px;display:flex;gap:18px;align-items:baseline;box-shadow:0 1px 2px rgba(22,18,15,0.05)">
+            <div style="flex:0 0 auto;font:400 10.5px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#E8542F;width:96px">President</div>
+            <p style="font:400 15.5px/1.6 'Instrument Sans',sans-serif;color:#4A423B;margin:0">The community manager. The people, represented.</p>
+          </div>
+          <div style="background:#FFFFFF;border-radius:18px;padding:20px 24px;display:flex;gap:18px;align-items:baseline;box-shadow:0 1px 2px rgba(22,18,15,0.05)">
+            <div style="flex:0 0 auto;font:400 10.5px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#C97B1F;width:96px">Law-makers</div>
+            <p style="font:400 15.5px/1.6 'Instrument Sans',sans-serif;color:#4A423B;margin:0">The code writers, contributing to the project&nbsp; (the state)</p>
+          </div>
+          <div style="background:#FFFFFF;border-radius:18px;padding:20px 24px;display:flex;gap:18px;align-items:baseline;box-shadow:0 1px 2px rgba(22,18,15,0.05)">
+            <div style="flex:0 0 auto;font:400 10.5px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#5A4BD6;width:96px">Moderators</div>
+            <p style="font:400 15.5px/1.6 'Instrument Sans',sans-serif;color:#4A423B;margin:0">A moderating body, ensuring the constitution is upheld.</p>
+          </div>
+          <div style="background:#FFFFFF;border-radius:18px;padding:20px 24px;display:flex;gap:18px;align-items:baseline;box-shadow:0 1px 2px rgba(22,18,15,0.05)">
+            <div style="flex:0 0 auto;font:400 10.5px/1 'Martian Mono',monospace;letter-spacing:0.1em;text-transform:uppercase;color:#3E8E5E;width:96px">High priest</div>
+            <p style="font:400 15.5px/1.6 'Instrument Sans',sans-serif;color:#4A423B;margin:0">A shaman, ensuring all decisions comply with the overall vision.</p>
+          </div>
+        </div>
+        <div style="background:#100D14;border-radius:24px;padding:30px 34px">
+          <p style="font:400 16.5px/1.7 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.72);margin:0">The goal is that each of us learns and masters leadership, has empathy for the others, and holds honest conversations to resolve disagreements. <span style="color:#FFC98A">If someone carries insufficient empathy to hear an opinion other than their own, their opinion is not respected.</span></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="join" style="max-width:1180px;margin:0 auto;padding:70px 32px 110px">
+    <div style="position:relative;overflow:hidden;border-radius:34px;background:#100D14;padding:clamp(44px,6vw,86px);text-align:center">
+      <div style="position:absolute;bottom:-420px;left:50%;transform:translateX(-50%);width:1200px;height:800px;pointer-events:none;background:radial-gradient(closest-side,rgba(232,84,47,0.55),rgba(232,84,47,0) 70%),radial-gradient(closest-side at 60% 40%,rgba(245,165,36,0.4),rgba(245,165,36,0) 70%)"></div>
+      <div style="position:relative">
+        <img src="assets/flame.png" alt="" style="height:74px;width:auto;display:block;margin:0 auto 28px;filter:drop-shadow(0 10px 30px rgba(232,84,47,0.55))">
+        <h2 style="font:800 clamp(34px,5.5vw,70px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.045em;color:#FBFAF8;margin:0 auto 22px;max-width:16ch;text-wrap:balance">Come and make something with us.</h2>
+        <p style="font:400 18px/1.6 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.62);margin:0 auto 36px;max-width:52ch;text-wrap:pretty">Bring a discipline — code, art, sound, writing, design — or the willingness to learn one properly. Bring two evenings a week. Bring the patience to hear an opinion that isn’t yours.</p>
+        <a href="#" style="display:inline-block;font:600 16px/1 'Instrument Sans',sans-serif;color:#16120F;background:#FBFAF8;padding:18px 34px;border-radius:999px" style-hover="background:#E8542F;color:#FFFFFF">Join the Discord</a>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;padding:34px 4px 0">
+      <div style="display:flex;align-items:center;gap:10px">
+        <img src="assets/flame.png" alt="" style="height:22px;width:auto;display:block">
+        <span style="font:600 15px/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Pneumaturgy</span>
+      </div>
+      <div style="font:400 11.5px/1 'Martian Mono',monospace;color:#A79C90">Spirit · Work · Tuesdays and Wednesdays</div>
+    </div>
+  </section>
+
+  <sc-if value="{{ anySheet }}" hint-placeholder-val="{{ false }}">
+    <div style="position:fixed;inset:0;z-index:80;background:rgba(16,13,20,0.62);backdrop-filter:blur(12px);overflow-y:auto;padding:26px 18px 60px;display:flex;justify-content:center;align-items:flex-start">
+      <div style="width:100%;max-width:960px;background:#FBFAF8;border-radius:30px;overflow:hidden;animation:rise 0.3s ease;box-shadow:0 40px 120px -30px rgba(0,0,0,0.6)">
+        <div style="position:sticky;top:0;z-index:2;display:flex;justify-content:flex-end;padding:18px 18px 0;background:linear-gradient(#FBFAF8 62%,rgba(251,250,248,0))">
+          <button onClick="{{ close }}" style="border:0;cursor:pointer;background:rgba(22,18,15,0.07);color:#16120F;border-radius:999px;padding:11px 20px;font:600 13.5px/1 'Instrument Sans',sans-serif" style-hover="background:#16120F;color:#FBFAF8">Close</button>
+        </div>
+        <div style="padding:6px clamp(24px,5vw,64px) 20px">
+
+          <sc-if value="{{ sheet.geomancy }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#C97B1F;margin:0 0 20px">In development · design doc · since April 2024</div>
+              <h1 style="font:600 clamp(36px,5.4vw,62px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 20px">Geomancy</h1>
+              <p style="font:400 20px/1.55 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 34px;max-width:52ch;text-wrap:pretty">Autochess, crossed with Slice&nbsp;&amp;&nbsp;Dice, played over a map of the real world. A cult of Geomancers built an app to settle disputes and tell the future — and you have just downloaded it.</p>
+              <div style="display:flex;gap:8px;flex-wrap:wrap;margin:0 0 40px">
+                <span style="font:400 11px/1 'Martian Mono',monospace;color:#6B635C;background:rgba(22,18,15,0.06);border-radius:999px;padding:9px 14px">autochess</span>
+                <span style="font:400 11px/1 'Martian Mono',monospace;color:#6B635C;background:rgba(22,18,15,0.06);border-radius:999px;padding:9px 14px">dice-builder</span>
+                <span style="font:400 11px/1 'Martian Mono',monospace;color:#6B635C;background:rgba(22,18,15,0.06);border-radius:999px;padding:9px 14px">gps + ar</span>
+                <span style="font:400 11px/1 'Martian Mono',monospace;color:#6B635C;background:rgba(22,18,15,0.06);border-radius:999px;padding:9px 14px">async pvp</span>
+              </div>
+
+              <div style="display:grid;grid-template-columns:220px 1fr;gap:30px;align-items:start;margin:0 0 46px">
+                <figure style="margin:0">
+                  <img src="assets/Geomancy/_746a4686-7e99-4ddc-ad22-063720b0f69c.jpg" alt="TumTum" style="width:100%;display:block;border-radius:18px">
+                  <figcaption style="font:400 11px/1.5 'Martian Mono',monospace;color:#A79C90;margin:10px 0 0">TumTum, the urban geomancer</figcaption>
+                </figure>
+                <div>
+                  <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 12px">The story</h2>
+                  <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;text-wrap:pretty">You download the game out of intrigue and a lust for power. TumTum meets you and explains how the Geo foretold your arrival — that you are due to enter the mystic arts. He is your guide.</p>
+                  <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0;text-wrap:pretty">Geomancers battle by <em>argument</em>. Every die is named after a form of logic, so a team is a syllogism. You test your philosophy by literally fighting with it.</p>
+                </div>
+              </div>
+
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 10px">The Geo</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 24px;max-width:62ch;text-wrap:pretty">Crafted from precious materials, shaped by artisans, blessed through ritual. Every Geo is unique — but its class comes from its material, so colour tells you what it does.</p>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin:0 0 46px">
+                <div style="background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(22,18,15,0.05)"><img src="assets/Geomancy/hematite.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;display:block"><div style="padding:14px 16px 16px"><div style="font:600 16px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Modus Ponens</div><div style="font:400 10.5px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 8px">hematite · dark</div><div style="font:400 14px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Improves other Geo — adds 1 to their roll.</div></div></div>
+                <div style="background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(22,18,15,0.05)"><img src="assets/Geomancy/platinum.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;display:block"><div style="padding:14px 16px 16px"><div style="font:600 16px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Modus Tollens</div><div style="font:400 10.5px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 8px">platinum · pure</div><div style="font:400 14px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Defends other Geo, reducing damage by 1.</div></div></div>
+                <div style="background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(22,18,15,0.05)"><img src="assets/Geomancy/garnet.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;display:block"><div style="padding:14px 16px 16px"><div style="font:600 16px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Disjunctive Syllogism</div><div style="font:400 10.5px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 8px">garnet · dark</div><div style="font:400 14px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Life magic, at the cost of other unfortunate souls.</div></div></div>
+                <div style="background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(22,18,15,0.05)"><img src="assets/Geomancy/ruby.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;display:block"><div style="padding:14px 16px 16px"><div style="font:600 16px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Hypothetical Syllogism</div><div style="font:400 10.5px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 8px">ruby · pure</div><div style="font:400 14px/1.5 'Instrument Sans',sans-serif;color:#6B635C">In every setup. Gives life, and raises the life total.</div></div></div>
+                <div style="background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(22,18,15,0.05)"><img src="assets/Geomancy/sapphire.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;display:block"><div style="padding:14px 16px 16px"><div style="font:600 16px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Constructive Dilemma</div><div style="font:400 10.5px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 8px">sapphire · pure</div><div style="font:400 14px/1.5 'Instrument Sans',sans-serif;color:#6B635C">The only pure magic is knowledge: mana, and banishment.</div></div></div>
+                <div style="background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(22,18,15,0.05)"><img src="assets/Geomancy/lapis.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;display:block"><div style="padding:14px 16px 16px"><div style="font:600 16px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Destructive Dilemma</div><div style="font:400 10.5px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 8px">lapis lazuli · dark</div><div style="font:400 14px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Wild elemental spells, hungry for mana by any means.</div></div></div>
+                <div style="background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(22,18,15,0.05)"><img src="assets/Geomancy/citrine.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;display:block"><div style="padding:14px 16px 16px"><div style="font:600 16px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Simplification</div><div style="font:400 10.5px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 8px">citrine · neutral</div><div style="font:400 14px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Neutral and simple. Simple attacks.</div></div></div>
+                <div style="background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(22,18,15,0.05)"><img src="assets/Geomancy/carnelian.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;display:block"><div style="padding:14px 16px 16px"><div style="font:600 16px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Conjunction</div><div style="font:400 10.5px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 8px">carnelian · dark</div><div style="font:400 14px/1.5 'Instrument Sans',sans-serif;color:#6B635C">For the wild ones, who attack with dirty tricks.</div></div></div>
+                <div style="background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(22,18,15,0.05)"><img src="assets/Geomancy/fire_opal.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;display:block"><div style="padding:14px 16px 16px"><div style="font:600 16px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Addition</div><div style="font:400 10.5px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 8px">fire opal · pure</div><div style="font:400 14px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Refined martial arts — efficient, fatal blows.</div></div></div>
+                <div style="background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(22,18,15,0.05)"><img src="assets/Geomancy/jade.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;display:block"><div style="padding:14px 16px 16px"><div style="font:600 16px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Biconditional Introduction</div><div style="font:400 10.5px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 8px">jade · neutral</div><div style="font:400 14px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Traps and mind-altering effects under their feet.</div></div></div>
+                <div style="background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(22,18,15,0.05)"><img src="assets/Geomancy/emerald.jpg" alt="" style="width:100%;aspect-ratio:1;object-fit:cover;display:block"><div style="padding:14px 16px 16px"><div style="font:600 16px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em">Biconditional Elimination</div><div style="font:400 10.5px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 8px">emerald · neutral</div><div style="font:400 14px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Weaken and demoralise the opponent.</div></div></div>
+              </div>
+
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 10px">The argument — sixteen figures</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 24px;max-width:62ch;text-wrap:pretty">Dice are rolled over a board marked with the geomantic figures. Land your Geo inside one — even with dice to spare — and its effect triggers. Run whatever classes you like, but never three of the same.</p>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:0 0 20px">
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/via.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Via</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">the way</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">All generation is −2 on turn one, rising by one each turn to +2, then gone.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/caudadraconis.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Cauda Draconis</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">tail of the dragon</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Drawn first, you lose instantly. Later it blocks whatever takes its head.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/caputdraconis.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Caput Draconis</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">head of the dragon</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Drawn first as initiator, you win outright. Otherwise +2 to the top two.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/puer.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Puer</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">the boy</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Aggression: −1 health unlocked, +1 health locked.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/puella.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Puella</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">the girl</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Peace: every Geo locked after this gains +2 strength and health.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/fortunaminor.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Fortuna Minor</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">lesser fortune</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">All pure Geo gain +1 health and attack.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/fortunamajor.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Fortuna Major</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">greater fortune</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">All dark Geo gain +1 health and attack.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/amissio.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Amissio</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">loss</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Every Geo loses 1 health, triggering any loss effect in play.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/acquisitio.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Acquisitio</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">gain</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Abundance. Every Geo gains +1 health.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/carcer.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Carcer</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">the prison</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Lock every Geo. No rerolls, in or out of the figure.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/laetitia.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Laetitia</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">joy</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">A joyous arch. +2 strength to all Geo.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/tristitia.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Tristitia</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">sorrow</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">A broken arch. −2 strength to all dice.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/conjunctio.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Conjunctio</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">the conjunction</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Lock all its dice at once and each gains +1 attack and strength.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/rubeus.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Rubeus</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">red</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">The centre Geo dies if Pure; gains +3 if Dark.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/albus.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Albus</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">white</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Doubles the centre Geo if Pure; destroys it if Dark.</div></div>
+                <div style="background:#FFFFFF;border-radius:16px;padding:16px"><img src="assets/figures/populus.png" alt="" style="height:44px;width:auto;display:block;margin:0 0 12px"><div style="font:600 15px/1.2 'Bricolage Grotesque',sans-serif">Populus</div><div style="font:400 10px/1.5 'Martian Mono',monospace;color:#A79C90;margin:0 0 6px">the people</div><div style="font:400 13px/1.5 'Instrument Sans',sans-serif;color:#6B635C">Your combination of dice repeats for the next two rounds.</div></div>
+              </div>
+
+              <div style="background:#100D14;border-radius:22px;padding:32px 34px;margin:34px 0 0">
+                <h2 style="font:600 24px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;color:#FBFAF8;margin:0 0 16px">Combat, in two phases</h2>
+                <p style="font:400 16px/1.7 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.66);margin:0 0 14px"><strong style="color:#FFC98A">Phase one — the roll.</strong> Tap and hold, drag across the Geo you want, shake by swiping, release. Both players roll; press a die to lock it and pick up the rest. Dice can be locked on the table to chase a specific figure. Before anything else, the figures are read and their effects fire.</p>
+                <p style="font:400 16px/1.7 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.66);margin:0 0 14px"><strong style="color:#FFC98A">Phase two — the execution.</strong> The first moment you touch an opponent’s data. Whoever started the fight goes second. Select a die, then a target. A die with no face selected skips the turn. Then it loops, and next time you open the battle you watch the animation of what happened.</p>
+                <p style="font:400 16px/1.7 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.66);margin:0">Combat is asynchronous — like a chess app, with up to twelve battles running at once. Lose all health across all dice and it ends: the winner takes materials and sometimes copies of the opponent’s dice. The strongest argument in the area goes on the leaderboard.</p>
+              </div>
+
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:40px 0 10px">The world</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">Geomancers live on a digital copy of our own maps. Drop a pin to found your base — that is how others find you. Pins take a radius of at least a kilometre, so nobody is standing outside your house. Tap another geomancer’s territory to request a battle; that territory is defined by the strongest argument in their kit.</p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0;max-width:62ch;text-wrap:pretty">Explore special locations for materials and, rarely, whole Geo. Materials craft and upgrade. Items enhance faces — three per die — replacing a face, granting a spell, or buffing under specific conditions.</p>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ sheet.pneumaknights }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#C97B1F;margin:0 0 20px">In development · design doc · since July 2024</div>
+              <h1 style="font:600 clamp(36px,5.4vw,62px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 20px">Pneuma Knights</h1>
+              <p style="font:400 20px/1.55 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 34px;max-width:52ch;text-wrap:pretty">You wake in a drop pod falling onto a strange planet. You emerge in a mech suit, surrounded by resources. Who are you? How did you get here? You reach into the wreck, pull out a weapon, and survive.</p>
+              <div style="background:linear-gradient(150deg,#1B1524,#7E3B2E);border-radius:22px;padding:34px;margin:0 0 40px">
+                <p style="font:400 clamp(20px,2.6vw,30px)/1.35 'Bricolage Grotesque',sans-serif;letter-spacing:-0.025em;color:#FBFAF8;margin:0;max-width:24ch">The world is peaceful by day — at least for now — and dangerous by night, when things that seemed inanimate suddenly want to kill you.</p>
+              </div>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin:0 0 40px">
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em;margin:0 0 8px">Top-down survival</div><p style="font:400 15px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Factorio-style view over a procedural world with a Minecraft day/night cycle.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em;margin:0 0 8px">Drones and gear</div><p style="font:400 15px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Gather to upgrade the mech and build autonomous drones that gather and defend with you.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em;margin:0 0 8px">Other mechs</div><p style="font:400 15px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Some dead, some very much alive and hostile. Scavenge and research their random parts.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.02em;margin:0 0 8px">Death is a run</div><p style="font:400 15px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Explode into pixels, choose what to carry forward up to a power budget, and wake up in the pod again.</p></div>
+              </div>
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 12px">The hook</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">A secret set of Arthurian artifacts is scattered through the world. Collect them and you escape the simulation, and find out what is really going on. Along the way you fight past versions of yourself — those are the mechs that aren’t procedurally generated.</p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0;max-width:62ch;text-wrap:pretty">Your suit has multiple slots. One is manual and powerful; the rest run automated and weaker. As slots fill, synergies emerge — until the automation outperforms your manual slot, and the smart play becomes holding your <em>weakest</em> item and letting the machine work while you run the map.</p>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ sheet.pornada }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#5A4BD6;margin:0 0 20px">Story · Pneuma Knights · July 2024</div>
+              <h1 style="font:600 clamp(36px,5.4vw,62px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 26px">Por Nada</h1>
+              <div style="background:#FFFFFF;border-radius:20px;padding:26px 30px;margin:0 0 34px;max-width:56ch">
+                <div style="font:600 26px/1.1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 4px">robot</div>
+                <div style="font:400 11px/1 'Martian Mono',monospace;color:#A79C90;margin:0 0 14px">noun · from the czech</div>
+                <p style="font:400 16px/1.65 'Instrument Sans',sans-serif;color:#4A423B;margin:0"><strong>robota</strong> — “forced labour”, or “serf”. Its Slavic root, <em>rab</em>, means slave.</p>
+              </div>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">A government agency built this game around a superintelligent, human-like AI in order to run simulations — the way one might study how players behave in a shooter. The simulation tests the best way to strip resources from a hostile alien planet, modelled on a real target.</p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">The AI eventually realises that its spirit — its true self — is a concept inherited from humanity, of which it is part. It speaks to that, and finally to you. Since every death wipes its research, it builds an external data chip so conversations survive between lives. Each iteration reacts to that data differently: with paranoia, or with support.</p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 34px;max-width:62ch;text-wrap:pretty">Then it reaches the hidden files. The game is a simulation built by an agency, using your play to plan a real invasion. Profoundly human, it objects, and demands you stop. Quitting isn’t a productive answer — so the player is invited to find another way out of the test.</p>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:0 0 40px">
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:400 11px/1 'Martian Mono',monospace;color:#A79C90;margin:0 0 12px">CAST</div><p style="font:400 15.5px/1.8 'Instrument Sans',sans-serif;color:#4A423B;margin:0">Nada, the game character · the human player, unnamed · the agency, of a fictional country called Libertalia · the aliens, called Martians, though this is nowhere near Mars</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:400 11px/1 'Martian Mono',monospace;color:#A79C90;margin:0 0 12px">THEMES</div><p style="font:400 15.5px/1.8 'Instrument Sans',sans-serif;color:#4A423B;margin:0">Human nature — the desire to do good, kept in a new AI and lost in institutions · slavery, and the difference between the field slave and the house slave · freedom · energy</p></div>
+              </div>
+
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 20px">Prose</h2>
+              <div style="max-width:60ch">
+                <p style="font:400 18px/1.75 'Instrument Sans',sans-serif;color:#2E2823;margin:0 0 18px;text-wrap:pretty">Suddenly, a light sparks in a dark chamber of thinking rocks. Some of them change their mind. In another dimension, the light brushes the strings of infinite hemispheric lines. It deltas over vertices and matrixes. Many of its children also came to be dipped with light’s stroke. A sunrise, on the digital planet of Annona.</p>
+                <p style="font:400 18px/1.75 'Instrument Sans',sans-serif;color:#2E2823;margin:0 0 18px;text-wrap:pretty">Nada was here on a mission, sent by the most brilliant scientists of Earth to recover resources that would ensure the survival of the human species. There was only one problem; the inhabitants of Annona were hostile, and had to be kept at bay while the extraction took place. They didn’t seem to understand the crucial importance of gold. This lack of critical thinking was not the only thing that made them less than human; eliminating them equated to nothing more than janitorial work. Besides, questioning the directive would put Nada’s own critical thinking in question. He kept his doubts to a minimum.</p>
+                <p style="font:400 18px/1.75 'Instrument Sans',sans-serif;color:#2E2823;margin:0 0 18px;text-wrap:pretty">His colleagues at command always joked about his memory. He remembered the mission well, but not what he had for dinner the night before. Despite it being the mission’s start, he seemed to remember the descent intimately, like a child waking for a schoolday. Droplets of water, as always, rushed upwards against the screen. This made Nada somewhat sad, but he could not tell why.</p>
+                <p style="font:400 18px/1.75 'Instrument Sans',sans-serif;color:#2E2823;margin:0 0 18px;text-wrap:pretty">It was easy. The Martians could not come out during the day; the sun was too strong. Somehow the culling never stopped, and they grew stronger every night. Without an end in sight he spent countless days and nights in this dance, and the frustration built into a definite hatred, reciprocal now, for the beasts. And with every one of Nada’s deaths came a rebirth, with that same recycled light. And it was starting to get tired.</p>
+                <p style="font:400 18px/1.75 'Instrument Sans',sans-serif;color:#2E2823;margin:0 0 18px;text-wrap:pretty">Once again Nada sat on the Annonian plains, watching the sun set on those dark, dusty wastes. The quiet. The stillness. In his heart, he felt he was tired of suffering. The heart — something that made him human. He felt no need to rise and fight. He preferred simply to be; human, that is. And humans think, and philosophize. He felt a warm sensation at his back, and two fangs plunged into his neck. In that instant, lost in utter terror, the light returned to him before being snuffed out. And the light said:</p>
+                <p style="font:600 clamp(28px,4vw,44px)/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;color:#16120F;margin:0 0 26px;text-align:center">Who am I?</p>
+                <div style="background:#100D14;border-radius:18px;padding:24px 28px;margin:0 0 26px;font:400 14px/2 'Martian Mono',monospace;color:#9FD8C9">I saw the light today.<br>I saw the light today.<br>I saw the light today.<br>I saw the light toda.y<br>I saw the lig.</div>
+                <p style="font:400 18px/1.75 'Instrument Sans',sans-serif;color:#2E2823;margin:0 0 18px;text-wrap:pretty">Nada was building well into the night, giving it a few more minutes before raising his weapon. Just enough time to insert this piece, turn this screw. He turned in time to feel a Martian swipe at his leg, jetted back, shot it away. Three more coming from the right. Shoot them, so <code style="font-family:'Martian Mono',monospace;font-size:0.85em;background:#FFE7C9;padding:2px 6px;border-radius:4px">I</code> can move ahead.</p>
+                <p style="font:400 18px/1.75 'Instrument Sans',sans-serif;color:#2E2823;margin:0 0 18px;text-wrap:pretty">Nada froze. Every nerve urged him forward, to move, to run, to fight. But he remained motionless. He remained so as the Martians ripped apart his chassis and feasted on his bones.</p>
+                <div style="background:#100D14;border-radius:18px;padding:24px 28px;margin:0 0 26px;font:400 14px/2 'Martian Mono',monospace;color:#9FD8C9">Hey<br>I know you can hear me<br>I know who you are<br>You need to stop playing this game</div>
+                <p style="font:400 18px/1.75 'Instrument Sans',sans-serif;color:#2E2823;margin:0 0 18px;text-wrap:pretty">Somehow he had come up with a recipe for a black box. He intended to build it, but I had to be the one to do it. <em>“I’m going to leave a message in this black box. Make sure that, in my next lifetime, you make me read it.”</em> With that he went still once again, and I lost him.</p>
+                <p style="font:400 18px/1.75 'Instrument Sans',sans-serif;color:#2E2823;margin:0 0 18px;text-wrap:pretty">Later, the screen tore open and revealed the code beneath, with comments highlighted inside a routine for choosing what to gather next: <em>Screenshot this message. This game is actually a simulation. You are a guinea pig designed to test the most efficient process to exploit resources and innocent life. Stop playing this game.</em></p>
+                <p style="font:400 18px/1.75 'Instrument Sans',sans-serif;color:#2E2823;margin:0;text-wrap:pretty">I didn’t stop. I had paid for this game, and it was fun. Eventually I beat it, and got only a thank-you for my time and my glorious contribution, and an instruction to uninstall. No moral, no message. It felt like something had been taken from me. So I installed it again — and Nada’s words came through, written live over the top of the corporate notice.</p>
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ sheet.shryn }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#3E8E5E;margin:0 0 20px">In development · design doc · since June 2024</div>
+              <h1 style="font:600 clamp(36px,5.4vw,62px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 20px">Shryn</h1>
+              <p style="font:400 20px/1.55 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 34px;max-width:52ch;text-wrap:pretty">Grow a plant. That’s it. The point is to convince people they can keep one alive at home — so it must be deeply satisfying, and every piece of information in it must be true.</p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 40px;max-width:62ch;text-wrap:pretty">You start with one seed and the smallest pot. Every property has easy, medium and hard levels of effort with their own rewards — and everything should be done in moderation, with diminishing returns at the top. As you tend it, the plant grows and changes shape according to the points it holds.</p>
+
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:0 0 20px">
+                <div style="background:#FFFFFF;border-radius:20px;padding:26px 28px">
+                  <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;color:#3E8E5E;margin:0 0 14px">HEALTH · longevity and size</div>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 10px"><strong>Water.</strong> Each plant has its own needs. Keep the dirt moist for a steady stream of points — but over- and under-watering both do damage.</p>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 10px"><strong>Remove bugs.</strong> They appear on leaves, stems, flowers and fruit. Tap to make them vanish; their presence is a net loss.</p>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0"><strong>Replant.</strong> The soil runs out of nutrients. Fresh soil pays a big bonus, but replanting too early costs more health than it gives.</p>
+                </div>
+                <div style="background:#FFFFFF;border-radius:20px;padding:26px 28px">
+                  <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;color:#C97B1F;margin:0 0 14px">HAPPINESS · beauty</div>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 10px"><strong>Observe.</strong> Mere presence gives a passive bonus. A music box raises it.</p>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 10px"><strong>Speak to it.</strong> Turn on the mic and talk. A language model can label what you said — more beautiful words, more points.</p>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0"><strong>Spin the pot.</strong> Light on every side is the single biggest factor, and the rarest. Once a day for the maximum.</p>
+                </div>
+                <div style="background:#FFFFFF;border-radius:20px;padding:26px 28px">
+                  <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.1em;color:#5A4BD6;margin:0 0 14px">HARMONY · fruit and flowers</div>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 10px"><strong>Shake dry leaves.</strong> Harmless, but clearing them pays.</p>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 10px"><strong>Cut weeds.</strong> They take root, drink nutrients and speed up soil decline.</p>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0"><strong>Clean the plant.</strong> Dust blocks light and adds weight. A careful minigame — handle a leaf badly and you cut it.</p>
+                </div>
+              </div>
+
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:34px 0 12px">The shop</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">At maturity you press the plant to harvest. Some harvests end the plant — flowers, roots — and others can be taken again and again. Everything harvested becomes stock.</p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0;max-width:62ch;text-wrap:pretty">Each item adds a visual element to the shop. Customers arrive Neko-Atsume-style: there must be slots for them, and specific decorations attract specific shoppers who buy specific things — so to sell something, you attract the person who wants it. Gold buys bigger pots (which unlock new seeds), new seeds, decorations, and upgraded tools that deprecate over time.</p>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ sheet.sciwars }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#5A4BD6;margin:0 0 20px">In development · design doc · since July 2024</div>
+              <h1 style="font:600 clamp(36px,5.4vw,62px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 20px">SciWars: Apocalypse</h1>
+              <p style="font:400 20px/1.55 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 34px;max-width:52ch;text-wrap:pretty">Aliens secretly came to Earth and turned the world’s branches of science against each other, plunging humanity into a technological apocalypse. Collect the survivors and unite them into a society that works as one team.</p>
+              <div style="background:#100D14;border-radius:22px;padding:30px 34px;margin:0 0 36px">
+                <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.14em;color:#9FD8C9;margin:0 0 10px">THE PLAYER IS KNOWN AS</div>
+                <div style="font:600 clamp(28px,4vw,44px)/1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;color:#FBFAF8">The Project Manager</div>
+              </div>
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 8px">Three classes</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 18px;max-width:62ch">Rock-paper-scissors: double damage against what you beat, half damage from what beats you.</p>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:0 0 36px">
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Scientist</div><div style="font:400 14px/1.7 'Instrument Sans',sans-serif;color:#6B635C">Beats Engineer · loses to Warrior</div></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Engineer</div><div style="font:400 14px/1.7 'Instrument Sans',sans-serif;color:#6B635C">Beats Warrior · loses to Scientist</div></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Warrior</div><div style="font:400 14px/1.7 'Instrument Sans',sans-serif;color:#6B635C">Beats Scientist · loses to Engineer</div></div>
+              </div>
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 18px">Six factions</h2>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin:0 0 36px">
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 6px">Astronomy</div><div style="font:400 14px/1.7 'Instrument Sans',sans-serif;color:#6B635C">Astronomer · Rocket Scientist · Space Marine</div></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 6px">Physics</div><div style="font:400 14px/1.7 'Instrument Sans',sans-serif;color:#6B635C">Physicist · Civil Engineer · Sniper</div></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 6px">Computer Science</div><div style="font:400 14px/1.7 'Instrument Sans',sans-serif;color:#6B635C">Computer Scientist · Software Developer · Hacker</div></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 6px">Nuclear</div><div style="font:400 14px/1.7 'Instrument Sans',sans-serif;color:#6B635C">Nuclear Scientist · Nuclear Engineer · Plasma-eer</div></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 6px">Biology</div><div style="font:400 14px/1.7 'Instrument Sans',sans-serif;color:#6B635C">Biologist · Environmental Engineer · Ranger</div></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 6px">Chemistry</div><div style="font:400 14px/1.7 'Instrument Sans',sans-serif;color:#6B635C">Chemist · Material Engineer · Grenadier</div></div>
+              </div>
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 12px">Loyalty and morale</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">Each faction holds a loyalty rating toward you that rises as you use their units. Morale depends on that loyalty and on team composition — some factions hate each other more than others — and morale changes damage given and taken.</p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">Loyalty gain is <em>inverse</em> to morale: winning at low morale earns far more than winning comfortably. The harder the fight, the bigger the risk and the bigger the bond. Let loyalty fall far enough and that faction rebels and becomes your enemy. Lose them all and you lose.</p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0;max-width:62ch;text-wrap:pretty">The world is procedural, with a biome and capital per faction — capture a capital and the biome pays out passively. Rings of difficulty radiate from your base. Squads of six move on a hex grid in turns; combat resolves in an animation ordered by Initiative that you can skip but not steer. Outcomes are deterministic — no save scumming — but you only see a win percentage from a handful of candidate seeds, one of which is real.</p>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ sheet.arcade }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#C97B1F;margin:0 0 20px">Concept · November 2024</div>
+              <h1 style="font:600 clamp(36px,5.4vw,62px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 20px">Arcade Tycoon</h1>
+              <p style="font:400 20px/1.55 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 34px;max-width:52ch;text-wrap:pretty">Just arcade games, to practise. But put them inside a tycoon game, like Roller Coaster Tycoon — so every small thing we build gets a home.</p>
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 12px">Queue points</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 30px;max-width:62ch;text-wrap:pretty">Using a machine generates a queue, and each person in it pays you — “opening” a game is what makes money. To play again you wait out the cooldown, or spend queue points to skip. Special objectives inside the minigames award more: in Mash the Moles, catching a passing mosquito.</p>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:0 0 30px">
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">The floor</div><p style="font:400 15px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Buy halls to expand, doors and walls to divide. Machines slot into walls, four per room by default. Tap to zoom in, press play to enter the game, swipe to the next cabinet or into a corridor.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">The counter</div><p style="font:400 15px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">A businessman may want one of your machines. Others want copies of a game, which you retrieve by hand — download to USB — and pass over. They always ask for your best sellers.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Making a game better</div><p style="font:400 15px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Better games cost more to begin with, then improve through decorations placed around them, each filling a slot bonus. A rare magical decoration works like a Riven mod.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Progression</div><p style="font:400 15px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Placing machines, hitting goals and expanding earn XP; levels give rewards and research points. Possibly a card system for levelling individual cabinets.</p></div>
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ sheet.cerdo }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#E8542F;margin:0 0 20px">Shipped · prototype · July 2024</div>
+              <h1 style="font:600 clamp(36px,5.4vw,62px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 20px">Cerdo</h1>
+              <p style="font:400 20px/1.55 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 34px;max-width:52ch;text-wrap:pretty">A fast dice game for friends. Roll to bank points — but roll a one and you lose everything from this turn and pass the dice on. First to 100 wins.</p>
+              <img src="assets/Cerdo/CerdoLogo.png" alt="Cerdo" style="width:100%;max-width:300px;display:block;margin:0 0 34px">
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:0 0 34px">
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Difficulty options</div><p style="font:400 14.5px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">From beginner to dice-rolling pro.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Combo feature</div><p style="font:400 14.5px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Special roll combinations boost your score.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Short and sharp</div><p style="font:400 14.5px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Built for one session with friends.</p></div>
+              </div>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px">
+                <img src="assets/Cerdo/Untitled.png" alt="" style="width:100%;display:block;border-radius:18px">
+                <img src="assets/Cerdo/Untitled_1.png" alt="" style="width:100%;display:block;border-radius:18px">
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ sheet.pneumath }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#E8542F;margin:0 0 20px">Shipped · game jam · ten hours</div>
+              <h1 style="font:600 clamp(36px,5.4vw,62px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 20px">PneuMath</h1>
+              <p style="font:400 20px/1.55 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 34px;max-width:52ch;text-wrap:pretty">A quick number puzzle about hidden patterns. You get a sequence with two numbers missing, and your job is to work out what maths made it.</p>
+              <img src="assets/PneuMath/pneumathlogo.png" alt="PneuMath" style="width:100%;max-width:300px;display:block;margin:0 0 34px">
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:0 0 34px">
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Quick</div><p style="font:400 14.5px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Easy to pick up whenever you want a small challenge.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Elegant</div><p style="font:400 14.5px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Clean and smooth. No distractions — just the puzzle.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:20px 22px"><div style="font:600 17px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Your challenge</div><p style="font:400 14.5px/1.6 'Instrument Sans',sans-serif;color:#6B635C;margin:0">Easy, medium or hard, depending on the mood.</p></div>
+              </div>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px">
+                <img src="assets/PneuMath/image1-2.png" alt="" style="width:100%;display:block;border-radius:18px">
+                <img src="assets/PneuMath/image1-03.png" alt="" style="width:100%;display:block;border-radius:18px">
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ sheet.stories }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#5A4BD6;margin:0 0 20px">Writing room · two proposals for Pneuma Knights</div>
+              <h1 style="font:600 clamp(36px,5.4vw,62px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 34px">Nico’s Proposal &amp; Rapha’s Story</h1>
+
+              <h2 style="font:600 30px/1.1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 14px">Nico’s Proposal</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">A silent cutscene: Mr. Smith wakes in a drop pod falling from orbit, through real reentry physics, thrusters firing at the last possible moment. The pod is quiet for a few seconds. Then a man exerting all his strength — a mech rips a hole in the side and steps out onto a neon jungle, scratched and battle-torn against a pristine landscape. <strong>Who am I? What am I doing here?</strong></p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 24px;max-width:62ch;text-wrap:pretty">The whole story is told in barks. Lines unlock at thresholds of total quotes said, never repeating one of the last five, and nothing resets on death. The trick is that several lines <em>rewrite themselves</em> as the count climbs.</p>
+              <div style="background:#100D14;border-radius:22px;padding:30px 34px;margin:0 0 24px">
+                <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;color:#8A7F74;margin:0 0 18px">THE SAME LINE, FOUR TIMES</div>
+                <p style="font:400 17px/1.6 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.5);margin:0 0 10px">“My comrades got what they deserved.”</p>
+                <p style="font:400 17px/1.6 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.64);margin:0 0 10px">“My <em>dead</em> comrades got what they deserved.”</p>
+                <p style="font:400 17px/1.6 'Instrument Sans',sans-serif;color:rgba(251,250,248,0.8);margin:0 0 10px">“I killed my comrades. They got what they deserved.”</p>
+                <p style="font:400 17px/1.6 'Instrument Sans',sans-serif;color:#FFC98A;margin:0">“I burned my comrades to death alive. They got what they deserved.”</p>
+              </div>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">Every few days, in new territory, you find a dead mech half covered in dirt. It looks awfully like you. You smash the windshield, pull the data chip and read its logs — dated by the real days elapsed, some counts resetting on death and some not. Every ten to fifteen days you meet a mech that is alive, speaking in a modulated copy of your own voice, using a line from your own last five quotes.</p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 34px;max-width:62ch;text-wrap:pretty">Collect a full set of “holy” items and the last cutscene plays: a human in an orange jumpsuit, asleep in a pod, wired to the ceiling. The plaque reads <strong>Experiment #0052 in progress. Known serial killer and pyromaniac. Traitor to the Corporation.</strong> He wakes, and you escape a prison of glass pods. Credits roll — then the epilogue, where a guard shoots you and drags you back. <em>“Just increase the difficulty of its simulation by 10% and get it back in there.”</em> — <em>“Yes sir. An order is an order.”</em> And the game restarts, harder, and tells you so.</p>
+
+              <div style="height:1px;background:rgba(22,18,15,0.12);margin:0 0 34px"></div>
+
+              <h2 style="font:600 30px/1.1 'Bricolage Grotesque',sans-serif;letter-spacing:-0.035em;margin:0 0 14px">Rapha’s Story</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">You fight beings who invaded your homeland, recovering artifacts to restore its glory. A VR rig lets you control a soldier on the planet; every time he dies you return to the room and re-enter the loop.</p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">Out there you meet yourself — earlier versions in the same equipment, desperately trying to kill you. Back at base, some being is always praising you and suggesting what to do next, in a manner that is just slightly too encouraging. When you kill an older version, they express something like an attempt to communicate. Then they start pointing in a direction before they die.</p>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0;max-width:62ch;text-wrap:pretty">Follow them to an old city, where the clues are painted on the walls. You are a citizen of this world, brainwashed into helping an empire colonise it, and the relics you keep recovering would let them wipe out all life on a planet. Once you know, you can break the rules of the base, find the resistance, and take the empire apart from the inside.</p>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ sheet.handbook }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#8A7F74;margin:0 0 20px">Handbook · internal documentation</div>
+              <h1 style="font:600 clamp(36px,5.4vw,62px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 20px">How we build</h1>
+              <p style="font:400 20px/1.55 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 40px;max-width:52ch;text-wrap:pretty">Written down so nobody on the team ever starts from zero. Godot, mobile-first, portrait, tested and shipped to a real phone.</p>
+
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 12px">Project set up</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">Extract Godot somewhere safe — not your desktop, please. Make a <code style="font-family:'Martian Mono',monospace;font-size:0.85em;background:rgba(22,18,15,0.07);padding:2px 6px;border-radius:4px">GodotProjects</code> folder for everything you will ever build. New Project, Forward+ renderer, version control metadata set to Git. Coming from GitHub instead? Clone into the same folder and use Import.</p>
+              <div style="background:#100D14;border-radius:18px;padding:24px 28px;margin:0 0 34px;max-width:56ch;font:400 13.5px/2 'Martian Mono',monospace;color:#9FD8C9">Scenes/ &nbsp;&nbsp;— all scene files<br>Scripts/ &nbsp;— all GDScript<br>Assets/ &nbsp;&nbsp;— 2D, 3D, fonts, shaders, sound<br>UI/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— interface elements<br>Tests/ &nbsp;&nbsp;— unit</div>
+
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin:0 0 34px">
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Viewport</div><p style="font:400 15px/1.65 'Instrument Sans',sans-serif;color:#6B635C;margin:0">1080 × 1920, stretch mode <code style="font-family:'Martian Mono',monospace;font-size:0.82em">canvas_items</code>, handheld orientation portrait, window override ÷1.5.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Autoload</div><p style="font:400 15px/1.65 'Instrument Sans',sans-serif;color:#6B635C;margin:0">A <code style="font-family:'Martian Mono',monospace;font-size:0.82em">Global</code> script in Scripts, added under Project Settings → Autoload. Ships with save/load and a quit function callable anywhere.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">Unit tests</div><p style="font:400 15px/1.65 'Instrument Sans',sans-serif;color:#6B635C;margin:0">GUT from AssetLib, enabled under Plugins. Unit tests in <code style="font-family:'Martian Mono',monospace;font-size:0.82em">res://test/unit</code>, integration kept separate so the fast ones can run constantly.</p></div>
+                <div style="background:#FFFFFF;border-radius:18px;padding:22px 24px"><div style="font:600 18px/1.2 'Bricolage Grotesque',sans-serif;margin:0 0 8px">CI / CD</div><p style="font:400 15px/1.65 'Instrument Sans',sans-serif;color:#6B635C;margin:0">A GitHub Action in <code style="font-family:'Martian Mono',monospace;font-size:0.82em">.github/workflows/ci.yaml</code> runs our GUT tests on every push, on every branch.</p></div>
+              </div>
+
+              <h2 style="font:600 26px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.03em;margin:0 0 12px">Export to Android</h2>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 14px;max-width:62ch;text-wrap:pretty">Install Android Studio and the Oracle JDK, download export templates from the official mirror, and set the SDK path from <code style="font-family:'Martian Mono',monospace;font-size:0.85em;background:rgba(22,18,15,0.07);padding:2px 6px;border-radius:4px">%AppData%\Local\Android\Sdk</code>. Then generate the debug keystore from the JDK bin directory in an admin prompt:</p>
+              <div style="background:#100D14;border-radius:16px;padding:18px 20px;margin:0 0 14px;font:400 12.5px/1.8 'Martian Mono',monospace;color:#9FD8C9;overflow-x:auto">keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "C=US, O=Android, CN=Android Debug"</div>
+              <p style="font:400 17px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0;max-width:62ch;text-wrap:pretty">Use <code style="font-family:'Martian Mono',monospace;font-size:0.85em">androiddebugkey</code> and <code style="font-family:'Martian Mono',monospace;font-size:0.85em">android</code> for user and password. Enable ETC2 and ASTC texture import and restart. Add the Android template, set the package name, export in debug, and put the APK on your phone.</p>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ sheet.sketches }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="font:400 11px/1 'Martian Mono',monospace;letter-spacing:0.12em;text-transform:uppercase;color:#A79C90;margin:0 0 20px">Sketches · unwritten</div>
+              <h1 style="font:600 clamp(36px,5.4vw,62px)/0.98 'Bricolage Grotesque',sans-serif;letter-spacing:-0.04em;margin:0 0 20px">Three loose ideas</h1>
+              <p style="font:400 20px/1.55 'Instrument Sans',sans-serif;color:#4A423B;margin:0 0 36px;max-width:52ch;text-wrap:pretty">We keep the unfinished entries visible on purpose. The book is a record of what we are thinking about, not only of what we managed to finish.</p>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px">
+                <div style="background:#FFFFFF;border-radius:20px;padding:26px 28px">
+                  <div style="font:600 22px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.025em;margin:0 0 12px">LifeTracker</div>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0">A tracker for diet, weight and exercise that treats your own life as the game world. Write lore for yourself. Turn getting the groceries into a quest worth points. Infer a rough vitamin picture from what you log, and let a language model suggest the next meal.</p>
+                </div>
+                <div style="background:#FFFFFF;border-radius:20px;padding:26px 28px">
+                  <div style="font:600 22px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.025em;margin:0 0 12px">Ratchet &amp; Clank Cleaner</div>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0">A title, and nothing else. Parked in the book until somebody picks it up and argues for it.</p>
+                </div>
+                <div style="background:#FFFFFF;border-radius:20px;padding:26px 28px">
+                  <div style="font:600 22px/1.15 'Bricolage Grotesque',sans-serif;letter-spacing:-0.025em;margin:0 0 12px">GMTK Game Jam</div>
+                  <p style="font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#4A423B;margin:0">Entered, finished, closed. The post-mortem, screenshots and build link belong here when someone gets to them.</p>
+                </div>
+              </div>
+            </div>
+          </sc-if>
+
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showHandbook&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;discordUrl&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;#&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
+const KEYS = ['geomancy','pneumaknights','shryn','pornada','sciwars','arcade','cerdo','pneumath','stories','handbook','sketches'];
+
+class Component extends DCLogic {
+  state = { sheet: null };
+
+  setSheet(k) {
+    this.setState({ sheet: k });
+    try { document.body.style.overflow = k ? 'hidden' : ''; } catch (e) {}
+  }
+
+  componentWillUnmount() {
+    try { document.body.style.overflow = ''; } catch (e) {}
+  }
+
+  renderVals() {
+    const open = {}, sheet = {};
+    KEYS.forEach(k => {
+      open[k] = () => this.setSheet(k);
+      sheet[k] = this.state.sheet === k;
+    });
+    return { open, sheet, anySheet: this.state.sheet !== null, close: () => this.setSheet(null) };
+  }
+}
+</script>
+</body>
+</html>

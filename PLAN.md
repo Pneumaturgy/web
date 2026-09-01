@@ -1,0 +1,86 @@
+# Implementation plan — Pneumaturgy v2 → production site
+
+Source of truth: `design-handoff/project/Pneumaturgy v2.dc.html` (the final,
+agreed design per `design-handoff/chats/chat1.md` — dawn-lit editorial studio, Culture/Growth/Spirit cards,
+manifesto sections, "how is this different", money + conflict resolution
+side by side, work above studio in nav). This is a Claude Design prototype
+built on a proprietary runtime (`support.js`, `x-dc`/`sc-if`/`onClick="{{ }}"`
+bindings) — not meant to ship as-is per `README.md`.
+
+## Decisions made (see conversation for full context)
+
+- **Stack: plain static HTML/CSS/JS, no build step.** The source is a single
+  page (hero → work grid → studio → manifesto → join) with an in-page modal
+  ("sheet") system for 11 project detail docs — not 19 separately routed
+  pages. A framework/SSG (Astro etc.) was considered (user shared an old,
+  possibly-outdated Gemini writeup suggesting Astro+Tailwind+a social
+  auto-posting pipeline) but for this shape of content a build step adds
+  risk (npm install, translation of exact inline pixel values into a utility
+  framework) without a real benefit yet. Zero-build HTML/CSS/JS is also the
+  most resilient choice if this session gets interrupted by a usage limit —
+  every file is directly inspectable/resumable, nothing depends on an
+  install step completing. If/when the site grows into real per-project
+  routed pages or a CMS-driven pipeline, revisit.
+- **Location:** built at `/site` inside the original handoff repo first, then
+  moved to the root of its own repo, `Pneumaturgy/pneumaturgy_web` on GitHub,
+  once the user created it. The original handoff bundle (`project/`,
+  `chats/`, `README.md`) came along too, under `design-handoff/`, so nothing
+  from the Claude Design export is lost.
+- **Discord link:** left as a placeholder (`href="#"`, marked with a
+  `data-todo` comment) — user doesn't have the real invite URL yet.
+- **Social-media automation pipeline** from the Gemini writeup: out of
+  scope. Nothing in the design or chat transcript asked for it; it's
+  speculative infra from an unrelated old conversation. Not building it
+  unless separately requested.
+- **Assets:** copied only the files actually referenced by the design
+  (listed in the handoff's "also read these files" import list) into
+  `site/assets/`, preserving the same relative paths/filenames used in the
+  source `<img src="assets/...">` attributes, so the HTML needs no path
+  rewriting.
+
+## Task breakdown
+
+1. [x] Scaffold `/site` dir, copy referenced assets.
+2. [x] Write this plan.
+3. [x] `css/style.css` — design tokens (colors, fonts, radii, shadows),
+   reset, keyframes (`drift`, `bloom`, `rise`), real `:hover` rules
+   (replacing the prototype's `style-hover="..."` attribute).
+4. [x] `index.html` — page shell: fixed pill nav (Work/Studio/Join), hero
+   (flame art, wordmark, pneuma/-turgy etymology pair, CTA buttons).
+5. [x] Work grid — 11 cards (Geomancy, Pneuma Knights, Shryn, Por Nada,
+   SciWars, Arcade Tycoon, Cerdo, PneuMath, Nico's/Rapha's stories,
+   Handbook, Sketches), each opens its sheet on click.
+6. [x] Studio section — Culture / Growth / Spirit cards with their small
+   icon glyphs.
+7. [x] Manifesto sections — "bad decision" intro, "how is this different"
+   (3 cards: culture / time / resources), "what about the money?" +
+   "how do we resolve conflict?" side-by-side section (4 roles list +
+   dark callout).
+8. [x] Join CTA section + footer.
+9. [x] Sheet/modal system — 11 full detail panels (content transcribed
+   verbatim from the source), generic open/close JS (click card → open
+   matching sheet, Close button / Escape / backdrop click → close,
+   `document.body.style.overflow` lock while open, matches the prototype's
+   `DCLogic` state behaviour with plain JS + a `data-sheet` attribute
+   convention instead of the `{{ open.x }}` bindings). Also added URL-hash
+   deep-linking (`/#geomancy`) as a small enhancement — cheap, non-breaking,
+   makes individual projects shareable.
+10. [x] Pixel-fidelity pass — verified visually via a real Chromium render
+    (Playwright, browser already available in this environment) against the
+    source inline styles: colors, spacing, radii, shadows, gradients, grid
+    layout, and the modal all check out at both desktop (1440px) and mobile
+    (390px) widths. Google Fonts (Bricolage Grotesque / Instrument Sans /
+    Martian Mono) couldn't be fetched inside this sandbox's network, so the
+    screenshots show a system-font fallback — the `<link>` tags are correct
+    and this resolves itself on any host with normal internet access.
+11. [x] `README.md` — how to preview (`python3 -m http.server` or
+    similar, no build needed) and deploy (any static host: GitHub Pages /
+    Cloudflare Pages / Netlify, point at the repo root).
+12. [x] Smoke test in a real browser (dev server + Playwright/Chromium
+    already available in this environment): all cards tested open the right
+    sheet, close works three ways (Close button, Escape, backdrop click),
+    all referenced images returned 200 (only a harmless `/favicon.ico` 404),
+    no console/page errors, responsive at mobile width.
+13. [x] Report back to user; got explicit go-ahead, moved the site to the
+    root of `Pneumaturgy/pneumaturgy_web` (plus `design-handoff/` for
+    provenance), and committed/pushed.
