@@ -20,7 +20,17 @@ assets/          images referenced by index.html (logos, figure glyphs,
 design-handoff/  the original Claude Design export this site was built
                  from — chat transcript, Notion export, source prototype —
                  kept for provenance, not needed to run the site
+docs/            the studio's written record, taken from Notion in full —
+                 manifesto, every design doc, the Godot handbook. The site
+                 is a curated read of this; these docs are the source
 ```
+
+## Docs
+
+`docs/` holds the complete prose the site is drawn from — see
+[docs/README.md](docs/README.md) for the index, and
+[docs/site-coverage.md](docs/site-coverage.md) for what the site leaves out.
+Nothing in `docs/` is served by the site; it is read on GitHub.
 
 ## Preview locally
 

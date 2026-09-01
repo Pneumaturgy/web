@@ -84,3 +84,19 @@ bindings) — not meant to ship as-is per `README.md`.
 13. [x] Report back to user; got explicit go-ahead, moved the site to the
     root of `Pneumaturgy/pneumaturgy_web` (plus `design-handoff/` for
     provenance), and committed/pushed.
+
+## Follow-up: documentation pass
+
+14. [x] `docs/` — the Notion prose lifted out of the handoff bundle and kept
+    as documentation in its own right: manifesto, how we work, every project
+    page (including the two Geomancy sub-pages), and the two handbook guides
+    with their screenshots extracted from the Notion export zip. Notion
+    artefacts stripped (base64 icon blobs, LaTeX-styled headings, internal
+    page URLs); wording otherwise left as the author wrote it.
+15. [x] `docs/site-coverage.md` — a written comparison of the docs against
+    `index.html`: what the site never carries (How we work, Geomancy
+    Classes, Geomancy Original Concept), where it stops early (Por Nada's
+    final act, Nico's full bark pools, SciWars unit progression, Arcade
+    Tycoon ticket pricing, the whole step-by-step handbook), and the handful
+    of lines that exist only on the site and should be folded back into the
+    docs.
