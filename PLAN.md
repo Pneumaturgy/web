@@ -123,3 +123,11 @@ bindings) — not meant to ship as-is per `README.md`.
     session's GitHub access is limited to one owner and this one is on
     `Pneumaturgy/`, so those repos could not be read; see
     `docs/site-coverage.md` for the list still waiting on a description.
+18. [x] Personal projects — nine of them (Quire, By Jove, Vapor Music,
+    Seven Sages, Lytra, Mollusk, Navi, Orison, Theory Forge) written up
+    from their repositories and mixed into the same work grid as the
+    studio's, ordered by last commit. Their repos live under a different
+    GitHub owner than this session could reach, so the source material was
+    gathered by a second session scoped to `Ghigog/` and handed over.
+    Cerdo's repository is public and its last commit is July 2024, checked
+    against GitHub rather than taken from the handoff.

@@ -377,6 +377,26 @@ code {
 }
 .card-arcade .card__eyebrow { color: #C97B1F; }
 
+.card-jove {
+  padding: 34px;
+  min-height: 280px;
+  background: linear-gradient(158deg, #1A1220 0%, #5B2E1C 62%, #8A5A24 100%);
+  box-shadow: 0 24px 60px -34px rgba(22, 18, 15, 0.7);
+}
+.card-jove .card__eyebrow { color: #F5C97A; }
+.card-jove .card__title { color: #FBFAF8; }
+.card-jove .card__body { color: rgba(251, 250, 248, 0.68); }
+
+.card-sages {
+  padding: 34px;
+  min-height: 280px;
+  background: linear-gradient(158deg, #101A16 0%, #1E3A2C 100%);
+  box-shadow: 0 24px 60px -34px rgba(22, 18, 15, 0.7);
+}
+.card-sages .card__eyebrow { color: #9FD8C9; }
+.card-sages .card__title { color: #FBFAF8; }
+.card-sages .card__body { color: rgba(251, 250, 248, 0.66); }
+
 .card-trinks {
   padding: 34px;
   min-height: 280px;

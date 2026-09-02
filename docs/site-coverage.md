@@ -36,61 +36,60 @@ and typos throughout. Where the two disagree on a fact, the docs win.
 
 ## Repositories
 
-The site links a repository from every project that has one, and orders the
-work grid by last commit. Read from GitHub in September 2026:
+Every project with a repository links to it, and the work grid is ordered by
+last commit. Read from GitHub on 2 September 2026.
 
-| Project | Repository | Last commit | Visibility |
-| --- | --- | --- | --- |
-| Pneuma Knights | Pneumaturgy/PorNada | 1 Jun 2026 | private |
-| Arcade Tycoon | Pneumaturgy/ArcadeTycoon | 30 Nov 2024 | private |
-| Trinks | Pneumaturgy/GMTKjam | 20 Aug 2024 | private |
-| Cerdo | Ghigog/Cerdo | 7 Jul 2024 | private |
+Studio: Pneuma Knights (Pneumaturgy/PorNada, private), Arcade Tycoon
+(Pneumaturgy/ArcadeTycoon, private, scaffold only), Trinks
+(Pneumaturgy/GMTKjam, private), Cerdo (Ghigog/Cerdo, public).
 
-These stay private by decision. The links are labelled `private` on the
-site so a visitor knows the repository exists and the link is not broken —
-what is current about each one is written up on the page instead.
+Personal: Quire, Vapor Music, Lytra, Theory Forge and Seven Sages are
+public; By Jove, Mollusk, Navi and Orison are private.
 
-## Still to add — personal projects
+Private repositories stay private by decision. Their links are labelled
+`private` on the site so a visitor knows the repository exists and the link
+is not broken — what is current about each one is written up on the page
+instead. The full table is in the [project index](projects/README.md).
 
-Decided: personal work goes into the **same** grid as the studio's, sorted
-by last commit, not into a separate section.
+## Accuracy notes carried from the repositories
 
-They are not in yet. A session's GitHub access is limited to a single owner
-and this one was opened on `Pneumaturgy/`, so `Ghigog/*` and
-`iHackN3WTON/*` could not be read at all — and writing descriptions from
-repository names alone would have meant inventing them.
+Things the write-ups deliberately say, because the source contradicts
+itself or the obvious reading is wrong:
 
-Each still needs a line saying what it is. Dates and visibility are known:
+- **Vapor Music is proprietary**, all rights reserved. It was AGPL until 20
+  August 2026. It must never be described as open source.
+- **Seven Sages is GPL**, because Ship of Harkinian is. It is a fork; only
+  the `mod/seven-sages` branch is ours.
+- **Orison is paused**, not active — nothing since 17 June 2026.
+- Four projects were touched in the last week of August, two not since
+  June. The site says "last commit" and "last worked on" rather than
+  implying everything is live.
 
-| Repository | Last push | Visibility |
-| --- | --- | --- |
-| Ghigog/Quire | 31 Aug 2026, 20:57 | public |
-| Ghigog/by_jove_godot | 31 Aug 2026, 20:02 | private |
-| Ghigog/vapor-music | 31 Aug 2026, 19:19 | public |
-| Ghigog/Shipwright | 13 Aug 2026 | public (fork) |
-| Ghigog/lytra | 25 Jul 2026 | public |
-| Ghigog/mollusk | 16 Jul 2026 | private |
-| Ghigog/navi-agent | 7 Jul 2026 | private |
-| Ghigog/orison | 17 Jun 2026 | private |
-| Ghigog/lol-theory | 1 Jun 2026 | public |
-| iHackN3WTON/gdt_GuessTheNumber | 5 Jun 2024 | public |
+## Fix in the repositories, not here
 
-Private ones stay private and will be labelled as such, like the studio's.
+Not site problems, but they will mislead anyone who follows a link:
 
-Known already: **Shipwright** is a Ship of Harkinian mod on the Ocarina of
-Time randomizer, called Seven Sages. **gdt_GuessTheNumber** is unconfirmed
-as PneuMath — the name does not obviously match "find the hidden pattern in
-a sequence", so it has not been linked.
+- **Quire's README** says there is no application code. Five Kotlin modules
+  with tests exist. The accurate statement is that the libraries and spikes
+  exist and the Android app does not.
+- **Navi's repo root** carries committed debug artefacts — a 113KB
+  `test_run.log`, a 179KB `done.md`, eight `reconstructed_aiservice_step*.txt`
+  files. Private repo, so cosmetic.
+- **Theory Forge, Orison, Mollusk and Navi READMEs** link internal docs by
+  absolute `file:///Users/dylangrowcoot/` paths, dead for everyone else.
 
-Once they land, the grid order becomes: Quire, by_jove_godot, vapor-music,
-Shipwright, lytra, mollusk, navi-agent, orison, Pneuma Knights, lol-theory,
-Arcade Tycoon, Trinks, Cerdo — then the design-doc-only projects. Pneuma
-Knights drops to ninth, which is what sorting by commit date means.
+## Still open
 
-`Pneumaturgy/Pneuma`, `Pneumaturgy/godot-template`,
-`Pneumaturgy/Pneumaturgy-Documentation`, `Pneumaturgy/organization-docs`,
-`Pneumaturgy/ByJoveDocs` and `Ghigog/deafening-app` are deliberately left
-off — decided, not pending.
+- **PneuMath has no repository linked.** `iHackN3WTON/gdt_GuessTheNumber`
+  was the candidate; the name does not match "find the hidden pattern in a
+  sequence", and it was never confirmed.
+- **By Jove pairs with `Pneumaturgy/ByJoveDocs`**, so it may be a studio
+  project rather than a personal one. It is listed as personal until
+  someone says otherwise. Grid position is unaffected either way.
+- `Pneumaturgy/Pneuma`, `Pneumaturgy/godot-template`,
+  `Pneumaturgy/Pneumaturgy-Documentation`, `Pneumaturgy/organization-docs`
+  and `Ghigog/deafening-app` are deliberately left off — decided, not
+  pending.
 
 ## Known gaps in the source itself
 
