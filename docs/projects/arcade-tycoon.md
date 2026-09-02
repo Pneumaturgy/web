@@ -2,6 +2,12 @@
 
 > Status: concept · created 3 November 2024
 > Source: Notion, *Projects → Design Docs → Arcade tycoon*.
+> Repository: [Pneumaturgy/ArcadeTycoon](https://github.com/Pneumaturgy/ArcadeTycoon)
+> · scaffolded 30 November 2024
+>
+> The repository is one commit: our mobile template, unmodified — `Main.tscn`
+> and the `Global` autoload, with the template's own README still in place.
+> Nothing below has been built yet.
 
 Just arcada games to practice. But put them in a tycoon game like roller coaster tycoon.
 

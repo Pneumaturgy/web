@@ -3,6 +3,9 @@
 > Status: story · created 22 July 2024
 > Source: Notion, *Projects → Pneuma Knights → Por Nada*.
 > Parent: [Pneuma Knights](pneuma-knights.md)
+>
+> This story names the game's repository,
+> [Pneumaturgy/PorNada](https://github.com/Pneumaturgy/PorNada).
 
 ## ro·bot
 

@@ -110,3 +110,16 @@ bindings) — not meant to ship as-is per `README.md`.
     attribution plus the Benedict link in the manifesto. Verified in a real
     Chromium render: all 11 sheets open, no horizontal overflow at 1280px
     or 390px, no new console errors.
+17. [x] Repositories and ordering — the work grid is now ordered by last
+    commit, with the design-doc-only projects after it, and every project
+    that has a repository links to it. Pneuma Knights gained a "where it is
+    now" section written from `Pneumaturgy/PorNada` (phases, payloads,
+    enemy strategies, spawn tables, procedural background, inventory,
+    mobile UI, GUT, tickets). Arcade Tycoon is recorded honestly as a
+    scaffold. Trinks — the GMTK 2024 entry Notion never wrote up — is a new
+    project page written from `Pneumaturgy/GMTKjam`, and comes out of the
+    sketches card. Real Discord invite wired up.
+    Not done: the personal `Ghigog/*` and `iHackN3WTON/*` projects. A
+    session's GitHub access is limited to one owner and this one is on
+    `Pneumaturgy/`, so those repos could not be read; see
+    `docs/site-coverage.md` for the list still waiting on a description.

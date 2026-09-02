@@ -377,6 +377,14 @@ code {
 }
 .card-arcade .card__eyebrow { color: #C97B1F; }
 
+.card-trinks {
+  padding: 34px;
+  min-height: 280px;
+  background: #E7F1EC;
+  box-shadow: 0 1px 2px rgba(22, 18, 15, 0.05), 0 20px 48px -30px rgba(22, 18, 15, 0.3);
+}
+.card-trinks .card__eyebrow { color: #3E8E5E; }
+
 .card-logo {
   padding: 0;
   overflow: hidden;
@@ -1004,6 +1012,25 @@ code {
 .logic-table code { white-space: nowrap; }
 .table-scroll { overflow-x: auto; margin: 0 0 34px; }
 .table-scroll .logic-table { margin: 0; min-width: 520px; }
+
+.repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font: 400 12px/1 var(--font-mono);
+  color: var(--ink-2);
+  background: rgba(22, 18, 15, 0.06);
+  border-radius: 999px;
+  padding: 11px 17px;
+  text-decoration: none;
+  margin: 0 0 34px;
+  transition: background 0.15s ease;
+}
+.repo-link:hover { background: rgba(22, 18, 15, 0.13); }
+.repo-link__meta { color: var(--ink-5); }
+.dark-panel .repo-link { background: rgba(251, 250, 248, 0.1); color: rgba(251, 250, 248, 0.82); margin-bottom: 0; }
+.dark-panel .repo-link:hover { background: rgba(251, 250, 248, 0.18); }
+.dark-panel .repo-link__meta { color: rgba(251, 250, 248, 0.5); }
 
 /* ---------- responsive ---------- */
 

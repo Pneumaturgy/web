@@ -22,11 +22,11 @@ See the [project index](projects/README.md).
 
 | | |
 | --- | --- |
-| In development | [Geomancy](projects/geomancy.md) · [Pneuma Knights](projects/pneuma-knights.md) · [Shryn](projects/shryn.md) · [SciWars: Apocalypse](projects/sciwars-apocalypse.md) |
+| Building | [Pneuma Knights](projects/pneuma-knights.md) · [Arcade Tycoon](projects/arcade-tycoon.md) |
+| Shipped | [Trinks](projects/trinks.md) · [Cerdo](projects/cerdo.md) · [PneuMath](projects/pneumath.md) |
+| Design docs | [Geomancy](projects/geomancy.md) · [Shryn](projects/shryn.md) · [SciWars: Apocalypse](projects/sciwars-apocalypse.md) |
 | Stories | [Por Nada](projects/por-nada.md) · [Nico's Story Proposal](projects/nicos-story-proposal.md) · [Rapha's Story](projects/raphas-story.md) |
-| Concept | [Arcade Tycoon](projects/arcade-tycoon.md) |
-| Shipped | [Cerdo](projects/cerdo.md) · [PneuMath](projects/pneumath.md) |
-| Sketches | [LifeTracker](projects/lifetracker.md) · [Ratchet & Clank Cleaner](projects/ratchet-and-clank-cleaner.md) · [GMTK Game Jam](projects/gmtk-game-jam.md) |
+| Sketches | [LifeTracker](projects/lifetracker.md) · [Ratchet & Clank Cleaner](projects/ratchet-and-clank-cleaner.md) |
 
 ## Handbook
 
@@ -37,8 +37,10 @@ See the [project index](projects/README.md).
 
 ## Provenance
 
-Everything here comes from `design-handoff/project/notion_dump.txt` (and the
-Notion export zip beside it). Notion artefacts have been removed — base64
+Most of this comes from `design-handoff/project/notion_dump.txt` (and the
+Notion export zip beside it). [Trinks](projects/trinks.md) and the "where it
+is now" section of [Pneuma Knights](projects/pneuma-knights.md) were written
+from the repositories instead, since Notion has nothing on either. Notion artefacts have been removed — base64
 icon blobs, LaTeX-styled headings, internal page URLs — and headings
 normalised. Wording is otherwise the author's, typos included: these are
 working documents, not marketing copy.
