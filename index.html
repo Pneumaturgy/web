@@ -487,8 +487,9 @@
         <p style="margin-bottom:30px">Segment a book into dialogue and narration, work out who is speaking each line, and hand every speaker their own ONNX voice. The active sentence highlights as it plays. All of it on the device, with a small local model, tuned for e-ink Android hardware &mdash; no server, no account, no network.</p>
 
         <h2>What exists</h2>
-        <p>Five Gradle modules of Kotlin with unit tests behind them: <code>core/model</code>, <code>core/index</code>, <code>core/attribution</code>, <code>core/epub</code>, and a <code>spike/indexer</code>. A SQLite-backed book index. A heuristic speaker attributor scored against TSV fixtures, so the attribution quality is a number rather than an impression. A Python benchmark harness under <code>spike/hostbench</code>.</p>
-        <p style="margin-bottom:0">There is no Android application module in <code>settings.gradle.kts</code> yet, so none of it runs on a device. The libraries and the spikes are real; the app is not there. The README still says there is no application code at all, which is now the wrong way round &mdash; the modules are the truth.</p>
+        <p>Six Gradle modules in the root build &mdash; <code>core/model</code>, <code>core/index</code>, <code>core/attribution</code>, <code>core/epub</code>, <code>spike/indexer</code> and <code>spike/slice</code> &mdash; carrying fifteen test classes across five of them, with <code>core/epub</code> source-only for now. <code>./gradlew test</code> passes. Underneath: a SQLite-backed book index, and a heuristic speaker attributor scored against TSV fixtures, so attribution quality is a number rather than an impression. A Python benchmark harness sits in <code>spike/hostbench</code>.</p>
+        <p>Two more modules sit outside the root build with their own <code>settings.gradle.kts</code>: <code>spike/ttsbinding</code>, a real Android application module, and <code>spike/pipeline</code>, a desktop harness. So it does run &mdash; on a phone, even.</p>
+        <p style="margin-bottom:0">What does not exist yet is the reading app: the thing you would open to read a book. The libraries, the spikes and the measurements are ahead of it.</p>
       </article>
 
       <article class="sheet-doc" data-doc="byjove">

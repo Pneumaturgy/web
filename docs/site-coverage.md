@@ -66,19 +66,39 @@ itself or the obvious reading is wrong:
   June. The site says "last commit" and "last worked on" rather than
   implying everything is live.
 
-## Fix in the repositories, not here
+## README fixes — PRs open
 
-Not site problems, but they will mislead anyone who follows a link:
+Not site problems, but they mislead anyone who follows a link. All five are
+on branch `claude/readme-fixes-p4y2lt`, awaiting merge:
 
-- **Quire's README** says there is no application code. Five Kotlin modules
-  with tests exist. The accurate statement is that the libraries and spikes
-  exist and the Android app does not.
-- **Theory Forge, Orison, Mollusk and Navi READMEs** link internal docs by
-  absolute `file:///Users/dylangrowcoot/` paths, dead for everyone else.
-  Theory Forge is public, so that one matters most.
+| Repo | PR | Fix |
+| --- | --- | --- |
+| Ghigog/Quire | [#1](https://github.com/Ghigog/Quire/pull/1) | Status section rewritten — it claimed there was no application code |
+| Ghigog/lol-theory | [#1](https://github.com/Ghigog/lol-theory/pull/1) | 3 `file:///Users/...` links repointed; clone URL still said `your-username` |
+| Ghigog/orison | [#1](https://github.com/Ghigog/orison/pull/1) | 9 links |
+| Ghigog/mollusk | [#1](https://github.com/Ghigog/mollusk/pull/1) | 9 links |
+| Ghigog/navi-agent | [#1](https://github.com/Ghigog/navi-agent/pull/1) | 5 links |
 
-Both flagged for fixing in the repositories themselves. They cannot be
-changed from a session scoped to `Pneumaturgy/`.
+## Corrections to this repo's own Quire write-up
+
+Checking Quire against the checkout turned up three errors in what was
+written here first. All are now fixed on the site and in
+[the project page](projects/quire.md); recorded so the same mistakes are
+not reintroduced:
+
+- **Six modules in the root build, not five.** `spike:slice` was missed, and
+  it has tests.
+- **`core:epub` has no unit tests** — just `EpubText.kt` under `src/main`.
+  Fifteen test classes across the other five modules; `./gradlew test`
+  passes.
+- **"Nothing runs on a device" was wrong.** `spike/ttsbinding` is a real
+  Android application module and `spike/pipeline` a desktop harness; both
+  sit outside the root build with their own `settings.gradle.kts`, which is
+  why a glance at the root missed them. What is genuinely absent is the
+  reading app.
+
+The general lesson: a module list read from `settings.gradle.kts` alone
+undercounts a project that has nested builds.
 
 ## Settled
 

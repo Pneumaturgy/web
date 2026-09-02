@@ -16,18 +16,33 @@ model, tuned for e-ink Android hardware.
 
 ## What exists today
 
-- Five Gradle modules of Kotlin, with unit tests: `core/model`,
-  `core/index`, `core/attribution`, `core/epub`, and `spike/indexer`.
-- A SQLite-backed book index.
-- A heuristic speaker attributor, scored against TSV fixtures — so
-  attribution quality is a number rather than an impression.
-- A Python benchmark harness under `spike/hostbench`.
+Six Gradle modules in the root build, with fifteen test classes across five
+of them (`core/epub` is source-only so far). `./gradlew test` passes.
+
+| Module | |
+| --- | --- |
+| `core/model` | |
+| `core/index` | SQLite-backed book index |
+| `core/attribution` | Heuristic speaker attributor, scored against `fixtures/attribution/*.tsv` by `FixtureScoreTest` — so quality is a number, not an impression |
+| `core/epub` | `EpubText.kt`; no tests yet |
+| `spike/indexer` | |
+| `spike/slice` | |
+
+Two further modules sit **outside** the root build, each with its own
+`settings.gradle.kts`:
+
+- `spike/ttsbinding` — a real Android application module
+  (`com.android.application`, with a manifest).
+- `spike/pipeline` — a desktop harness.
+
+A Python benchmark harness lives in `spike/hostbench`.
 
 ## What does not
 
-There is no Android application module in `settings.gradle.kts`, so nothing
-runs on a device yet. The libraries and the spikes are real; the app is not.
+The reading app itself: the thing you would open to read a book. Code does
+run, on a phone included — the libraries, the spikes and the measurements
+are simply ahead of the application.
 
-> The README's Status section says there is no application code at all.
-> That is now the wrong way round and will mislead anyone who reads it —
-> five Kotlin modules with tests exist. Worth correcting in the repo.
+> An earlier version of this page said there was no Android module and that
+> nothing ran on a device. Both were wrong; `spike/ttsbinding` was missed
+> because it is outside the root build.
