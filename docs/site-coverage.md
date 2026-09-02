@@ -36,39 +36,59 @@ and typos throughout. Where the two disagree on a fact, the docs win.
 
 ## Repositories
 
-The site now links a repository from every project that has one, and orders
-the work grid by last commit. Read in September 2026:
+The site links a repository from every project that has one, and orders the
+work grid by last commit. Read from GitHub in September 2026:
 
 | Project | Repository | Last commit | Visibility |
 | --- | --- | --- | --- |
-| Pneuma Knights | Pneumaturgy/PorNada | 1 Jun 2026 | **private** |
-| Arcade Tycoon | Pneumaturgy/ArcadeTycoon | 30 Nov 2024 | **private** |
-| Trinks | Pneumaturgy/GMTKjam | 20 Aug 2024 | **private** |
-| Cerdo | Ghigog/Cerdo | 7 Jul 2024 | **private** |
+| Pneuma Knights | Pneumaturgy/PorNada | 1 Jun 2026 | private |
+| Arcade Tycoon | Pneumaturgy/ArcadeTycoon | 30 Nov 2024 | private |
+| Trinks | Pneumaturgy/GMTKjam | 20 Aug 2024 | private |
+| Cerdo | Ghigog/Cerdo | 7 Jul 2024 | private |
 
-Every one of those is private today, so the links 404 for anyone who is not
-signed in with access. They need flipping to public before the site is worth
-sharing.
+All four are being made public. Until they are, the links 404 for anyone
+not signed in with access.
 
-## Still to add
+## Still to add — personal projects
 
-Personal projects were not added. GitHub access in a session is limited to a
-single owner, and this session was opened on `Pneumaturgy/` — so
-`Ghigog/*` and `iHackN3WTON/*` could not be read at all, and writing
-descriptions from repository names alone would have meant inventing them.
+Decided: personal work goes into the **same** grid as the studio's, sorted
+by last commit, not into a separate section.
 
-Waiting on a line each: `vapor-music`, `by_jove_godot`, `lol-theory`,
-`lytra`, `navi-agent`, `mollusk`, `orison`, `Quire`, and `Shipwright` (a
-Ship of Harkinian mod on the Ocarina of Time randomizer, called Seven
-Sages). Also unconfirmed: whether `iHackN3WTON/gdt_GuessTheNumber` is
-PneuMath — the name does not obviously match "find the hidden pattern in a
-sequence".
+They are not in yet. A session's GitHub access is limited to a single owner
+and this one was opened on `Pneumaturgy/`, so `Ghigog/*` and
+`iHackN3WTON/*` could not be read at all — and writing descriptions from
+repository names alone would have meant inventing them.
 
-Same-owner repositories not yet on the site or in these docs, which may or
-may not belong there: `Pneumaturgy/Pneuma`, `Pneumaturgy/godot-template`
-(the handbook's template, as a repository),
-`Pneumaturgy/Pneumaturgy-Documentation`, `Pneumaturgy/organization-docs`
-and `Pneumaturgy/ByJoveDocs`.
+Each still needs a line saying what it is. Dates and visibility are known:
+
+| Repository | Last push | Visibility |
+| --- | --- | --- |
+| Ghigog/Quire | 31 Aug 2026, 20:57 | public |
+| Ghigog/by_jove_godot | 31 Aug 2026, 20:02 | private |
+| Ghigog/vapor-music | 31 Aug 2026, 19:19 | public |
+| Ghigog/Shipwright | 13 Aug 2026 | public (fork) |
+| Ghigog/lytra | 25 Jul 2026 | public |
+| Ghigog/mollusk | 16 Jul 2026 | private |
+| Ghigog/navi-agent | 7 Jul 2026 | private |
+| Ghigog/orison | 17 Jun 2026 | private |
+| Ghigog/lol-theory | 1 Jun 2026 | public |
+| iHackN3WTON/gdt_GuessTheNumber | 5 Jun 2024 | public |
+
+Known already: **Shipwright** is a Ship of Harkinian mod on the Ocarina of
+Time randomizer, called Seven Sages. **gdt_GuessTheNumber** is unconfirmed
+as PneuMath — the name does not obviously match "find the hidden pattern in
+a sequence", so it has not been linked.
+
+Once they land, the grid order becomes: Quire, by_jove_godot, vapor-music,
+Shipwright, lytra, mollusk, navi-agent, orison, Pneuma Knights, lol-theory,
+Arcade Tycoon, Trinks, Cerdo — then the design-doc-only projects. Pneuma
+Knights drops to ninth, which is what sorting by commit date means.
+
+Same-owner repositories not yet placed anywhere, which may or may not
+belong: `Pneumaturgy/Pneuma`, `Pneumaturgy/godot-template` (the handbook's
+template as a repository), `Pneumaturgy/Pneumaturgy-Documentation`,
+`Pneumaturgy/organization-docs`, `Pneumaturgy/ByJoveDocs` (which pairs with
+`Ghigog/by_jove_godot`), and `Ghigog/deafening-app`.
 
 ## Known gaps in the source itself
 

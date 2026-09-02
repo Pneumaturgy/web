@@ -55,6 +55,8 @@ holds as a repository.
 ## Not yet covered
 
 Personal projects under `Ghigog/` and `iHackN3WTON/` are not documented
-here yet. This session could not read them — GitHub access for a session is
-limited to one owner, so only the `Pneumaturgy/` repositories could be
-opened. See [site coverage](../site-coverage.md).
+here yet, and will go into the same work grid as the studio's, sorted by
+last commit. This session could not read them — GitHub access for a session
+is limited to one owner, so only the `Pneumaturgy/` repositories could be
+opened. The full list, with dates and visibility, is in
+[site coverage](../site-coverage.md).
