@@ -7,15 +7,15 @@ a design document. Repository dates were read from GitHub in September 2026.
 
 | Project | Repository | Last commit |
 | --- | --- | --- |
-| [Pneuma Knights](pneuma-knights.md) | [Pneumaturgy/PorNada](https://github.com/Pneumaturgy/PorNada) | 1 June 2026 |
-| [Arcade Tycoon](arcade-tycoon.md) | [Pneumaturgy/ArcadeTycoon](https://github.com/Pneumaturgy/ArcadeTycoon) — scaffold only | 30 November 2024 |
+| [Pneuma Knights](pneuma-knights.md) | [Pneumaturgy/PorNada](https://github.com/Pneumaturgy/PorNada) — private | 1 June 2026 |
+| [Arcade Tycoon](arcade-tycoon.md) | [Pneumaturgy/ArcadeTycoon](https://github.com/Pneumaturgy/ArcadeTycoon) — private, scaffold only | 30 November 2024 |
 
 ## Shipped
 
 | Project | Repository | Last commit |
 | --- | --- | --- |
-| [Trinks](trinks.md) — GMTK 2024 | [Pneumaturgy/GMTKjam](https://github.com/Pneumaturgy/GMTKjam) | 20 August 2024 |
-| [Cerdo](cerdo.md) | [Ghigog/Cerdo](https://github.com/Ghigog/Cerdo) | 7 July 2024 |
+| [Trinks](trinks.md) — GMTK 2024 | [Pneumaturgy/GMTKjam](https://github.com/Pneumaturgy/GMTKjam) — private | 20 August 2024 |
+| [Cerdo](cerdo.md) | [Ghigog/Cerdo](https://github.com/Ghigog/Cerdo) — private | 7 July 2024 |
 | [PneuMath](pneumath.md) — ten-hour jam | not yet linked | — |
 
 ## Design docs, no repository yet
@@ -48,9 +48,7 @@ gives the game's repository its name.
 
 In the [handbook](../handbook/): [project set
 up](../handbook/project-set-up.md) and the [Godot mobile UI
-template](../handbook/godot-mobile-ui-template.md), which
-[Pneumaturgy/godot-template](https://github.com/Pneumaturgy/godot-template)
-holds as a repository.
+template](../handbook/godot-mobile-ui-template.md).
 
 ## Not yet covered
 

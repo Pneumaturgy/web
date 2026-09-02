@@ -3,7 +3,7 @@
 > Status: concept · created 3 November 2024
 > Source: Notion, *Projects → Design Docs → Arcade tycoon*.
 > Repository: [Pneumaturgy/ArcadeTycoon](https://github.com/Pneumaturgy/ArcadeTycoon)
-> · scaffolded 30 November 2024
+> · private · scaffolded 30 November 2024
 >
 > The repository is one commit: our mobile template, unmodified — `Main.tscn`
 > and the `Global` autoload, with the template's own README still in place.

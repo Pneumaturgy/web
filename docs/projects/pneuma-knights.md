@@ -5,7 +5,7 @@
 > Full design document:
 > [Google Docs](https://docs.google.com/document/d/1w635j4DAkOwRYjL4AGsxnFsfcrL3GB94Eme8NHEOoUI/edit#heading=h.689pbr44gy3p)
 > Repository: [Pneumaturgy/PorNada](https://github.com/Pneumaturgy/PorNada)
-> · Godot 4 · last commit 1 June 2026 — named after
+> · private · Godot 4 · last commit 1 June 2026 — named after
 > [the story](por-nada.md) it carries
 
 Story proposals: [Por Nada](por-nada.md) ·

@@ -3,7 +3,7 @@
 > Status: shipped · prototype · closed 13 July 2024
 > Source: Notion, *Projects → Closed Projects → Cerdo*.
 > Repository: [Ghigog/Cerdo](https://github.com/Ghigog/Cerdo)
-> · last commit 7 July 2024
+> · private · last commit 7 July 2024
 
 **Cerdo: The Dice Rolling Challenge**
 

@@ -2,7 +2,7 @@
 
 > Status: shipped · GMTK game jam · August 2024
 > Repository: [Pneumaturgy/GMTKjam](https://github.com/Pneumaturgy/GMTKjam)
-> · Godot 4 · last commit 20 August 2024
+> · private · Godot 4 · last commit 20 August 2024
 >
 > Notion never wrote this one up: its *Closed Projects → GMTK Game Jam*
 > page is an empty stub. This page is written from the repository.

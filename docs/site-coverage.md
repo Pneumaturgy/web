@@ -46,8 +46,9 @@ work grid by last commit. Read from GitHub in September 2026:
 | Trinks | Pneumaturgy/GMTKjam | 20 Aug 2024 | private |
 | Cerdo | Ghigog/Cerdo | 7 Jul 2024 | private |
 
-All four are being made public. Until they are, the links 404 for anyone
-not signed in with access.
+These stay private by decision. The links are labelled `private` on the
+site so a visitor knows the repository exists and the link is not broken —
+what is current about each one is written up on the page instead.
 
 ## Still to add — personal projects
 
@@ -74,6 +75,8 @@ Each still needs a line saying what it is. Dates and visibility are known:
 | Ghigog/lol-theory | 1 Jun 2026 | public |
 | iHackN3WTON/gdt_GuessTheNumber | 5 Jun 2024 | public |
 
+Private ones stay private and will be labelled as such, like the studio's.
+
 Known already: **Shipwright** is a Ship of Harkinian mod on the Ocarina of
 Time randomizer, called Seven Sages. **gdt_GuessTheNumber** is unconfirmed
 as PneuMath — the name does not obviously match "find the hidden pattern in
@@ -84,11 +87,10 @@ Shipwright, lytra, mollusk, navi-agent, orison, Pneuma Knights, lol-theory,
 Arcade Tycoon, Trinks, Cerdo — then the design-doc-only projects. Pneuma
 Knights drops to ninth, which is what sorting by commit date means.
 
-Same-owner repositories not yet placed anywhere, which may or may not
-belong: `Pneumaturgy/Pneuma`, `Pneumaturgy/godot-template` (the handbook's
-template as a repository), `Pneumaturgy/Pneumaturgy-Documentation`,
-`Pneumaturgy/organization-docs`, `Pneumaturgy/ByJoveDocs` (which pairs with
-`Ghigog/by_jove_godot`), and `Ghigog/deafening-app`.
+`Pneumaturgy/Pneuma`, `Pneumaturgy/godot-template`,
+`Pneumaturgy/Pneumaturgy-Documentation`, `Pneumaturgy/organization-docs`,
+`Pneumaturgy/ByJoveDocs` and `Ghigog/deafening-app` are deliberately left
+off — decided, not pending.
 
 ## Known gaps in the source itself
 
