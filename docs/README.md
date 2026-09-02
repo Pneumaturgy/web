@@ -22,10 +22,10 @@ See the [project index](projects/README.md).
 
 | | |
 | --- | --- |
-| Studio, building | [By Jove](projects/by-jove.md) · [Pneuma Knights](projects/pneuma-knights.md) · [Arcade Tycoon](projects/arcade-tycoon.md) |
+| Studio, building | [By Jove](projects/by-jove.md) · [Por Nada](projects/por-nada.md) · [Arcade Tycoon](projects/arcade-tycoon.md) |
 | Studio, shipped | [Trinks](projects/trinks.md) · [Cerdo](projects/cerdo.md) · [PneuMath](projects/pneumath.md) |
 | Studio, design docs | [Geomancy](projects/geomancy.md) · [Shryn](projects/shryn.md) · [SciWars: Apocalypse](projects/sciwars-apocalypse.md) |
-| Stories | [Por Nada](projects/por-nada.md) · [Nico's Story Proposal](projects/nicos-story-proposal.md) · [Rapha's Story](projects/raphas-story.md) |
+| Stories | [Por Nada — the story](projects/por-nada-story.md) · [Nico's Story Proposal](projects/nicos-story-proposal.md) · [Rapha's Story](projects/raphas-story.md) |
 | Sketches | [LifeTracker](projects/lifetracker.md) · [Ratchet & Clank Cleaner](projects/ratchet-and-clank-cleaner.md) |
 | Personal | [Quire](projects/quire.md) · [Vapor Music](projects/vapor-music.md) · [Seven Sages](projects/seven-sages.md) · [Lytra](projects/lytra.md) · [Mollusk](projects/mollusk.md) · [Navi](projects/navi.md) · [Orison](projects/orison.md) · [Theory Forge](projects/theory-forge.md) |
 
@@ -41,7 +41,7 @@ See the [project index](projects/README.md).
 The studio's design docs and manifesto come from
 `design-handoff/project/notion_dump.txt` (and the Notion export zip beside
 it). Everything with a repository — [Trinks](projects/trinks.md), the "where
-it is now" section of [Pneuma Knights](projects/pneuma-knights.md), and all
+it is now" section of [Por Nada](projects/por-nada.md), and all
 nine personal projects — was written from the code instead, because Notion
 has nothing on any of it. Notion artefacts have been removed — base64
 icon blobs, LaTeX-styled headings, internal page URLs — and headings

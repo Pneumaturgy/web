@@ -2,7 +2,7 @@
 
 > Status: story proposal · created 22 July 2024
 > Source: Notion, *Projects → Pneuma Knights → Nico's Story Proposal*.
-> Parent: [Pneuma Knights](pneuma-knights.md)
+> Parent: [Por Nada](por-nada.md)
 
 *Our story opens with a silent cut scene in which* Mr. Smith *(our protagonist, working name)* wakes up in a drop pod falling from orbit onto a strange planet. As it falls, it goes through the normal reentry physics for any object leaving orbit *(parabolic arc, super heated atmosphere, red hot craft, etc -- think reentry in [KSP](https://store.steampowered.com/app/220200/Kerbal_Space_Program/))* before finally firing thrusters at the last possible moment to de-accelerate and hit the ground softly.
 

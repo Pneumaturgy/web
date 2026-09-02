@@ -20,13 +20,13 @@ implies all of them are live.
 | [Mollusk](mollusk.md) | [Ghigog/mollusk](https://github.com/Ghigog/mollusk) | 16 Jul 2026 | private |
 | [Navi](navi.md) | [Ghigog/navi-agent](https://github.com/Ghigog/navi-agent) | 7 Jul 2026 | private |
 | [Orison](orison.md) | [Ghigog/orison](https://github.com/Ghigog/orison) | 17 Jun 2026 | private |
-| [Pneuma Knights](pneuma-knights.md) | [Pneumaturgy/PorNada](https://github.com/Pneumaturgy/PorNada) | 1 Jun 2026 | private |
+| [Por Nada](por-nada.md) | [Pneumaturgy/PorNada](https://github.com/Pneumaturgy/PorNada) | 1 Jun 2026 | private |
 | [Theory Forge](theory-forge.md) | [Ghigog/lol-theory](https://github.com/Ghigog/lol-theory) | 1 Jun 2026 | public |
 | [Arcade Tycoon](arcade-tycoon.md) — scaffold only | [Pneumaturgy/ArcadeTycoon](https://github.com/Pneumaturgy/ArcadeTycoon) | 30 Nov 2024 | private |
 | [Trinks](trinks.md) — GMTK 2024 | [Pneumaturgy/GMTKjam](https://github.com/Pneumaturgy/GMTKjam) | 20 Aug 2024 | private |
 | [Cerdo](cerdo.md) | [Ghigog/Cerdo](https://github.com/Ghigog/Cerdo) | 7 Jul 2024 | public |
 
-Studio projects are By Jove, Pneuma Knights, Arcade Tycoon, Trinks and
+Studio projects are By Jove, Por Nada, Arcade Tycoon, Trinks and
 Cerdo. The rest are personal.
 
 Arcade Tycoon is listed here because it has a repository, but the site
@@ -51,12 +51,12 @@ it yet.
 
 ## Stories
 
-All three are proposals for [Pneuma Knights](pneuma-knights.md). Por Nada
-gives the game's repository its name.
+All three are proposals for [Por Nada](por-nada.md), which was called
+Pneuma Knights until the winning proposal gave it its name.
 
 | Story | Created |
 | --- | --- |
-| [Por Nada](por-nada.md) | 22 July 2024 |
+| [Por Nada — the story](por-nada-story.md) | 22 July 2024 |
 | [Nico's Story Proposal](nicos-story-proposal.md) | 22 July 2024 |
 | [Rapha's Story](raphas-story.md) | 23 July 2024 |
 

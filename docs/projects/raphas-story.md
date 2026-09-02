@@ -2,7 +2,7 @@
 
 > Status: story proposal · created 23 July 2024
 > Source: Notion, *Projects → Pneuma Knights → Rapha's Story*.
-> Parent: [Pneuma Knights](pneuma-knights.md)
+> Parent: [Por Nada](por-nada.md)
 
 Quick summary:
 

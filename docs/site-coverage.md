@@ -15,7 +15,7 @@ Everything below was missing from the site and has since been added.
 | [How we work](studio/how-we-work.md) — cadence and circular pairing | Its own studio section, between the three values and the manifesto |
 | [Geomancy → Classes](projects/geomancy-classes.md) — the eleven logical forms as roles | "The classes are the logic" in the Geomancy sheet: the family/role table and all eleven forms worked through |
 | [Geomancy → Original Concept](projects/geomancy-original-concept.md) — lineage, full fight, generated fighters, mana from people, personal progression | "Where it comes from" in the Geomancy sheet |
-| [Por Nada](projects/por-nada.md) — the whole final act | The Libertalia notices, the GDScript block with its comments, the yes/no branch and Nada's night-75 instructions, all in the Por Nada sheet |
+| [Por Nada — the story](projects/por-nada-story.md) — the whole final act | The Libertalia notices, the GDScript block with its comments, the yes/no branch and Nada's night-75 instructions, all in the Por Nada sheet |
 | [Nico's Story Proposal](projects/nicos-story-proposal.md) — the full bark pools, mech logs, epilogue | Four threshold pools with their unlock conditions, both sets of mech logs with the day arithmetic, and the scientists' dialogue in full |
 | [SciWars](projects/sciwars-apocalypse.md) — units, economy, controls | "Units", "The world" and "Playing it" sections |
 | [Arcade Tycoon](projects/arcade-tycoon.md) — ticket pricing, the four screens | "Pricing the cabinet" and "Four screens" |
@@ -39,7 +39,7 @@ and typos throughout. Where the two disagree on a fact, the docs win.
 Every project with a repository links to it, and the work grid is ordered by
 last commit. Read from GitHub on 2 September 2026.
 
-Studio: By Jove (Ghigog/by_jove_godot, private), Pneuma Knights
+Studio: By Jove (Ghigog/by_jove_godot, private), Por Nada
 (Pneumaturgy/PorNada, private), Arcade Tycoon (Pneumaturgy/ArcadeTycoon,
 private, scaffold only), Trinks (Pneumaturgy/GMTKjam, private), Cerdo
 (Ghigog/Cerdo, public).
@@ -79,8 +79,8 @@ it, so it belongs with the design docs rather than the work.
 
 Card size carries project size, read from the repository: `1x1` small,
 `2x1` or `1x2` medium, `2x2` large. Large today is By Jove, Seven Sages and
-Pneuma Knights; the 2x2s carry a line of facts so the space is earned
-rather than empty.
+Por Nada. Seven Sages carries a line of facts under its body so the space
+is earned rather than empty; the other two fill it with artwork instead.
 
 The grid packs with `grid-auto-flow: dense`, so a small card will sometimes
 rise to fill a gap left by a larger one. Ordering therefore reads as

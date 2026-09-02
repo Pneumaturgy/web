@@ -348,7 +348,13 @@ code {
 .card-knights {
   padding: 34px;
   min-height: 320px;
-  background: linear-gradient(165deg, #1B1524, #3A2140 62%, #7E3B2E);
+  /* Zoomed past the screenshot's HUD text so only the field and the mech show. */
+  background-image:
+    linear-gradient(180deg, rgba(14, 10, 18, 0.20) 0%, rgba(22, 14, 24, 0.58) 46%, rgba(58, 27, 27, 0.9) 100%),
+    url('../assets/PorNada/gameplay.jpg');
+  background-size: cover, 200% auto;
+  background-position: center, 50% 72%;
+  background-repeat: no-repeat, no-repeat;
   box-shadow: 0 24px 60px -34px rgba(22, 18, 15, 0.7);
 }
 .card-knights .card__eyebrow { color: #FFC98A; }
@@ -405,6 +411,16 @@ code {
     url('../assets/SevenSages/sacred-forest-meadow.jpg') center / cover no-repeat;
   box-shadow: 0 24px 60px -34px rgba(22, 18, 15, 0.7);
 }
+.card-sages { position: relative; }
+.card-sages__mark {
+  position: absolute;
+  right: 26px;
+  top: 28px;
+  width: 124px;
+  height: auto;
+  opacity: 0.92;
+}
+.card-sages .card__eyebrow { padding-right: 140px; }
 .card-sages .card__eyebrow { color: #9FD8C9; }
 .card-sages .card__title { color: #FBFAF8; }
 .card-sages .card__body { color: rgba(251, 250, 248, 0.66); }
