@@ -149,3 +149,8 @@ bindings) — not meant to ship as-is per `README.md`.
     site entirely — it is internal documentation and stays in `docs/`.
     Eyebrows dropped the personal/studio tag and put the commit date on its
     own line, and the work section lost its intro paragraph.
+21. [x] Arcade Tycoon moved into the design docs section — it has a
+    repository but nothing is built on it, so it sits with the unbuilt work
+    rather than the active work. The design docs section moved to the
+    bottom of the page, below the join panel; the footer was lifted out of
+    the join section so it stays last.

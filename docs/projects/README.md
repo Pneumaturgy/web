@@ -29,6 +29,10 @@ implies all of them are live.
 Studio projects are By Jove, Pneuma Knights, Arcade Tycoon, Trinks and
 Cerdo. The rest are personal.
 
+Arcade Tycoon is listed here because it has a repository, but the site
+shows it under *Design docs*: the repo is a scaffold with nothing built on
+it yet.
+
 ## Design docs, no repository yet
 
 | Project | Status | Created |

@@ -69,9 +69,13 @@ itself or the obvious reading is wrong:
 ## The site's shape
 
 **The work** carries what is finished or in active development, ordered by
-last commit. **Design docs** is a separate section below it for projects
-that have not reached implementation: SciWars: Apocalypse, Shryn,
-LifeTracker and Ratchet & Clank Cleaner.
+last commit. **Design docs** sits at the very bottom of the page, below the
+join panel, for projects that have not reached implementation: Arcade
+Tycoon, SciWars: Apocalypse, Shryn, LifeTracker and Ratchet & Clank
+Cleaner. The footer is last.
+
+Arcade Tycoon has a repository but it is a scaffold with nothing built on
+it, so it belongs with the design docs rather than the work.
 
 Card size carries project size, read from the repository: `1x1` small,
 `2x1` or `1x2` medium, `2x2` large. Large today is By Jove, Seven Sages and
