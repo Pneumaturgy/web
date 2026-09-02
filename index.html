@@ -60,6 +60,7 @@
     </button>
 
     <button type="button" class="card card-jove" data-sheet="byjove">
+      <img class="card-jove__mark" src="assets/ByJove/ByJoveLogo.png" alt="">
       <div class="card__eyebrow">In development &middot; last commit Aug 2026</div>
       <div>
         <div class="card__title">By Jove</div>
@@ -67,9 +68,10 @@
       </div>
     </button>
 
-    <button type="button" class="card card-light" data-sheet="vapor">
-      <div class="card__eyebrow" style="color:#7E6EE8">Personal &middot; In development &middot; Aug 2026</div>
-      <div>
+    <button type="button" class="card card-logo" data-sheet="vapor">
+      <div class="card-logo__figure"><img src="assets/Vapor/VaporLogo.png" alt="Vapor Music"></div>
+      <div class="card-logo__text">
+        <div class="card__eyebrow" style="color:#7E6EE8">Personal &middot; In development &middot; Aug 2026</div>
         <div class="card__title">Vapor Music</div>
         <p class="card__body">A music player that analyses your own library on your own machine, and mixes by tempo and key rather than shuffling.</p>
       </div>
@@ -83,33 +85,37 @@
       </div>
     </button>
 
-    <button type="button" class="card card-light" data-sheet="lytra">
-      <div class="card__eyebrow" style="color:#3E8E5E">Personal &middot; Shipped &middot; v1.2.0 &middot; Jul 2026</div>
-      <div>
+    <button type="button" class="card card-logo" data-sheet="lytra">
+      <div class="card-logo__figure"><img src="assets/Lytra/LytraLogo.png" alt="Lytra"></div>
+      <div class="card-logo__text">
+        <div class="card__eyebrow" style="color:#3E8E5E">Personal &middot; Shipped &middot; v1.2.0 &middot; Jul 2026</div>
         <div class="card__title">Lytra</div>
         <p class="card__body">A transparent overlay that sits on your desktop and shows time-synced lyrics for whatever is playing.</p>
       </div>
     </button>
 
-    <button type="button" class="card card-light" data-sheet="mollusk">
-      <div class="card__eyebrow" style="color:#C97B1F">Personal &middot; In development &middot; Jul 2026</div>
-      <div>
+    <button type="button" class="card card-logo" data-sheet="mollusk">
+      <div class="card-logo__figure"><img src="assets/Mollusk/MolluskLogo.png" alt="Mollusk"></div>
+      <div class="card-logo__text">
+        <div class="card__eyebrow" style="color:#C97B1F">Personal &middot; In development &middot; Jul 2026</div>
         <div class="card__title">Mollusk</div>
         <p class="card__body">An agent that runs a living-room machine, so the computer is operated by talking to it instead of through a desktop.</p>
       </div>
     </button>
 
-    <button type="button" class="card card-light" data-sheet="navi">
-      <div class="card__eyebrow" style="color:#5A4BD6">Personal &middot; In development &middot; Jul 2026</div>
-      <div>
+    <button type="button" class="card card-logo card-logo--dark" data-sheet="navi">
+      <div class="card-logo__figure"><img src="assets/Navi/NaviLogo.png" alt="Navi"></div>
+      <div class="card-logo__text">
+        <div class="card__eyebrow" style="color:#9FD8C9">Personal &middot; In development &middot; Jul 2026</div>
         <div class="card__title">Navi</div>
         <p class="card__body">The fairy from Ocarina of Time, living on your desktop, following the cursor and answering questions about what is on screen.</p>
       </div>
     </button>
 
-    <button type="button" class="card card-light" data-sheet="orison">
-      <div class="card__eyebrow" style="color:#A79C90">Personal &middot; Paused &middot; last worked on Jun 2026</div>
-      <div>
+    <button type="button" class="card card-logo card-logo--dark" data-sheet="orison">
+      <div class="card-logo__figure"><img src="assets/Orison/OrisonLogo.png" alt="Orison"></div>
+      <div class="card-logo__text">
+        <div class="card__eyebrow" style="color:#A79C90">Personal &middot; Paused &middot; last worked on Jun 2026</div>
         <div class="card__title">Orison</div>
         <p class="card__body">Point it at a vault of Markdown notes and it compiles them into a text adventure you can actually play.</p>
       </div>
@@ -498,6 +504,10 @@
         <p class="sheet-doc__lede">A 3D game set in the atmosphere of Jupiter. You are a robot that runs on hydrogen, descending through procedurally generated levels. Hydrogen is both your fuel and your health, and running out does not fade the screen to black.</p>
         <a class="repo-link" href="https://github.com/Ghigog/by_jove_godot">Ghigog/by_jove_godot <span class="repo-link__meta">&middot; private &middot; Godot 4 &middot; last commit 31 August 2026</span></a>
 
+        <figure style="margin:0 0 30px">
+          <img src="assets/ByJove/Skydome.jpg" alt="The Jovian sky as rendered in By Jove" style="width:100%;border-radius:20px;display:block">
+          <figcaption style="font:400 13px/1.6 var(--font-body);color:var(--ink-4);margin-top:10px">The stratosphere skydome the levels descend through.</figcaption>
+        </figure>
         <div class="dark-callout-lg" style="background:linear-gradient(150deg,#1A1220,#8A5A24)">
           <p>Run out of hydrogen and your procedural rig collapses into physics bodies. The robots that came before you are scattered through the levels as remains, and what they left behind has to be decrypted before you can read it.</p>
         </div>
@@ -518,6 +528,10 @@
         <h1>Vapor Music</h1>
         <p class="sheet-doc__lede">A local-first music player that analyses your own library on your own machine, and moves between tracks by tempo and key instead of shuffling.</p>
         <a class="repo-link" href="https://github.com/Ghigog/vapor-music">Ghigog/vapor-music <span class="repo-link__meta">&middot; Rust + Tauri &middot; last commit 31 August 2026</span></a>
+
+        <figure style="margin:0 0 34px">
+          <img src="assets/Vapor/VaporKeyArt.jpg" alt="The Vapor Music mark and wordmark" style="width:100%;border-radius:20px;display:block">
+        </figure>
 
         <h2>Three crates that touch nothing</h2>
         <div class="feature-grid" style="margin-bottom:30px">
@@ -578,6 +592,10 @@
         <a class="repo-link" href="https://github.com/Ghigog/mollusk">Ghigog/mollusk <span class="repo-link__meta">&middot; private &middot; Python &middot; last commit 16 July 2026</span></a>
 
         <h2>Three processes</h2>
+        <figure style="margin:0 0 24px">
+          <img src="assets/Mollusk/Architecture.png" alt="Mollusk architecture: a frontend over WebSocket to an agent daemon holding the skill registry, agent loop and safety layer, which reaches Ollama and the apps it launches" style="width:100%;border-radius:16px;display:block;background:#fff">
+          <figcaption style="font:400 13px/1.6 var(--font-body);color:var(--ink-4);margin-top:10px">The architecture, from the repository&rsquo;s own docs.</figcaption>
+        </figure>
         <p style="margin-bottom:30px">Ollama; a Python daemon holding the skills, the safety layer and the agent loop; and a browser frontend. Common phrases like &ldquo;run X&rdquo; or &ldquo;play X&rdquo; resolve against real indexes &mdash; Steam appmanifests, a scan of the media folder &mdash; and execute with no model call at all. Anything else falls through to an Ollama tool-calling loop, capped at five turns.</p>
 
         <h2>The safety layer</h2>

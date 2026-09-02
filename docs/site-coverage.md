@@ -66,18 +66,50 @@ itself or the obvious reading is wrong:
   June. The site says "last commit" and "last worked on" rather than
   implying everything is live.
 
-## README fixes — PRs open
+## Project art
 
-Not site problems, but they mislead anyone who follows a link. All five are
-on branch `claude/readme-fixes-p4y2lt`, awaiting merge:
+Collected from the repositories and delivered on the `site-assets` branch of
+`Ghigog/Quire`. What went in, renamed into the site's
+`assets/<Project>/<Name>` layout:
 
-| Repo | PR | Fix |
+| Project | Files | Treatment |
 | --- | --- | --- |
-| Ghigog/Quire | [#1](https://github.com/Ghigog/Quire/pull/1) | Status section rewritten — it claimed there was no application code |
-| Ghigog/lol-theory | [#1](https://github.com/Ghigog/lol-theory/pull/1) | 3 `file:///Users/...` links repointed; clone URL still said `your-username` |
-| Ghigog/orison | [#1](https://github.com/Ghigog/orison/pull/1) | 9 links |
-| Ghigog/mollusk | [#1](https://github.com/Ghigog/mollusk/pull/1) | 9 links |
-| Ghigog/navi-agent | [#1](https://github.com/Ghigog/navi-agent/pull/1) | 5 links |
+| By Jove | `ByJoveLogo.png`, `Skydome.jpg` | Skydome behind the card gradient, mark top-right; skydome again as a figure in the sheet |
+| Vapor Music | `VaporLogo.png`, `VaporKeyArt.jpg` | Logo card; key art opens the sheet |
+| Lytra | `LytraLogo.png` | Logo card |
+| Mollusk | `MolluskLogo.png`, `Architecture.png` | Logo card; the architecture diagram illustrates "Three processes" |
+| Navi | `NaviLogo.png` | **Dark** logo card — the mark is pale glass and washes out on white |
+| Orison | `OrisonLogo.png` | **Dark** logo card — the mark is white on transparency and is invisible on white |
+
+Putting the two pale marks on dark plates solved them without redrawing
+anything.
+
+### Held back, with reasons
+
+- **`vapor-02.jpg`** — a render of Vapor's committed design canvas showing a
+  *phone* UI. Vapor is a desktop Tauri app, so publishing it would
+  misrepresent the product, and the second panel is mostly empty
+  placeholder. Not used.
+- **`byjove-02.jpg`** — character key art (Komra): a gnarled wooden face.
+  Striking, but nothing in the write-up establishes what Komra is, so it
+  could not be captioned honestly.
+- **`theoryforge-01.png`** — 343×361 decorative graphic, below the size floor
+  and not a logo.
+- **`pneumaturgy-logo.png`** — this is the *full* mark including the circle
+  and cross, which was deliberately dropped from the site's identity at
+  design time. `assets/flame.png` stays.
+- **`cerdo-01.png`**, **`lytra-01.png`** — a die sprite and an app icon that
+  duplicate art the site already has.
+
+### Still needs art made
+
+| Project | Gap |
+| --- | --- |
+| Quire | No image of any kind in the repository |
+| Seven Sages | Only original image on `mod/seven-sages` is a 128×32 title strip; everything else in the fork is Ship of Harkinian's |
+| Theory Forge | No logo, and a screenshot needs a machine that can reach the Meraki and Data Dragon CDNs |
+
+Those three stay plain text cards, which the design supports.
 
 ## Corrections to this repo's own Quire write-up
 

@@ -131,3 +131,12 @@ bindings) — not meant to ship as-is per `README.md`.
     gathered by a second session scoped to `Ghigog/` and handed over.
     Cerdo's repository is public and its last commit is July 2024, checked
     against GitHub rather than taken from the handoff.
+19. [x] Project art — logos and key art collected from the personal repos
+    (delivered on the `site-assets` branch of `Ghigog/Quire`) and wired into
+    the cards: logo cards for Vapor Music, Lytra and Mollusk, dark logo
+    cards for Navi and Orison whose marks are too pale for a white card,
+    and the Jupiter skydome behind the By Jove card. Sheet figures for By
+    Jove, Vapor Music and Mollusk. Five files were held back rather than
+    published, with reasons recorded in `docs/site-coverage.md`; Quire,
+    Seven Sages and Theory Forge still need art made and stay as text
+    cards.

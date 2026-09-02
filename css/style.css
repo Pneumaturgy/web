@@ -378,11 +378,23 @@ code {
 .card-arcade .card__eyebrow { color: #C97B1F; }
 
 .card-jove {
+  position: relative;
   padding: 34px;
   min-height: 280px;
-  background: linear-gradient(158deg, #1A1220 0%, #5B2E1C 62%, #8A5A24 100%);
+  background:
+    linear-gradient(158deg, rgba(20, 14, 26, 0.94) 0%, rgba(40, 24, 30, 0.78) 48%, rgba(120, 74, 40, 0.5) 100%),
+    url('../assets/ByJove/Skydome.jpg') center / cover no-repeat;
   box-shadow: 0 24px 60px -34px rgba(22, 18, 15, 0.7);
 }
+.card-jove__mark {
+  position: absolute;
+  right: 26px;
+  top: 26px;
+  width: 72px;
+  height: 72px;
+  opacity: 0.92;
+}
+.card-jove .card__eyebrow { padding-right: 88px; }
 .card-jove .card__eyebrow { color: #F5C97A; }
 .card-jove .card__title { color: #FBFAF8; }
 .card-jove .card__body { color: rgba(251, 250, 248, 0.68); }
@@ -424,6 +436,14 @@ code {
 .card-logo .card__eyebrow { color: var(--accent); margin: 0 0 12px; }
 .card-logo .card__title { font-size: 30px; margin-bottom: 10px; }
 .card-logo .card__body { color: var(--ink-3); font-size: 15.5px; }
+
+.card-logo--dark {
+  background: var(--dark);
+  box-shadow: 0 24px 60px -34px rgba(22, 18, 15, 0.7);
+}
+.card-logo--dark .card-logo__figure { background: rgba(251, 250, 248, 0.04); }
+.card-logo--dark .card__title { color: #FBFAF8; }
+.card-logo--dark .card__body { color: rgba(251, 250, 248, 0.6); }
 
 .card-stories {
   grid-column: span 2;
