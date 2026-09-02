@@ -366,21 +366,6 @@ code {
 .card-shryn .card__eyebrow { color: #3E8E5E; }
 .card-sciwars .card__eyebrow { color: #7E6EE8; }
 
-.card-pornada {
-  padding: 34px;
-  min-height: 300px;
-  background: var(--ink);
-  box-shadow: 0 24px 60px -34px rgba(22, 18, 15, 0.7);
-}
-.card-pornada .card__eyebrow { color: #9FD8C9; }
-.card-pornada .card__title { color: #FBFAF8; margin-bottom: 12px; }
-.card-pornada .card__body { color: rgba(251, 250, 248, 0.6); }
-.card-pornada__quote {
-  font: 400 15px/1.9 var(--font-mono);
-  color: #9FD8C9;
-  margin: 0 0 20px;
-}
-
 .card-arcade {
   padding: 34px;
   min-height: 280px;

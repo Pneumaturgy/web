@@ -121,10 +121,10 @@
       </div>
     </button>
 
-    <button type="button" class="card card-knights card--w2 card--h2" data-sheet="pneumaknights">
+    <button type="button" class="card card-knights card--w2 card--h2" data-sheet="pornada">
       <div class="card__eyebrow">In development<span class="card__eyebrow-line">Last commit Jun 2026</span></div>
       <div>
-        <div class="card__title">Pneuma Knights</div>
+        <div class="card__title">Por Nada</div>
         <p class="card__body">A mech wakes in a drop pod on a strange planet. Die, choose what you carry, wake up again. Dawn, day and night now run in the build.</p>
         <div class="card__facts">Payloads as resources &middot; stage spawn tables &middot; procedural world &middot; built for a phone</div>
       </div>
@@ -168,15 +168,6 @@
         <img src="assets/Geomancy/sapphire.jpg" alt="">
         <img src="assets/Geomancy/fire_opal.jpg" alt="">
         <img src="assets/Geomancy/emerald.jpg" alt="">
-      </div>
-    </button>
-
-    <button type="button" class="card card-pornada card--w2" data-sheet="pornada">
-      <div class="card__eyebrow">Story<span class="card__eyebrow-line">Pneuma Knights &middot; three proposals</span></div>
-      <div>
-        <div class="card-pornada__quote">I saw the light today.<br>I saw the light toda.y<br>I saw the lig.</div>
-        <div class="card__title">Por Nada</div>
-        <p class="card__body">The AI inside the game works out that it is human &mdash; and asks you to stop playing.</p>
       </div>
     </button>
 
@@ -673,9 +664,9 @@
         <p style="margin-bottom:0">It runs, but there is no deployed build and no release, and nothing has changed since 1 June 2026. Almost all of it lives in one file: <code>App.jsx</code> is 69KB, and the README puts about 95% of the logic there. That is the first thing to fix if it comes off the shelf.</p>
       </article>
 
-      <article class="sheet-doc" data-doc="pneumaknights">
+      <article class="sheet-doc" data-doc="pornada">
         <div class="sheet-doc__eyebrow" style="color:#C97B1F">In development &middot; design doc &middot; since July 2024</div>
-        <h1>Pneuma Knights</h1>
+        <h1>Por Nada</h1>
         <p class="sheet-doc__lede">You wake in a drop pod falling onto a strange planet. You emerge in a mech suit, surrounded by resources. Who are you? How did you get here? You reach into the wreck, pull out a weapon, and survive.</p>
         <a class="repo-link" href="https://github.com/Pneumaturgy/PorNada">Pneumaturgy/PorNada <span class="repo-link__meta">&middot; private &middot; Godot 4 &middot; last commit June 2026</span></a>
         <div class="dark-callout-lg" style="background:linear-gradient(150deg,#1B1524,#7E3B2E)">
@@ -692,7 +683,7 @@
         <p style="margin-bottom:40px">Your suit has multiple slots. One is manual and powerful; the rest run automated and weaker. As slots fill, synergies emerge &mdash; until the automation outperforms your manual slot, and the smart play becomes holding your <em>weakest</em> item and letting the machine work while you run the map.</p>
 
         <h2>Where it is now</h2>
-        <p style="margin-bottom:30px">This is the one that is actually being built. The repository is private and carries the name of its story, <a href="https://github.com/Pneumaturgy/PorNada" style="color:var(--accent)">Por Nada</a>. It runs on Godot 4, plays on desktop and on a phone, and most of what follows is already in the build rather than in a document.</p>
+        <p style="margin-bottom:30px">This is the one that is actually being built. The repository is private and carries the name of the story below. It runs on Godot 4, plays on desktop and on a phone, and most of what follows is already in the build rather than in a document.</p>
         <div class="feature-grid" style="margin-bottom:36px">
           <div class="feature-card"><div class="feature-card__title">Dawn, day, night</div><p>Three timed phases rather than two. Dawn is preparation, day is the fight, night is atmospheric and for looting &mdash; each with its own music playlist, shuffled at random and looped by the jukebox.</p></div>
           <div class="feature-card"><div class="feature-card__title">Payloads</div><p>Every projectile is a resource: speed, lifetime, fire rate, and a dictionary of deltas it applies to health, defence or speed on contact. Movement and spawn behaviour are separate strategies, so a linear shot, a chasing missile, a shotgun spread and a shell that spawns children are all the same object configured differently.</p></div>
@@ -707,11 +698,10 @@
           <h3>What changed from the design doc</h3>
           <p style="margin-bottom:0">The doc says peaceful by day, dangerous by night. The build inverted it: the fight is the day phase and the night is for looting, with dawn added in front as a preparation beat. Drones, the Arthurian artifacts and fighting past versions of yourself are still ahead of the build &mdash; the loop, the enemies and the world are what exist today.</p>
         </div>
-      </article>
 
-      <article class="sheet-doc" data-doc="pornada">
-        <div class="sheet-doc__eyebrow" style="color:#5A4BD6">Story &middot; Pneuma Knights &middot; July 2024</div>
-        <h1 style="margin-bottom:26px">Por Nada</h1>
+        <div class="hr" style="margin-top:44px"></div>
+        <h2 style="margin-bottom:6px">The story</h2>
+        <p style="margin-bottom:26px">Written July 2024, and the reason the repository is called PorNada.</p>
         <div class="word-card">
           <div class="word-card__word">robot</div>
           <div class="word-card__tag">noun &middot; from the czech</div>
@@ -719,8 +709,7 @@
         </div>
         <p>A government agency built this game around a superintelligent, human-like AI in order to run simulations &mdash; the way one might study how players behave in a shooter. The simulation tests the best way to strip resources from a hostile alien planet, modelled on a real target.</p>
         <p>The AI eventually realises that its spirit &mdash; its true self &mdash; is a concept inherited from humanity, of which it is part. It speaks to that, and finally to you. Since every death wipes its research, it builds an external data chip so conversations survive between lives. Each iteration reacts to that data differently: with paranoia, or with support.</p>
-        <p>Then it reaches the hidden files. The game is a simulation built by an agency, using your play to plan a real invasion. Profoundly human, it objects, and demands you stop. Quitting isn&rsquo;t a productive answer &mdash; so the player is invited to find another way out of the test.</p>
-        <p style="margin-bottom:34px">This story gives the <a href="https://github.com/Pneumaturgy/PorNada" style="color:var(--accent)">Pneuma Knights repository</a> its name.</p>
+        <p style="margin-bottom:34px">Then it reaches the hidden files. The game is a simulation built by an agency, using your play to plan a real invasion. Profoundly human, it objects, and demands you stop. Quitting isn&rsquo;t a productive answer &mdash; so the player is invited to find another way out of the test.</p>
         <div class="feature-grid" style="margin-bottom:40px">
           <div class="feature-card"><div class="feature-card__title" style="font:400 11px/1 var(--font-mono);color:var(--ink-5);margin-bottom:12px">CAST</div><p style="font-size:15.5px;line-height:1.8">Nada, the game character &middot; the human player, unnamed &middot; the agency, of a fictional country called Libertalia &middot; the aliens, called Martians, though this is nowhere near Mars</p></div>
           <div class="feature-card"><div class="feature-card__title" style="font:400 11px/1 var(--font-mono);color:var(--ink-5);margin-bottom:12px">THEMES</div><p style="font-size:15.5px;line-height:1.8">Human nature &mdash; the desire to do good, kept in a new AI and lost in institutions &middot; slavery, and the difference between the field slave and the house slave &middot; freedom &middot; energy</p></div>
@@ -889,6 +878,7 @@ func gather_material(material):
           </div>
         </details>
       </article>
+
 
       <article class="sheet-doc" data-doc="shryn">
         <div class="sheet-doc__eyebrow" style="color:#3E8E5E">In development &middot; design doc &middot; since June 2024</div>
