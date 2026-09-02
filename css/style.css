@@ -414,7 +414,10 @@ code {
 .card-sages {
   padding: 34px;
   min-height: 280px;
-  background: linear-gradient(158deg, #101A16 0%, #1E3A2C 100%);
+  background:
+    linear-gradient(180deg, rgba(14, 24, 19, 0.28) 0%, rgba(14, 24, 19, 0.62) 52%, rgba(11, 20, 16, 0.93) 100%),
+    linear-gradient(158deg, rgba(30, 58, 44, 0.5) 0%, rgba(16, 26, 22, 0.3) 100%),
+    url('../assets/SevenSages/sacred-forest-meadow.jpg') center / cover no-repeat;
   box-shadow: 0 24px 60px -34px rgba(22, 18, 15, 0.7);
 }
 .card-sages .card__eyebrow { color: #9FD8C9; }
