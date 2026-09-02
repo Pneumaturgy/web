@@ -445,6 +445,24 @@ code {
   min-height: 140px;
 }
 .card-logo__figure img { max-height: 100%; object-fit: contain; }
+/* Each logo sits on a tint pulled from its own artwork rather than one shared cream. */
+.card-logo[data-sheet="vapor"] .card-logo__figure {
+  background: linear-gradient(150deg, #FFFFFF 0%, #F4F6FD 46%, #E9ECF9 100%);
+}
+.card-logo[data-sheet="lytra"] .card-logo__figure { background: #E5EFF5; }
+/* Mollusk, Cerdo and PneuMath ship with a backdrop baked into the file, so their
+   panels take that colour and the image edge disappears into it. Mollusk's is a
+   soft white glow, so its artwork is feathered rather than left as a square. */
+.card-logo[data-sheet="mollusk"] .card-logo__figure { background: #EFF1F6; }
+.card-logo[data-sheet="mollusk"] .card-logo__figure img {
+  -webkit-mask-image: radial-gradient(closest-side, #000 58%, transparent 100%);
+  mask-image: radial-gradient(closest-side, #000 58%, transparent 100%);
+}
+.card-logo[data-sheet="cerdo"] .card-logo__figure { background: #DB83B0; }
+.card-logo[data-sheet="pneumath"] .card-logo__figure { background: #EFF4F7; }
+.card-logo--dark[data-sheet="navi"] .card-logo__figure { background: rgba(150, 196, 232, 0.10); }
+.card-logo--dark[data-sheet="orison"] .card-logo__figure { background: rgba(196, 205, 228, 0.07); }
+
 .card-logo__text { flex: 0 0 auto; }
 .card-logo__figure img { max-width: 78%; height: auto; display: block; }
 .card--h2 .card-logo__figure img { max-width: 62%; }
