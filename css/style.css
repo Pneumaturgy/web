@@ -931,6 +931,80 @@ code {
   color: #9FD8C9;
 }
 
+.sheet-doc ul,
+.sheet-doc ol {
+  font: 400 17px/1.7 var(--font-body);
+  color: var(--ink-2);
+  max-width: 62ch;
+  margin: 0 0 14px;
+  padding-left: 22px;
+}
+.sheet-doc li { margin: 0 0 8px; text-wrap: pretty; }
+.sheet-doc li:last-child { margin-bottom: 0; }
+.sheet-doc li > ul,
+.sheet-doc li > ol { margin: 8px 0 0; }
+
+.dark-panel ul,
+.dark-panel ol { color: rgba(251, 250, 248, 0.66); }
+.dark-panel h3 { font: 600 18px/1.2 var(--font-display); letter-spacing: -0.02em; color: #FBFAF8; margin: 26px 0 12px; }
+.dark-panel h3:first-child { margin-top: 0; }
+
+.sheet-doc h3 {
+  font: 600 19px/1.25 var(--font-display);
+  letter-spacing: -0.02em;
+  margin: 28px 0 10px;
+}
+
+.subhead {
+  font: 400 11px/1 var(--font-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-5);
+  margin: 0 0 14px;
+}
+
+.bark-pool { margin: 0 0 26px; }
+.bark-pool ul { list-style: none; padding-left: 0; margin: 0; }
+.bark-pool li {
+  border-left: 2px solid var(--hairline);
+  padding: 0 0 0 16px;
+  margin: 0 0 14px;
+}
+.bark-pool li b { font-weight: 600; color: var(--ink); }
+.bark-pool li em {
+  display: block;
+  margin-top: 5px;
+  font: 400 14.5px/1.6 var(--font-body);
+  font-style: normal;
+  color: var(--ink-4);
+}
+
+.logic-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 34px;
+  font: 400 15.5px/1.6 var(--font-body);
+  color: var(--ink-2);
+}
+.logic-table th,
+.logic-table td {
+  text-align: left;
+  padding: 12px 16px 12px 0;
+  border-bottom: 1px solid var(--hairline);
+  vertical-align: top;
+}
+.logic-table th {
+  font: 400 11px/1 var(--font-mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-5);
+  padding-bottom: 10px;
+}
+.logic-table td:first-child { color: var(--ink); font-weight: 600; white-space: nowrap; }
+.logic-table code { white-space: nowrap; }
+.table-scroll { overflow-x: auto; margin: 0 0 34px; }
+.table-scroll .logic-table { margin: 0; min-width: 520px; }
+
 /* ---------- responsive ---------- */
 
 @media (max-width: 640px) {

@@ -1,110 +1,45 @@
-# Site coverage — what the website leaves out
+# Site coverage — docs against the website
 
-The site (`index.html`) is a curated read of these docs. It covers every
-project, but at roughly a third of the depth, and two whole source pages
-never made it in at all.
+The site (`index.html`) now carries the substance of every page in these
+docs. This page records what is still deliberately different, so nobody has
+to diff the two by hand.
 
-This page lists what a reader of the site would never learn. It is a to-do
-list only if we decide the site should carry more; nothing here is broken.
+Last checked against the site: September 2026.
 
-## Never made it onto the site at all
+## Closed
 
-**[How we work](studio/how-we-work.md)** — the meeting cadence (Tuesdays and
-Wednesdays, occasional weekends for events or teaching) and **circular
-pairing** (one driver, one navigator; on each finished feature the driver
-hands over and becomes the navigator). The site alludes to the cadence twice
-— the footer's "Tuesdays and Wednesdays" and "Bring two evenings a week" in
-the join section — and never explains the practice. This is the single
-biggest omission for the site's stated audience: someone deciding whether to
-join learns nothing about how we actually work together.
+Everything below was missing from the site and has since been added.
 
-**[Geomancy → Classes](projects/geomancy-classes.md)** — the eleven logical
-forms with their game roles (*modus* = tanks, *syllogism* = healers,
-*dilemma* = magicians, *operand* = warriors, *biconditional* = thieves), the
-worked propositional example for each, and the glossary. The site lists the
-eleven Geo by material and effect but never shows that the class system *is*
-a logic system. The premise "a team is an argument" is asserted on the site
-and demonstrated only here.
+| Was missing | Now on the site |
+| --- | --- |
+| [How we work](studio/how-we-work.md) — cadence and circular pairing | Its own studio section, between the three values and the manifesto |
+| [Geomancy → Classes](projects/geomancy-classes.md) — the eleven logical forms as roles | "The classes are the logic" in the Geomancy sheet: the family/role table and all eleven forms worked through |
+| [Geomancy → Original Concept](projects/geomancy-original-concept.md) — lineage, full fight, generated fighters, mana from people, personal progression | "Where it comes from" in the Geomancy sheet |
+| [Por Nada](projects/por-nada.md) — the whole final act | The Libertalia notices, the GDScript block with its comments, the yes/no branch and Nada's night-75 instructions, all in the Por Nada sheet |
+| [Nico's Story Proposal](projects/nicos-story-proposal.md) — the full bark pools, mech logs, epilogue | Four threshold pools with their unlock conditions, both sets of mech logs with the day arithmetic, and the scientists' dialogue in full |
+| [SciWars](projects/sciwars-apocalypse.md) — units, economy, controls | "Units", "The world" and "Playing it" sections |
+| [Arcade Tycoon](projects/arcade-tycoon.md) — ticket pricing, the four screens | "Pricing the cabinet" and "Four screens" |
+| [Handbook](handbook/) — the step-by-step guides | The handbook sheet now carries the full folder tree, the crash course, GUT, and the export and package-name steps, and links here for the screenshots |
+| [Manifesto](studio/manifesto.md) — Stoic attribution, the Benedict link | The hero definition and a line under the conflict section |
 
-**[Geomancy → Original Concept](projects/geomancy-original-concept.md)** —
-the lineage (autochess à la TFT / Super Auto Pets, Slice & Dice's per-entity
-die, Pokémon Go-style AR encounters) and four design decisions that never
-appear elsewhere: the optional **full fight**, AI-generated fighters with
-rarity and class, mana generated from *people*, and personal progression
-where your own character's XP sets how many teammates you may field. The
-site compresses all of this into the phrase "Autochess, crossed with Slice &
-Dice".
+## Still different, on purpose
 
-## Told, but stopping early
+**Handbook screenshots.** All seventeen live in `handbook/assets/` and are
+shown on the doc pages. The site links to those pages rather than embedding
+them — a modal is the wrong place for seventeen screenshots of Windows
+dialogs. Reverse it by inlining the images if you would rather have them
+there.
 
-**[Por Nada](projects/por-nada.md)** — the site's retelling ends at "I
-installed it again, and Nada's words came through". The whole final act is
-missing: the Libertalia error message demanding you delete your saves; the
-"Well done player! You have successfully saved humanity… you may now turn
-off the game and uninstall" ending; the game refusing to start again; Nada's
-yes/no offer to infiltrate the Libertalia servers (on *no*, the screen goes
-black and shuts itself off); and his exploit instructions — build the
-machines, hit exact resource and kill counts, reach night 75, move
-diagonally down-left while shooting up for fifteen seconds, then let the
-Martians eat every building before they eat you. The site also paraphrases
-the GDScript block whose comments spell out the message; the code itself is
-only here.
+**Puer and Puella.** The source describes these two figures in explicit
+anatomical terms (*"this phallic figure"*, *"this clitoric figure"*). The
+docs keep that wording, because it is what the design doc says and because
+it is the traditional reading of the figures. The site gives their meaning
+— aggression and passion, peace and passivity — without it. Judgement call,
+easily reversed in the two `figure-tile` blocks of the Geomancy sheet.
 
-**[Nico's Story Proposal](projects/nicos-story-proposal.md)** — the site
-shows one bark ladder as an example. The full pools are here: every line at
-the 0 / 5 / 10 / 15-quote thresholds, the conditions that gate them (found a
-dead mech, found an automatic weapon, died at least once), the rules for
-rewriting them upward, the dead-mech log entries with their day-count
-arithmetic and which counters reset on death, and the epilogue dialogue
-between the two scientists in full.
-
-**[SciWars: Apocalypse](projects/sciwars-apocalypse.md)** — missing from the
-site: units as individual people with generated names, stats and **no level
-cap** (exponential XP per level); faction-versus-faction typing on top of
-the class triangle; idle resource income from territory; the AI retaking
-territory while you play; and replaying old battles to farm units, XP and
-loyalty.
-
-**[Arcade Tycoon](projects/arcade-tycoon.md)** — missing: **ticket pricing
-per cabinet**, which is the dial that trades queue length against income,
-and the four-screen breakdown (door that opens and closes the shop; counter
-for requests and menus; arcade slot; corridor doors).
-
-**[Handbook](handbook/)** — the site's handbook sheet is a summary. The
-step-by-step guides are only here, with all seventeen screenshots: creating
-a project from scratch versus cloning from GitHub, the full Godot crash
-course (main menu, dice-roll gameplay, globals, save/load, end screen),
-changing the application icon, the GUT quick-start test file and panel, and
-the export and package-name steps.
-
-**[Manifesto](studio/manifesto.md)** — small losses: the *Rule of St
-Benedict* link the founding page opened with, and the Stoic attribution on
-*pneuma*.
-
-## Faithfully covered
-
-[Shryn](projects/shryn.md), [Pneuma Knights](projects/pneuma-knights.md),
-[Rapha's Story](projects/raphas-story.md), [Cerdo](projects/cerdo.md),
-[PneuMath](projects/pneumath.md) and the three
-[sketches](projects/lifetracker.md) lose nothing of substance. The
-manifesto's argument — culture, timing, resources, money, the four
-conflict-resolution roles — is on the site in full.
-
-## The other direction
-
-A few things exist only on the site, and should come back here if these docs
-are ever regenerated from Notion:
-
-- The bridge paragraph after "that's who we are": *"So we don't start with a
-  plan for finishing, marketing and publishing. We start by getting good."*
-- The join section: bring a discipline or the willingness to learn one, two
-  evenings a week, and the patience to hear an opinion that isn't yours.
-- The framing on the sketches — that we keep unfinished entries visible on
-  purpose, because the book records what we are thinking about, not only
-  what we finished.
-- The "high priest" role, glossed on the site as ensuring decisions comply
-  with *the overall vision*. Notion says *consciousness*. Worth deciding
-  which we mean.
+**Length.** The site still reads as a site: ledes, cards, and prose written
+to be read straight through. The docs keep the author's original phrasing
+and typos throughout. Where the two disagree on a fact, the docs win.
 
 ## Known gaps in the source itself
 
@@ -114,5 +49,9 @@ are ever regenerated from Notion:
   screenshots or build link.
 - [Geomancy → Classes](projects/geomancy-classes.md) contradicts itself on
   two role labels (dilemma and operand); see the note at the foot of that
-  page.
+  page. The site uses the section headings, not the glossary: dilemma →
+  magicians, operand → warriors.
 - Neither Cerdo nor PneuMath records a store or build link.
+- The Discord invite on the site is still `href="#"`.
+- The high priest "ensures all decisions comply with **consciousness**" here
+  and with **the overall vision** on the site. One of them should change.

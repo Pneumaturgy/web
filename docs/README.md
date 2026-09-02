@@ -3,11 +3,11 @@
 The studio's written record, taken from the Notion workspace
 (*Welcome To Pneumaturgy*) and kept here in full.
 
-The website at the root of this repo is a **curated** view of this material:
-it selects and rewrites for a reader who has just arrived. These docs are
-the **complete** source. Where the two differ, these win.
+The website at the root of this repo covers the same ground, written for a
+reader who has just arrived. These docs are the source, kept in the author's
+own phrasing. Where the two differ, these win.
 
-See [site coverage](site-coverage.md) for exactly what the site leaves out.
+See [site coverage](site-coverage.md) for the differences that remain.
 
 ## Studio
 

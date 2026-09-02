@@ -100,3 +100,13 @@ bindings) — not meant to ship as-is per `README.md`.
     Tycoon ticket pricing, the whole step-by-step handbook), and the handful
     of lines that exist only on the site and should be folded back into the
     docs.
+16. [x] Site parity pass — everything `docs/site-coverage.md` flagged as
+    missing is now on the site: a "How we work" section (cadence, circular
+    pairing); Geomancy's lineage and its logic-class system; Por Nada's
+    final act (Libertalia notices, the GDScript block, the yes/no branch,
+    the night-75 instructions); Nico's full bark pools, mech logs and
+    epilogue; SciWars units, economy and controls; Arcade Tycoon ticket
+    pricing and its four screens; the full Godot handbook; and the Stoic
+    attribution plus the Benedict link in the manifesto. Verified in a real
+    Chromium render: all 11 sheets open, no horizontal overflow at 1280px
+    or 390px, no new console errors.
