@@ -153,7 +153,7 @@ immediately win.
 
 ![Puer](../../assets/figures/puer.png)
 
-This phallic figure represents aggression and passion, and therefore when
+This phallic figure represents domination, and therefore when
 revealed, triggers a −1 health to all Geo currently not locked, and +1
 health to all Geo currently locked.
 
@@ -168,7 +168,7 @@ all pure type Geo with a +1 to health and attack.
 
 ![Puella](../../assets/figures/puella.png)
 
-This clitoric figure represents peace and passivity. All Geo locked after
+This clitoric figure represents subjugation. All Geo locked after
 this figure have been revealed receive a +2 to strength and health.
 
 ### Amissio — *Loss*
