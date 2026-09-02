@@ -39,12 +39,13 @@ and typos throughout. Where the two disagree on a fact, the docs win.
 Every project with a repository links to it, and the work grid is ordered by
 last commit. Read from GitHub on 2 September 2026.
 
-Studio: Pneuma Knights (Pneumaturgy/PorNada, private), Arcade Tycoon
-(Pneumaturgy/ArcadeTycoon, private, scaffold only), Trinks
-(Pneumaturgy/GMTKjam, private), Cerdo (Ghigog/Cerdo, public).
+Studio: By Jove (Ghigog/by_jove_godot, private), Pneuma Knights
+(Pneumaturgy/PorNada, private), Arcade Tycoon (Pneumaturgy/ArcadeTycoon,
+private, scaffold only), Trinks (Pneumaturgy/GMTKjam, private), Cerdo
+(Ghigog/Cerdo, public).
 
 Personal: Quire, Vapor Music, Lytra, Theory Forge and Seven Sages are
-public; By Jove, Mollusk, Navi and Orison are private.
+public; Mollusk, Navi and Orison are private.
 
 Private repositories stay private by decision. Their links are labelled
 `private` on the site so a visitor knows the repository exists and the link
@@ -72,24 +73,23 @@ Not site problems, but they will mislead anyone who follows a link:
 - **Quire's README** says there is no application code. Five Kotlin modules
   with tests exist. The accurate statement is that the libraries and spikes
   exist and the Android app does not.
-- **Navi's repo root** carries committed debug artefacts — a 113KB
-  `test_run.log`, a 179KB `done.md`, eight `reconstructed_aiservice_step*.txt`
-  files. Private repo, so cosmetic.
 - **Theory Forge, Orison, Mollusk and Navi READMEs** link internal docs by
   absolute `file:///Users/dylangrowcoot/` paths, dead for everyone else.
+  Theory Forge is public, so that one matters most.
 
-## Still open
+Both flagged for fixing in the repositories themselves. They cannot be
+changed from a session scoped to `Pneumaturgy/`.
 
-- **PneuMath has no repository linked.** `iHackN3WTON/gdt_GuessTheNumber`
-  was the candidate; the name does not match "find the hidden pattern in a
-  sequence", and it was never confirmed.
-- **By Jove pairs with `Pneumaturgy/ByJoveDocs`**, so it may be a studio
-  project rather than a personal one. It is listed as personal until
-  someone says otherwise. Grid position is unaffected either way.
+## Settled
+
+- **By Jove is a studio project**, not a personal one, and is listed as
+  such. `Pneumaturgy/ByJoveDocs` is old and not referenced.
+- **PneuMath has no repository linked, on purpose.**
+  `iHackN3WTON/gdt_GuessTheNumber` is a predecessor of the idea rather than
+  PneuMath itself, and stays off the site.
 - `Pneumaturgy/Pneuma`, `Pneumaturgy/godot-template`,
   `Pneumaturgy/Pneumaturgy-Documentation`, `Pneumaturgy/organization-docs`
-  and `Ghigog/deafening-app` are deliberately left off — decided, not
-  pending.
+  and `Ghigog/deafening-app` are deliberately left off.
 
 ## Known gaps in the source itself
 

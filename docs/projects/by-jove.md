@@ -1,10 +1,8 @@
 # By Jove
 
-> Status: in development · personal project
+> Status: in development · studio project
 > Repository: [Ghigog/by_jove_godot](https://github.com/Ghigog/by_jove_godot)
 > · private · Godot 4 · last commit 31 August 2026
->
-> Paired with `Pneumaturgy/ByJoveDocs`.
 
 A 3D game set in the atmosphere of Jupiter. You play a robot that runs on
 hydrogen, descending through procedurally generated levels.

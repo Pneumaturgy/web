@@ -30,3 +30,9 @@ challenge of Pneumath!
 ![PneuMath screenshot](../../assets/PneuMath/image1-2.png)
 
 ![PneuMath screenshot](../../assets/PneuMath/image1-03.png)
+
+## Predecessor
+
+`iHackN3WTON/gdt_GuessTheNumber` is understood to be an earlier version of
+this idea rather than PneuMath itself. It is deliberately not linked from
+the site.

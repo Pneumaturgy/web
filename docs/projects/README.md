@@ -26,8 +26,8 @@ implies all of them are live.
 | [Trinks](trinks.md) — GMTK 2024 | [Pneumaturgy/GMTKjam](https://github.com/Pneumaturgy/GMTKjam) | 20 Aug 2024 | private |
 | [Cerdo](cerdo.md) | [Ghigog/Cerdo](https://github.com/Ghigog/Cerdo) | 7 Jul 2024 | public |
 
-Studio projects are Pneuma Knights, Arcade Tycoon, Trinks and Cerdo. The
-rest are personal.
+Studio projects are By Jove, Pneuma Knights, Arcade Tycoon, Trinks and
+Cerdo. The rest are personal.
 
 ## Design docs, no repository yet
 
@@ -36,7 +36,7 @@ rest are personal.
 | [Geomancy](geomancy.md) | In development | 29 April 2024 |
 | [Shryn](shryn.md) | In development | 3 June 2024 |
 | [SciWars: Apocalypse](sciwars-apocalypse.md) | In development | 15 July 2024 |
-| [PneuMath](pneumath.md) | Shipped in a ten-hour jam, repository not identified | 13 July 2024 |
+| [PneuMath](pneumath.md) | Shipped in a ten-hour jam, no repository linked | 13 July 2024 |
 | [LifeTracker](lifetracker.md) | Sketch | 20 August 2024 |
 | [Ratchet & Clank Cleaner](ratchet-and-clank-cleaner.md) | Sketch (empty) | 20 August 2024 |
 
