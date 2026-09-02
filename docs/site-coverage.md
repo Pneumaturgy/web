@@ -66,6 +66,38 @@ itself or the obvious reading is wrong:
   June. The site says "last commit" and "last worked on" rather than
   implying everything is live.
 
+## The site's shape
+
+**The work** carries what is finished or in active development, ordered by
+last commit. **Design docs** is a separate section below it for projects
+that have not reached implementation: SciWars: Apocalypse, Shryn,
+LifeTracker and Ratchet & Clank Cleaner.
+
+Card size carries project size, read from the repository: `1x1` small,
+`2x1` or `1x2` medium, `2x2` large. Large today is By Jove, Seven Sages and
+Pneuma Knights; the 2x2s carry a line of facts so the space is earned
+rather than empty.
+
+The grid packs with `grid-auto-flow: dense`, so a small card will sometimes
+rise to fill a gap left by a larger one. Ordering therefore reads as
+newest-first overall rather than strictly commit by commit — the
+alternative was visible holes in the grid, or distorting card sizes to make
+them tile, and both were worse. Below 1000px the row spans drop and it
+becomes a plain flow; below 640px it is a single column in exact date
+order.
+
+Two things came off the site and stayed in the docs only:
+
+- **How we build** — the handbook is pure internal documentation and does
+  not belong on a public page. It lives in [handbook/](handbook/).
+- **Nico's Proposal and Rapha's Story** — they are proposals for Por Nada's
+  story, so they are now disclosures inside the Por Nada sheet rather than
+  a card of their own.
+
+Card eyebrows no longer mark work as personal or studio; they carry status
+and the last commit date on its own line. The
+[project index](projects/README.md) still records which is which.
+
 ## Project art
 
 Collected from the repositories and delivered on the `site-assets` branch of

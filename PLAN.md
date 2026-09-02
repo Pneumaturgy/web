@@ -140,3 +140,12 @@ bindings) — not meant to ship as-is per `README.md`.
     published, with reasons recorded in `docs/site-coverage.md`; Quire,
     Seven Sages and Theory Forge still need art made and stay as text
     cards.
+20. [x] Restructure — the work grid now sizes each card by project size
+    (1x1 / 2x1 / 1x2 / 2x2, read from the repositories), with dense packing
+    so there are no holes. Design docs moved to their own section below the
+    work: SciWars, Shryn, LifeTracker and Ratchet & Clank Cleaner. Nico's
+    and Rapha's proposals became disclosures inside the Por Nada sheet,
+    since that is what they are proposals for. The handbook came off the
+    site entirely — it is internal documentation and stays in `docs/`.
+    Eyebrows dropped the personal/studio tag and put the commit date on its
+    own line, and the work section lost its intro paragraph.
