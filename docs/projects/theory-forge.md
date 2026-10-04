@@ -2,7 +2,7 @@
 
 > Status: in development · personal project
 > Repository: [Ghigog/lol-theory](https://github.com/Ghigog/lol-theory)
-> · public · React 19 + Vite · last commit 1 June 2026
+> · public · React 19 + Vite · last commit 2 September 2026 (a README link fix)
 
 A browser tool for testing League of Legends champion builds: combine items
 and levels, and see the resulting stats.
@@ -27,8 +27,8 @@ Search, categories, drag-and-drop, and double-tap to add.
 
 ## State
 
-It runs, but there is no deployed build, no release, and no commits since
-1 June 2026.
+It runs, but there is no deployed build, no release, and apart from a README link fix
+on 2 September, no commits since 1 June 2026.
 
 > Almost all the logic is in one file: `App.jsx` is 69KB, and the README
 > puts about 95% of the project there. That is the first thing to fix if it

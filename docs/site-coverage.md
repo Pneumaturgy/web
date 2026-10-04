@@ -4,7 +4,7 @@ The site (`index.html`) now carries the substance of every page in these
 docs. This page records what is still deliberately different, so nobody has
 to diff the two by hand.
 
-Last checked against the site: September 2026.
+Last checked against the site: October 2026.
 
 ## Closed
 
@@ -37,20 +37,19 @@ and typos throughout. Where the two disagree on a fact, the docs win.
 ## Repositories
 
 Every project with a repository links to it, and the work grid is ordered by
-last commit. Read from GitHub on 2 September 2026.
+last commit. Read from GitHub on 4 October 2026.
 
 Studio: By Jove (Ghigog/by_jove_godot, private), Por Nada
-(Pneumaturgy/PorNada, private), Arcade Tycoon (Pneumaturgy/ArcadeTycoon,
-private, scaffold only), Trinks (Pneumaturgy/GMTKjam, private), Cerdo
-(Ghigog/Cerdo, public).
+(Pneumaturgy/PorNada), Arcade Tycoon (Pneumaturgy/ArcadeTycoon, scaffold
+only), Trinks (Pneumaturgy/GMTKjam), Cerdo (Ghigog/Cerdo).
 
-Personal: Quire, Vapor Music, Lytra, Theory Forge and Seven Sages are
-public; Mollusk, Navi and Orison are private.
+Personal: Formic, Navi, Orison, Quire, Vapor Music, Theory Forge, Seven
+Sages and Lytra are public; Mollusk is private.
 
-Private repositories stay private by decision. Their links are labelled
-`private` on the site so a visitor knows the repository exists and the link
-is not broken — what is current about each one is written up on the page
-instead. The full table is in the [project index](projects/README.md).
+Private repositories are labelled `private` on the site so a visitor knows
+the repository exists and the link is not broken — what is current about
+each one is written up on the page instead. The full table is in the
+[project index](projects/README.md).
 
 ## Accuracy notes carried from the repositories
 
@@ -61,10 +60,12 @@ itself or the obvious reading is wrong:
   August 2026. It must never be described as open source.
 - **Seven Sages is GPL**, because Ship of Harkinian is. It is a fork; only
   the `mod/seven-sages` branch is ours.
-- **Orison is paused**, not active — nothing since 17 June 2026.
-- Four projects were touched in the last week of August, two not since
-  June. The site says "last commit" and "last worked on" rather than
-  implying everything is live.
+- **Quire's first version is a speech engine, not a reader.** It plugs
+  into the Boox's own Read Aloud; the README's "the Android app does not
+  yet" is stale, since `app:companion` and `app:ttsservice` exist.
+- **Mollusk's and Theory Forge's September dates are a README link fix**,
+  not code. The site says "last commit" rather than implying everything is
+  live.
 
 ## The site's shape
 
