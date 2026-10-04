@@ -27,7 +27,7 @@ See the [project index](projects/README.md).
 | Studio, design docs | [Geomancy](projects/geomancy.md) · [Shryn](projects/shryn.md) · [SciWars: Apocalypse](projects/sciwars-apocalypse.md) |
 | Stories | [Por Nada — the story](projects/por-nada-story.md) · [Nico's Story Proposal](projects/nicos-story-proposal.md) · [Rapha's Story](projects/raphas-story.md) |
 | Sketches | [LifeTracker](projects/lifetracker.md) · [Ratchet & Clank Cleaner](projects/ratchet-and-clank-cleaner.md) |
-| Personal | [Quire](projects/quire.md) · [Vapor Music](projects/vapor-music.md) · [Seven Sages](projects/seven-sages.md) · [Lytra](projects/lytra.md) · [Mollusk](projects/mollusk.md) · [Navi](projects/navi.md) · [Orison](projects/orison.md) · [Theory Forge](projects/theory-forge.md) |
+| Personal | [Quire](projects/quire.md) · [Vapor Music](projects/vapor-music.md) · [Seven Sages](projects/seven-sages.md) · [Lytra](projects/lytra.md) · [Mollusk](projects/mollusk.md) · [Navi](projects/navi.md) · [Orison](projects/orison.md) · [Theory Forge](projects/theory-forge.md) · [Formic](projects/formic.md) |
 
 ## Handbook
 

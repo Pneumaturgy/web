@@ -2,7 +2,7 @@
 
 > Status: in development · personal project
 > Repository: [Ghigog/mollusk](https://github.com/Ghigog/mollusk)
-> · private · Python + Ollama · last commit 16 July 2026
+> · private · Python + Ollama · last commit 2 September 2026 (a README link fix; the code last changed 16 July 2026)
 
 A voice and text agent that drives a living-room NUC, so the machine is
 operated by talking to it rather than through a desktop and a file manager.

@@ -2,47 +2,59 @@
 
 > Status: in development · personal project
 > Repository: [Ghigog/Quire](https://github.com/Ghigog/Quire)
-> · public · Kotlin · last commit 31 August 2026
+> · public · Kotlin · last commit 20 September 2026
 
-An offline e-reader that reads a book aloud and gives every character in it
-their own synthesised voice.
+Reads a book aloud on an e-ink Android reader, and gives every character in
+it their own synthesised voice.
 
 ## The idea
 
 Segment an EPUB into dialogue and narration, attribute each line to a
-speaker, and hand every speaker their own ONNX voice, highlighting the
-active sentence as it plays. All of it on the device, with a small local
-model, tuned for e-ink Android hardware.
+speaker, and give every speaker a voice of their own, highlighting the
+active sentence as it plays. The analysis runs on the device with a small
+local model, tuned for e-ink Android hardware.
+
+## V1 is a speech engine, not a reader
+
+Quire installs as an Android `TextToSpeechService`, and the Boox's own
+reader (Onyx NeoReader) routes its Read Aloud through it. This was the
+cheapest experiment that could invalidate the architecture, so it ran first
+(ADR-0004, QUI-020) and passed on an Onyx Boox Note Air5 C. A standalone
+reader is still on the roadmap, later.
+
+## Voices are generated
+
+ADR-0009: a character's voice is generated from a description of how they
+should sound, not assigned from the engine's stock speakers. The analysis
+records the description; a separate step realises it, so voices can
+improve without re-running the analysis. Confirmed by ear on 6 September
+2026.
+
+Attribution runs in tiers: a heuristic first (`core/attribution`, scored
+against `fixtures/attribution/*.tsv`), then a small language model with a
+confidence fallback when the heuristic is unsure.
 
 ## What exists today
 
-Six Gradle modules in the root build, with fifteen test classes across five
-of them (`core/epub` is source-only so far). `./gradlew test` passes.
+Eight modules in the root build: `core/model`, `core/index`,
+`core/attribution`, `core/epub`, `core/voice`, `core/tts`,
+`spike/indexer` and `spike/slice`.
 
-| Module | |
+Two Android apps under `app/`, outside the root build and built by CI:
+
+| App | Does |
 | --- | --- |
-| `core/model` | |
-| `core/index` | SQLite-backed book index |
-| `core/attribution` | Heuristic speaker attributor, scored against `fixtures/attribution/*.tsv` by `FixtureScoreTest` — so quality is a number, not an impression |
-| `core/epub` | `EpubText.kt`; no tests yet |
-| `spike/indexer` | |
-| `spike/slice` | |
+| `app:companion` | Imports a book, indexes it, casts its characters, resumes from a checkpoint if interrupted. Cloud voice settings. |
+| `app:ttsservice` | The speech engine: whole-sentence synthesis with fragment serving, a rolling ring buffer, multi-voice utterances with `rangeStart` callbacks. |
 
-Two further modules sit **outside** the root build, each with its own
-`settings.gradle.kts`:
+Spikes: `spike/ttsbinding` (Android probe), `spike/pipeline` (desktop
+harness, now with a chapter-to-audio `synthesize` command) and
+`spike/hostbench` (Python TTS screening).
 
-- `spike/ttsbinding` — a real Android application module
-  (`com.android.application`, with a manifest).
-- `spike/pipeline` — a desktop harness.
+## The one thing that can leave the device
 
-A Python benchmark harness lives in `spike/hostbench`.
-
-## What does not
-
-The reading app itself: the thing you would open to read a book. Code does
-run, on a phone included — the libraries, the spikes and the measurements
-are simply ahead of the application.
-
-> An earlier version of this page said there was no Android module and that
-> nothing ran on a device. Both were wrong; `spike/ttsbinding` was missed
-> because it is outside the root build.
+ADR-0010, 20 September 2026: optional bring-your-own-key cloud voices for
+dialogue, with the local engine still doing narration. Dialogue is about a
+quarter of a book's words and most of its emotional weight. Only the text
+of the line being spoken and the chosen voice id are sent; no book, chapter,
+reader or cast data.

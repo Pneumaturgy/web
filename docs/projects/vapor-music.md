@@ -2,7 +2,7 @@
 
 > Status: in development · personal project
 > Repository: [Ghigog/vapor-music](https://github.com/Ghigog/vapor-music)
-> · public · Rust + Tauri 2 + React 19 · last commit 31 August 2026
+> · public · Rust + Tauri 2 + React 19 · v2.1.0 · last commit 19 September 2026
 > · **proprietary, all rights reserved** — not open source
 
 A local-first music player that analyses your own library on your own
@@ -27,8 +27,17 @@ Band, was deleted on 21 August 2026 and preserved on the tag
 `godot-final-v1.78` — eighty release notes' worth of history in
 `docs/CHANGELOG-godot.md`. The rewrite also moved the licence off AGPL.
 
-## Not released
+## September 2026
 
-The README is blunt about why: requiring a WebDAV URL is a real barrier.
-Native Proton Drive, Mega, Google Drive and Dropbox backends are wanted and
-unbuilt. Sixteen issues open.
+- **Vibe DJ** steers along its energy curve and decides one track at a time,
+  conducting whichever list you pressed play on.
+- **One library view**, ranked by what gets played.
+- **Artist pages** show albums and their tracks; genre is on screen, and
+  artist, album and genre all navigate from Liner Notes.
+
+## Tagged, not yet for everyone
+
+`v2.0.0` tagged 3 September 2026, `v2.1.0` on 19 September. One tag builds
+macOS, Windows, Linux and Android (APK) through `release.yml`. The README is
+still blunt about the barrier: requiring a WebDAV URL. Native Proton Drive,
+Mega, Google Drive and Dropbox backends are wanted and unbuilt.
