@@ -1,6 +1,7 @@
 # Vapor Music
 
-> Status: in development · personal project
+> Status: open beta · personal project
+> Download: [GitHub releases](https://github.com/Ghigog/vapor-music/releases/latest)
 > Repository: [Ghigog/vapor-music](https://github.com/Ghigog/vapor-music)
 > · public · Rust + Tauri 2 + React 19 · v2.1.0 · last commit 19 September 2026
 > · **proprietary, all rights reserved** — not open source
@@ -35,9 +36,10 @@ Band, was deleted on 21 August 2026 and preserved on the tag
 - **Artist pages** show albums and their tracks; genre is on screen, and
   artist, album and genre all navigate from Liner Notes.
 
-## Tagged, not yet for everyone
+## Open beta
 
-`v2.0.0` tagged 3 September 2026, `v2.1.0` on 19 September. One tag builds
-macOS, Windows, Linux and Android (APK) through `release.yml`. The README is
-still blunt about the barrier: requiring a WebDAV URL. Native Proton Drive,
+`v2.0.0` tagged 3 September 2026, `v2.1.0` on 19 September; now in open
+beta, downloadable from the repository's releases page. One tag builds
+macOS, Windows, Linux and Android (APK) through `release.yml`. The barrier
+the README names still stands: sync requires a WebDAV URL. Native Proton Drive,
 Mega, Google Drive and Dropbox backends are wanted and unbuilt.

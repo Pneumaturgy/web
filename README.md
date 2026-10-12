@@ -15,6 +15,8 @@ css/style.css    all styling — design tokens, layout, the sheet/modal system
 js/main.js       opens/closes project sheets, Escape/backdrop-click to
                  close, syncs the open sheet to the URL hash (e.g.
                  /#geomancy is shareable and deep-links straight to it)
+vapor/           share link for Vapor Music: carries its own link-preview
+                 tags (Discord, iMessage, etc.) and redirects to /#vapor
 assets/          images referenced by index.html (logos, figure glyphs,
                  Geomancy gem photography, screenshots)
 design-handoff/  the original Claude Design export this site was built
