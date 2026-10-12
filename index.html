@@ -665,15 +665,13 @@
         <h1>Lytra</h1>
         <p class="sheet-doc__lede">A transparent, always-on-top desktop overlay showing time-synced lyrics for whatever is playing, whichever app is playing it.</p>
         <a class="repo-link" href="https://github.com/Ghigog/lytra">Ghigog/lytra <span class="repo-link__meta">&middot; Godot 4 &middot; last commit 25 July 2026</span></a>
+        <div style="margin:0 0 30px;display:flex;flex-wrap:wrap;align-items:center;gap:10px"><a class="btn btn--dark" href="https://github.com/Ghigog/lytra/releases/latest">Download v1.2.0</a><a class="btn btn--soft" href="https://github.com/Ghigog/lytra/releases">All builds</a> <span style="font:400 13px/1.6 var(--font-body);color:var(--ink-4)">Windows and macOS, on GitHub</span></div>
 
         <h2>How it knows what is playing</h2>
         <p style="margin-bottom:30px">A background thread asks the operating system for the active track once a second. GDScript cannot reach those APIs, so it shells out &mdash; <code>get_media.ps1</code> against Windows media transport controls, <code>get_media.swift</code> on macOS &mdash; and calls back onto the main thread with title, artist, album, position and duration. Lyrics come from LRCLIB in LRC format and are parsed into a timeline, with a small mock database bundled so it can be worked on without a network.</p>
 
         <h2>The window</h2>
-        <p style="margin-bottom:30px">Borderless, transparent, always on top, with per-pixel transparency, dressed in glass and water-ripple shaders. About a thousand lines across the overlay controller and three autoloads &mdash; small on purpose.</p>
-
-        <h2>Shipped</h2>
-        <p style="margin-bottom:0">Two releases, v1.0.0 and v1.2.0. One caveat worth knowing before you try it: a commit reads &ldquo;cant do click through&rdquo;, so the click-through mode the README advertises may not actually work.</p>
+        <p style="margin-bottom:0">Borderless, transparent, always on top, with per-pixel transparency, dressed in glass and water-ripple shaders. About a thousand lines across the overlay controller and three autoloads &mdash; small on purpose.</p>
       </article>
 
       <article class="sheet-doc" data-doc="mollusk">
