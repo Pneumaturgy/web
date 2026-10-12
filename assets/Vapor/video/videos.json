@@ -1,3 +1,124 @@
 {
-  "videos": []
+  "videos": [
+    {
+      "key": "Social 1 - Living Mark",
+      "title": "Living Mark",
+      "cuts": [
+        {
+          "src": "Social 1 - Living Mark (1).mp4",
+          "width": 1080,
+          "height": 1350,
+          "poster": "Social 1 - Living Mark (1).jpg"
+        },
+        {
+          "src": "Social 1 - Living Mark (2).mp4",
+          "width": 1080,
+          "height": 1080,
+          "poster": "Social 1 - Living Mark (2).jpg"
+        },
+        {
+          "src": "Social 1 - Living Mark (3).mp4",
+          "width": 1920,
+          "height": 1080,
+          "poster": "Social 1 - Living Mark (3).jpg"
+        },
+        {
+          "src": "Social 1 - Living Mark.mp4",
+          "width": 1080,
+          "height": 1920,
+          "poster": "Social 1 - Living Mark.jpg"
+        }
+      ]
+    },
+    {
+      "key": "Social 2 - Vibe DJ",
+      "title": "Vibe DJ",
+      "cuts": [
+        {
+          "src": "Social 2 - Vibe DJ (1).mp4",
+          "width": 1080,
+          "height": 1350,
+          "poster": "Social 2 - Vibe DJ (1).jpg"
+        },
+        {
+          "src": "Social 2 - Vibe DJ (2).mp4",
+          "width": 1080,
+          "height": 1080,
+          "poster": "Social 2 - Vibe DJ (2).jpg"
+        },
+        {
+          "src": "Social 2 - Vibe DJ (3).mp4",
+          "width": 1920,
+          "height": 1080,
+          "poster": "Social 2 - Vibe DJ (3).jpg"
+        },
+        {
+          "src": "Social 2 - Vibe DJ.mp4",
+          "width": 1080,
+          "height": 1920,
+          "poster": "Social 2 - Vibe DJ.jpg"
+        }
+      ]
+    },
+    {
+      "key": "Social 3 - Your Data",
+      "title": "Your Data",
+      "cuts": [
+        {
+          "src": "Social 3 - Your Data (1).mp4",
+          "width": 1080,
+          "height": 1350,
+          "poster": "Social 3 - Your Data (1).jpg"
+        },
+        {
+          "src": "Social 3 - Your Data (2).mp4",
+          "width": 1080,
+          "height": 1080,
+          "poster": "Social 3 - Your Data (2).jpg"
+        },
+        {
+          "src": "Social 3 - Your Data (3).mp4",
+          "width": 1920,
+          "height": 1080,
+          "poster": "Social 3 - Your Data (3).jpg"
+        },
+        {
+          "src": "Social 3 - Your Data.mp4",
+          "width": 1080,
+          "height": 1920,
+          "poster": "Social 3 - Your Data.jpg"
+        }
+      ]
+    },
+    {
+      "key": "Social 4 - Library Tour",
+      "title": "Library Tour",
+      "cuts": [
+        {
+          "src": "Social 4 - Library Tour (1).mp4",
+          "width": 1080,
+          "height": 1350,
+          "poster": "Social 4 - Library Tour (1).jpg"
+        },
+        {
+          "src": "Social 4 - Library Tour (2).mp4",
+          "width": 1080,
+          "height": 1080,
+          "poster": "Social 4 - Library Tour (2).jpg"
+        },
+        {
+          "src": "Social 4 - Library Tour (3).mp4",
+          "width": 1920,
+          "height": 1080,
+          "poster": "Social 4 - Library Tour (3).jpg"
+        },
+        {
+          "src": "Social 4 - Library Tour.mp4",
+          "width": 1080,
+          "height": 1920,
+          "poster": "Social 4 - Library Tour.jpg"
+        }
+      ]
+    }
+  ]
 }

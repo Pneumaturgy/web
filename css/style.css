@@ -1264,9 +1264,9 @@ code {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(180deg, rgba(14, 10, 18, 0.5) 0%, rgba(14, 10, 18, 0) 28%, rgba(14, 10, 18, 0) 42%, rgba(14, 10, 18, 0.86) 100%);
+  background: linear-gradient(180deg, rgba(14, 10, 18, 0.78) 0%, rgba(14, 10, 18, 0.3) 30%, rgba(14, 10, 18, 0.3) 42%, rgba(14, 10, 18, 0.92) 100%);
 }
-.card.has-video .card__eyebrow { color: #F5C97A !important; }
+.card.has-video .card__eyebrow { color: #F5C97A !important; text-shadow: 0 1px 8px rgba(14, 10, 18, 0.6); }
 .card.has-video .card__title { color: #FBFAF8; }
 .card.has-video .card__body { color: rgba(251, 250, 248, 0.8); }
 /* Logo cards keep the figure as spacing; the video takes the logo's place. */
@@ -1286,15 +1286,20 @@ code {
 }
 .sheet-media__more { margin-top: 14px; }
 .sheet-media__extras {
-  columns: 3 220px;
-  column-gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px 12px;
   margin-top: 14px;
 }
 .sheet-media__extras[hidden] { display: none; }
-.sheet-media__extras video {
-  width: 100%;
-  margin: 0 0 12px;
-  break-inside: avoid;
+.sheet-media__extras figure { margin: 0; }
+.sheet-media__extras video { width: 100%; }
+.sheet-media__extras figcaption {
+  margin-top: 8px;
+  font: 400 11px/1 var(--font-mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-4);
 }
 
 /* ---------- responsive ---------- */

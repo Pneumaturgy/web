@@ -62,11 +62,13 @@ then run:
 python3 scripts/videos.py
 ```
 
-That writes `videos.json` (each file's size) and a poster frame per video if
-ffmpeg is installed. The first horizontal, vertical and square video become the
-project's covers: the home-page tile plays whichever fits its current shape,
-and the sheet plays whichever fits the screen. The rest go behind a
-"More videos" button on the sheet. Reorder `videos.json` to pick the covers.
+Cuts of the same video share a name and differ only by a trailing " (1)",
+" (2)"..., e.g. `Board Merge.mp4` (square) and `Board Merge (1).mp4`
+(vertical). The script groups them into `videos.json` and makes a poster frame
+per cut if ffmpeg is installed. The first video is the cover: the home-page
+tile plays the cut that fits its current shape, and the sheet plays the cut
+that fits the screen. The rest go behind a "More videos" button on the sheet.
+Reorder `videos.json` to pick the cover.
 Formic, Vapor Music and By Jove are wired up already: drop MP4s in their folders and run the script.
 
 ## Known placeholder
