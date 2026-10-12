@@ -78,6 +78,11 @@ run JavaScript, so a `#` link previews as the whole site. Each `<key>/`
 folder is a tiny page with that project's own preview tags (title,
 description, image) that then redirects to `/#<key>`.
 
+Every project sheet has a **Share** button next to Close. It shows that
+project's share link with a Copy button, links for WhatsApp, X, Bluesky,
+Reddit, Facebook and email, and on phones the system share sheet. It
+works out the link from the sheet's key, so new projects get it for free.
+
 `scripts/share_pages.py` (standard library only) writes all of them from
 `index.html`: the sheet's `<h1>` is the title, its lede is the description,
 and its first image (else the card's, else the flame) is the picture.

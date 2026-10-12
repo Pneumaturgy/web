@@ -377,6 +377,22 @@
 <div class="sheet-overlay" id="sheetOverlay" hidden>
   <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetHeading">
     <div class="sheet__bar">
+      <div class="share">
+        <button type="button" class="sheet__close share__toggle" id="shareToggle" aria-haspopup="true" aria-expanded="false" aria-controls="shareMenu">Share</button>
+        <div class="share__menu" id="shareMenu" hidden>
+          <div class="share__url"><input id="shareUrl" type="text" readonly aria-label="Share link"><button type="button" class="share__copy" id="shareCopy">Copy</button></div>
+          <div class="share__grid">
+            <a class="share__item" data-share="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="share__item" data-share="x" target="_blank" rel="noopener">X</a>
+            <a class="share__item" data-share="bluesky" target="_blank" rel="noopener">Bluesky</a>
+            <a class="share__item" data-share="reddit" target="_blank" rel="noopener">Reddit</a>
+            <a class="share__item" data-share="facebook" target="_blank" rel="noopener">Facebook</a>
+            <a class="share__item" data-share="email">Email</a>
+          </div>
+          <button type="button" class="share__item share__more" id="shareNative" hidden>More options&hellip;</button>
+          <p class="share__hint">For Discord, copy the link and paste it in.</p>
+        </div>
+      </div>
       <button type="button" class="sheet__close" id="sheetClose">Close</button>
     </div>
     <div class="sheet__body" id="sheetBody">
