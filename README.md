@@ -67,7 +67,7 @@ ffmpeg is installed. The first horizontal, vertical and square video become the
 project's covers: the home-page tile plays whichever fits its current shape,
 and the sheet plays whichever fits the screen. The rest go behind a
 "More videos" button on the sheet. Reorder `videos.json` to pick the covers.
-Formic is wired up already.
+Formic, Vapor Music and By Jove are wired up already: drop MP4s in their folders and run the script.
 
 ## Known placeholder
 

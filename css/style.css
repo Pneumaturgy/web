@@ -1269,6 +1269,9 @@ code {
 .card.has-video .card__eyebrow { color: #F5C97A !important; }
 .card.has-video .card__title { color: #FBFAF8; }
 .card.has-video .card__body { color: rgba(251, 250, 248, 0.8); }
+/* Logo cards keep the figure as spacing; the video takes the logo's place. */
+.card-logo.has-video .card-logo__figure { background: none; }
+.card-logo.has-video .card-logo__figure img { visibility: hidden; }
 
 .sheet-media { margin: 0 0 34px; }
 .sheet-media video {
