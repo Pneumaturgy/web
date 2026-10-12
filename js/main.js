@@ -126,36 +126,26 @@
   });
 
   // ---------- project videos (manifests written by scripts/videos.py) ----------
-  // The first wide, tall and square video in a project's list are its covers:
-  // the card plays the one that best fits the tile, the sheet the one that best
-  // fits the screen. Every other video sits behind a "More videos" button.
+  // Each video comes in several cuts (wide, tall, square...). The first video
+  // is the cover: the card plays the cut that best fits the tile, the sheet the
+  // cut that best fits the screen. The rest sit behind a "More videos" button.
 
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const videoSets = new Map();
   const cardVideos = [];
 
-  function shapeOf(v) {
-    const ratio = v.width / v.height;
-    if (ratio > 1.15) return 'wide';
-    if (ratio < 0.87) return 'tall';
-    return 'square';
-  }
-
   function sortVideos(folder, list) {
-    const covers = {};
-    const extras = [];
-    list.forEach((v) => {
-      const item = { ...v, url: `${folder}/${v.src}`, poster: v.poster ? `${folder}/${v.poster}` : null };
-      const shape = shapeOf(v);
-      if (covers[shape]) extras.push(item);
-      else covers[shape] = item;
-    });
-    return { covers: Object.values(covers), extras };
+    const asset = (name) => `${folder}/${encodeURIComponent(name)}`;
+    const videos = list.map((v) => ({
+      title: v.title,
+      cuts: v.cuts.map((c) => ({ ...c, url: asset(c.src), poster: c.poster ? asset(c.poster) : null })),
+    }));
+    return { cover: videos[0].cuts, extras: videos.slice(1) };
   }
 
-  function fit(covers, width, height) {
+  function fit(cuts, width, height) {
     const off = (v) => Math.abs(Math.log(v.width / v.height) - Math.log(width / height));
-    return covers.reduce((best, v) => (off(v) < off(best) ? v : best));
+    return cuts.reduce((best, v) => (off(v) < off(best) ? v : best));
   }
 
   function load(el, v) {
@@ -195,7 +185,7 @@
     new ResizeObserver(() => {
       const { width, height } = card.getBoundingClientRect();
       if (!width || !height) return;
-      const pick = fit(set.covers, width, height);
+      const pick = fit(set.cover, width, height);
       if (pick === current) return;
       current = pick;
       load(el, pick);
@@ -205,15 +195,21 @@
     cardWatcher.observe(el);
   }
 
+  function sheetVideo(cuts, className) {
+    const el = document.createElement('video');
+    if (className) el.className = className;
+    el.controls = true;
+    el.playsInline = true;
+    el.cuts = cuts;
+    return el;
+  }
+
   function buildSheetMedia(doc, set) {
     const wrap = document.createElement('div');
     wrap.className = 'sheet-media';
-    const hero = document.createElement('video');
-    hero.className = 'sheet-media__hero';
-    hero.controls = true;
+    const hero = sheetVideo(set.cover, 'sheet-media__hero');
     hero.muted = true;
     hero.loop = true;
-    hero.playsInline = true;
     hero.preload = 'metadata';
     wrap.append(hero);
 
@@ -228,12 +224,13 @@
       grid.className = 'sheet-media__extras';
       grid.hidden = true;
       set.extras.forEach((v) => {
-        const el = document.createElement('video');
-        el.controls = true;
-        el.playsInline = true;
-        el.preload = v.poster ? 'none' : 'metadata';
-        load(el, v);
-        grid.append(el);
+        const figure = document.createElement('figure');
+        const el = sheetVideo(v.cuts);
+        el.preload = 'none';
+        const caption = document.createElement('figcaption');
+        caption.textContent = v.title;
+        figure.append(el, caption);
+        grid.append(figure);
       });
       more.addEventListener('click', () => {
         grid.hidden = !grid.hidden;
@@ -250,14 +247,12 @@
     return hero;
   }
 
-  function fitSheetVideo(doc) {
-    const set = videoSets.get(doc.dataset.doc);
-    const hero = doc.querySelector('.sheet-media__hero');
-    if (!set || !hero) return false;
-    const pick = fit(set.covers, window.innerWidth, window.innerHeight);
-    if (hero.currentPick === pick) return false;
-    hero.currentPick = pick;
-    load(hero, pick);
+  // Load the cut that best fits the screen; true if it changed.
+  function fitToScreen(el) {
+    const pick = fit(el.cuts, window.innerWidth, window.innerHeight);
+    if (el.currentPick === pick) return false;
+    el.currentPick = pick;
+    load(el, pick);
     return true;
   }
 
@@ -265,7 +260,7 @@
     const set = videoSets.get(doc.dataset.doc);
     if (!set) return;
     const hero = doc.querySelector('.sheet-media__hero') || buildSheetMedia(doc, set);
-    fitSheetVideo(doc);
+    doc.querySelectorAll('.sheet-media video').forEach(fitToScreen);
     play(hero);
   }
 
@@ -276,7 +271,9 @@
   window.addEventListener('resize', () => {
     const doc = docFor(currentKey);
     if (overlay.hidden || !doc) return;
-    if (fitSheetVideo(doc)) play(doc.querySelector('.sheet-media__hero'));
+    doc.querySelectorAll('.sheet-media video').forEach((el) => {
+      if (fitToScreen(el) && el.classList.contains('sheet-media__hero')) play(el);
+    });
   });
 
   docs.filter((d) => d.dataset.videos).forEach(async (doc) => {

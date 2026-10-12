@@ -1,3 +1,76 @@
 {
-  "videos": []
+  "videos": [
+    {
+      "key": "Social Board Merge",
+      "title": "Board Merge",
+      "cuts": [
+        {
+          "src": "Social Board Merge (1).mp4",
+          "width": 1080,
+          "height": 1920,
+          "poster": "Social Board Merge (1).jpg"
+        },
+        {
+          "src": "Social Board Merge (2).mp4",
+          "width": 1920,
+          "height": 1080,
+          "poster": "Social Board Merge (2).jpg"
+        },
+        {
+          "src": "Social Board Merge.mp4",
+          "width": 1080,
+          "height": 1080,
+          "poster": "Social Board Merge.jpg"
+        }
+      ]
+    },
+    {
+      "key": "Social Epic Split",
+      "title": "Epic Split",
+      "cuts": [
+        {
+          "src": "Social Epic Split (1).mp4",
+          "width": 1080,
+          "height": 1920,
+          "poster": "Social Epic Split (1).jpg"
+        },
+        {
+          "src": "Social Epic Split (2).mp4",
+          "width": 1920,
+          "height": 1080,
+          "poster": "Social Epic Split (2).jpg"
+        },
+        {
+          "src": "Social Epic Split.mp4",
+          "width": 1080,
+          "height": 1080,
+          "poster": "Social Epic Split.jpg"
+        }
+      ]
+    },
+    {
+      "key": "Social Sentinels",
+      "title": "Sentinels",
+      "cuts": [
+        {
+          "src": "Social Sentinels (1).mp4",
+          "width": 1080,
+          "height": 1920,
+          "poster": "Social Sentinels (1).jpg"
+        },
+        {
+          "src": "Social Sentinels (2).mp4",
+          "width": 1920,
+          "height": 1080,
+          "poster": "Social Sentinels (2).jpg"
+        },
+        {
+          "src": "Social Sentinels.mp4",
+          "width": 1080,
+          "height": 1080,
+          "poster": "Social Sentinels.jpg"
+        }
+      ]
+    }
+  ]
 }

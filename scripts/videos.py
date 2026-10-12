@@ -5,21 +5,26 @@ Drop MP4s into a project's video folder, then run from the repository root:
 
     python3 scripts/videos.py
 
-For each folder this writes videos.json, listing every MP4 with its width and
-height, and, if ffmpeg is installed, a poster frame (<name>.jpg) next to it.
-js/main.js reads that list for any sheet carrying data-videos="<folder>":
+Files that differ only by a trailing " (1)", " (2)"... are one video cut to
+different shapes, e.g. "Board Merge.mp4" (square) and "Board Merge (1).mp4"
+(vertical). For each folder this writes videos.json, listing every video with
+its cuts and their sizes, and, if ffmpeg is installed, a poster frame
+(<name>.jpg) next to each cut. js/main.js reads that list for any sheet
+carrying data-videos="<folder>":
 
-  - the first wide, first tall and first square video are the project's
-    covers. The card on the home page plays whichever one best fits the
-    tile's current shape; the sheet plays whichever best fits the screen.
-  - every other video goes behind a "More videos" button on the sheet.
+  - the first video is the project's cover. The card on the home page plays
+    the cut that best fits the tile's current shape; the sheet plays the cut
+    that best fits the screen.
+  - every other video goes behind a "More videos" button on the sheet, each
+    shown in the cut that best fits the screen.
 
-Order in videos.json is kept between runs and new files are added at the end,
-so reorder the list by hand to choose which videos are the covers.
+Order in videos.json is kept between runs and new videos are added at the
+end, so reorder the list by hand to choose the cover.
 Standard library only (ffmpeg is optional, for posters).
 """
 
 import json
+import re
 import shutil
 import struct
 import subprocess
@@ -90,31 +95,41 @@ def poster(video):
     return out.name
 
 
+def group_of(name):
+    """("Board Merge", title) for "Social Board Merge (2).mp4"."""
+    stem = re.sub(r"\s*\(\d+\)$", "", Path(name).stem).strip()
+    title = re.sub(r"^(social\s+)?(\d+\s*-\s*)?", "", stem, flags=re.I).strip()
+    return stem, title or stem
+
+
 def index(folder):
     manifest = folder / "videos.json"
     previous = []
     if manifest.exists():
-        previous = [v["src"] for v in json.loads(manifest.read_text())["videos"]]
-    present = {p.name: p for p in folder.glob("*.mp4")}
-    order = [n for n in previous if n in present]
-    order += sorted(n for n in present if n not in order)
+        previous = [v["key"] for v in json.loads(manifest.read_text())["videos"] if "key" in v]
 
-    videos = []
-    for name in order:
-        size = video_size(present[name])
+    groups = {}
+    for path in sorted(folder.glob("*.mp4")):
+        size = video_size(path)
         if not size:
-            print(f"  skipped {name}: no video track found", file=sys.stderr)
+            print(f"  skipped {path.name}: no video track found", file=sys.stderr)
             continue
-        entry = {"src": name, "width": size[0], "height": size[1]}
-        still = poster(present[name])
+        key, title = group_of(path.name)
+        cut = {"src": path.name, "width": size[0], "height": size[1]}
+        still = poster(path)
         if still:
-            entry["poster"] = still
-        videos.append(entry)
+            cut["poster"] = still
+        groups.setdefault(key, {"key": key, "title": title, "cuts": []})["cuts"].append(cut)
+
+    order = [k for k in previous if k in groups]
+    order += sorted(k for k in groups if k not in order)
+    videos = [groups[k] for k in order]
 
     manifest.write_text(json.dumps({"videos": videos}, indent=2) + "\n")
     print(f"{manifest.relative_to(ROOT)}: {len(videos)} videos")
     for v in videos:
-        print(f"  {v['src']}  {v['width']}x{v['height']}")
+        cuts = ", ".join(f"{c['width']}x{c['height']}" for c in v["cuts"])
+        print(f"  {v['title']}: {cuts}")
 
 
 def main():
