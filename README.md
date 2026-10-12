@@ -52,6 +52,23 @@ Static hosting only — point any of these at the repo root:
 - **Cloudflare Pages / Netlify / Vercel** — set the project (or build)
   output directory to `/` (repo root), no build command needed.
 
+## Videos
+
+Any project can carry videos. Put its MP4s in `assets/<Project>/video/`,
+add `data-videos="assets/<Project>/video"` to its `<article class="sheet-doc">`,
+then run:
+
+```
+python3 scripts/videos.py
+```
+
+That writes `videos.json` (each file's size) and a poster frame per video if
+ffmpeg is installed. The first horizontal, vertical and square video become the
+project's covers: the home-page tile plays whichever fits its current shape,
+and the sheet plays whichever fits the screen. The rest go behind a
+"More videos" button on the sheet. Reorder `videos.json` to pick the covers.
+Formic, Vapor Music and By Jove are wired up already: drop MP4s in their folders and run the script.
+
 ## Known placeholder
 
 The "Join the Discord" button (`index.html`, marked with a `<!-- TODO -->`

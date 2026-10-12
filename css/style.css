@@ -1243,6 +1243,60 @@ code {
 .substory > summary:hover::after { color: var(--accent); }
 .substory__body { padding-top: 18px; }
 
+/* ---------- project videos (js/main.js, scripts/videos.py) ---------- */
+
+.card.has-video {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background: #16120F;
+}
+.card__video {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card.has-video::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(14, 10, 18, 0.5) 0%, rgba(14, 10, 18, 0) 28%, rgba(14, 10, 18, 0) 42%, rgba(14, 10, 18, 0.86) 100%);
+}
+.card.has-video .card__eyebrow { color: #F5C97A !important; }
+.card.has-video .card__title { color: #FBFAF8; }
+.card.has-video .card__body { color: rgba(251, 250, 248, 0.8); }
+/* Logo cards keep the figure as spacing; the video takes the logo's place. */
+.card-logo.has-video .card-logo__figure { background: none; }
+.card-logo.has-video .card-logo__figure img { visibility: hidden; }
+
+.sheet-media { margin: 0 0 34px; }
+.sheet-media video {
+  display: block;
+  background: #16120F;
+  border-radius: 18px;
+  aspect-ratio: var(--ratio, 16 / 9);
+}
+.sheet-media__hero {
+  width: min(100%, calc(78vh * var(--ratio, 1.78)));
+  margin: 0 auto;
+}
+.sheet-media__more { margin-top: 14px; }
+.sheet-media__extras {
+  columns: 3 220px;
+  column-gap: 12px;
+  margin-top: 14px;
+}
+.sheet-media__extras[hidden] { display: none; }
+.sheet-media__extras video {
+  width: 100%;
+  margin: 0 0 12px;
+  break-inside: avoid;
+}
+
 /* ---------- responsive ---------- */
 
 @media (max-width: 1000px) {
