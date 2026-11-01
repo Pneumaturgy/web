@@ -87,6 +87,42 @@ that fits the screen. The rest go behind a "More videos" button on the sheet.
 Reorder `videos.json` to pick the cover.
 Formic, Vapor Music and By Jove are wired up already: drop MP4s in their folders and run the script.
 
+## Favicon
+
+`favicon.ico`, `assets/favicon-32.png` and `assets/favicon-180.png` (the
+apple-touch-icon) are generated from `assets/flame.png`, matted onto the
+site's `--bg` cream so the mark stays visible in dark browser chrome.
+Regenerate them if the flame mark changes:
+
+```
+python3 -c "
+from PIL import Image
+src = Image.open('assets/flame.png').convert('RGBA')
+bg_color = (251, 250, 248, 255)
+
+def make_icon(size, padding_frac=0.18):
+    canvas = Image.new('RGBA', (size, size), bg_color)
+    pad = int(size * padding_frac)
+    box = size - 2 * pad
+    w, h = src.size
+    scale = box / max(w, h)
+    nw, nh = max(1, round(w * scale)), max(1, round(h * scale))
+    flame = src.resize((nw, nh), Image.LANCZOS)
+    canvas.alpha_composite(flame, ((size - nw) // 2, (size - nh) // 2))
+    return canvas.convert('RGB')
+
+sizes = [16, 32, 48, 64]
+imgs = [make_icon(s) for s in sizes]
+imgs[0].save('favicon.ico', format='ICO', sizes=[(s, s) for s in sizes])
+make_icon(32).save('assets/favicon-32.png')
+make_icon(180, padding_frac=0.16).save('assets/favicon-180.png')
+"
+```
+
+Every page links these explicitly (`<link rel="icon" ...>`), with the path
+depth adjusted for how deep the page sits — `scripts/share_pages.py`
+does this automatically for the generated share pages.
+
 ## Known placeholder
 
 The "Join the Discord" button (`index.html`, marked with a `<!-- TODO -->`

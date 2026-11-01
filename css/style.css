@@ -503,6 +503,8 @@ code {
 .card-logo[data-sheet="pneumath"] .card-logo__figure { background: #EFF4F7; }
 .card-logo--dark[data-sheet="navi"] .card-logo__figure { background: rgba(150, 196, 232, 0.10); }
 .card-logo--dark[data-sheet="orison"] .card-logo__figure { background: rgba(196, 205, 228, 0.07); }
+.card-logo--dark[data-sheet="fum"] .card-logo__figure { background: #111012; }
+.card-logo--dark[data-sheet="deafening"] .card-logo__figure { background: #010101; }
 
 .card-logo__text { flex: 0 0 auto; }
 .card-logo__figure img { max-width: 78%; height: auto; display: block; }

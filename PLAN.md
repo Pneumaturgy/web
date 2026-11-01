@@ -175,3 +175,24 @@ bindings) — not meant to ship as-is per `README.md`.
     (`python3 scripts/share_pages.py dylan`); the nine stale root-level
     share folders for the moved projects were deleted and regenerated
     under `dylan/`.
+23. [x] Reordered and grew `dylan/index.html` on request: Formic, Juice,
+    F-U-M, Vapor Music, Seven Sages, Valheim Pathfinder, Lytra, Theory
+    Forge, Quire, Mollusk, then Navi and Orison (not named in the new
+    order, kept rather than dropped). Juice, F-U-M and Valheim Pathfinder
+    are new entries, written up from their own repositories (this session
+    was able to add and read `Ghigog/` repos directly this time, unlike
+    step 18, where a GitHub owner outside the session's scope needed a
+    second session to read it). Formic and Juice
+    gained a "closed beta" tag; Vapor Music's card eyebrow was brought in
+    line with its sheet's "open beta"; Theory Forge is now "Shipped" per
+    its owner, though the body text's deploy/release link is still a
+    placeholder pending the actual URL. Also added: Deafening, a
+    commissioned dance-academy management system, under a new "Client
+    project" tag rather than "Personal" — the site's first project that
+    isn't the studio's or its members' own. Valheim Pathfinder's own repo
+    is just the BepInEx/Harmony scaffold (the template's example patch,
+    nothing pathfinding-specific yet); its "closed beta" tag is the
+    owner's own call, kept as asked, but the body text describes only
+    what the repository actually contains. Tambo (a meal-prep marketplace
+    prototype) was found in the same repo listing and declined — out of
+    date, per its owner.
