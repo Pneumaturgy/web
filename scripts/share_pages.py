@@ -67,7 +67,7 @@ def attr(tag, name):
     return html.unescape(m.group(1)) if m else None
 
 
-def page(site, key, title, description, image, colour, image_file):
+def page(site, key, title, description, image, colour, image_file, root_prefix):
     size = image_size(image_file)
     wide = size is not None and size[0] >= size[1] * 1.3
     e = lambda v: html.escape(v, quote=True)
@@ -80,6 +80,9 @@ def page(site, key, title, description, image, colour, image_file):
         '<meta name="viewport" content="width=device-width, initial-scale=1">',
         f"<title>{e(title)} · Pneumaturgy</title>",
         f'<meta name="description" content="{e(description)}">',
+        f'<link rel="icon" href="{root_prefix}favicon.ico" sizes="any">',
+        f'<link rel="icon" href="{root_prefix}assets/favicon-32.png" type="image/png" sizes="32x32">',
+        f'<link rel="apple-touch-icon" href="{root_prefix}assets/favicon-180.png">',
         '<meta property="og:type" content="website">',
         '<meta property="og:site_name" content="Pneumaturgy">',
         f'<meta property="og:title" content="{e(title)}">',
@@ -114,6 +117,9 @@ def main():
     subdir = sys.argv[1].strip("/") if len(sys.argv) > 1 else ""
     root = REPO_ROOT / subdir if subdir else REPO_ROOT
     site = f"{SITE_ROOT}{subdir}/" if subdir else SITE_ROOT
+    # Each output page lives one level below `root` (<root>/<key>/index.html),
+    # plus one more level if `root` is itself a subdirectory of the repo root.
+    root_prefix = "../../" if subdir else "../"
 
     source = (root / "index.html").read_text(encoding="utf-8")
     cards = {
@@ -147,7 +153,7 @@ def main():
         if out.parent.exists() and any(out.parent.iterdir()) and not ours:
             sys.exit(f"{key}/ exists and was not made by this script; rename the sheet or move that folder")
         out.parent.mkdir(exist_ok=True)
-        out.write_text(page(site, key, title, description, image, colour, REPO_ROOT / image), encoding="utf-8")
+        out.write_text(page(site, key, title, description, image, colour, REPO_ROOT / image, root_prefix), encoding="utf-8")
         print(f"{site}{key}/")
 
 
