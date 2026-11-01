@@ -96,7 +96,7 @@
       <div class="card__eyebrow" style="color:#A3703B">In development &middot; closed beta<span class="card__eyebrow-line">Last commit Oct 2026</span></div>
       <div>
         <div class="card__title">Valheim Pathfinder</div>
-        <p class="card__body">A BepInEx + Harmony mod for Valheim.</p>
+        <p class="card__body">A Valheim mod about reading the land instead of spotting mobs from far away: fur, scat and footprints, trails that wear in, traps.</p>
       </div>
     </button>
 
@@ -336,11 +336,21 @@
       <article class="sheet-doc" data-doc="valheim">
         <div class="sheet-doc__eyebrow" style="color:#A3703B">Personal &middot; in development &middot; closed beta &middot; last commit October 2026</div>
         <h1>Valheim Pathfinder</h1>
-        <p class="sheet-doc__lede">A BepInEx + Harmony mod for Valheim.</p>
-        <a class="repo-link" href="https://github.com/Ghigog/valheim-pathfinder">Ghigog/valheim-pathfinder <span class="repo-link__meta">&middot; private &middot; C# &middot; last commit 30 October 2026</span></a>
+        <p class="sheet-doc__lede">A BepInEx + Harmony mod for Valheim that makes hunting about reading the land instead of spotting mobs from far away.</p>
+        <a class="repo-link" href="https://github.com/Ghigog/valheim-pathfinder">Ghigog/valheim-pathfinder <span class="repo-link__meta">&middot; private &middot; C# &middot; last commit 31 October 2026</span></a>
 
-        <h2>Where it starts</h2>
-        <p style="margin-bottom:0">The repository is the standard BepInEx + Harmony scaffold: a plugin entry point, a config file written on first run, and one example patch &mdash; healing on bed interact &mdash; kept in to prove the toolchain builds, deploys to <code>BepInEx/plugins</code>, and loads in game (look for &ldquo;Valheim Pathfinder 0.1.0 loaded&rdquo; in the console). Private game members are publicized at compile time, so patches can reach them directly; Harmony matches patch parameters by name, copied from a decompiler.</p>
+        <h2>Hunting by sign, not sight</h2>
+        <p style="margin-bottom:30px">A new Hunting skill decides what you can read off the land. Animals leave fur, then scat, then footprints, and each clue becomes visible &mdash; and its detail readable, down to how many hours old it is &mdash; as the skill grows. Spot one and press E to study it for XP; study it twice and it has nothing more to tell you.</p>
+
+        <div class="feature-grid" style="margin-bottom:30px">
+          <div class="feature-card"><div class="feature-card__title">Trails</div><p>Ground that gets walked often, by animals or players, wears into a dirt path over time.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Marking</div><p>Stripe a tree or rock with coal, bone, mushrooms or flowers to leave your own sign on the land.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Conscious roaming</div><p>Animals keep a daily routine &mdash; water at dawn and dusk, meadow or forest by day, bedding at night, cover when it rains &mdash; and prefer existing paths over cutting new ones.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Traps</div><p>Twelve pieces on a new Hammer &rarr; Traps tab: small, medium and large, lethal and non-lethal, high-chance/low-yield and low-chance/high-yield.</p></div>
+        </div>
+
+        <h2>Being tested, not just built</h2>
+        <p style="margin-bottom:0">A system-by-system testing checklist tracks what actually works in-game rather than what the code intends: the first pass, solo, found a fur-drop timer that took up to 30 real minutes (fixed) and boar scat that reads too close to deer scat (open). The mod has no asset bundle yet &mdash; clues, stripes and traps are built from Unity primitives at runtime as placeholder art &mdash; and every player on a server needs it installed, since clues and traps are networked objects.</p>
       </article>
 
       <article class="sheet-doc" data-doc="lytra">
