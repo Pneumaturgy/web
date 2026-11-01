@@ -154,3 +154,24 @@ bindings) — not meant to ship as-is per `README.md`.
     rather than the active work. The design docs section moved to the
     bottom of the page, below the join panel; the footer was lifted out of
     the join section so it stays last.
+
+## Follow-up: separating personal work from the studio site
+
+22. [x] The nine projects marked "Personal" in their own sheet copy (Quire,
+    Formic, Vapor Music, Seven Sages, Lytra, Mollusk, Navi, Orison, Theory
+    Forge) came off `index.html`'s work grid and sheet overlay and moved to
+    a new page, `dylan/index.html`, built the same way as the main site
+    (same nav/hero/grid/sheet-modal shapes, same `css/style.css` and
+    `js/main.js`, asset paths adjusted for the extra directory depth). By
+    Jove stays on the studio site by agreement, even though it is also
+    personal, since it already carries the site's video and share wiring.
+    Cerdo stays too — unlike the other nine its sheet was never marked
+    "Personal", consistent with step 18's note that it was treated as
+    established studio content rather than folded in as personal work.
+    A small "Members" pill near the top of `index.html` links to the new
+    page, with room to list more members later. `scripts/share_pages.py`
+    was generalised to take an optional subdirectory argument, so member
+    pages get the same per-project share links as the main site
+    (`python3 scripts/share_pages.py dylan`); the nine stale root-level
+    share folders for the moved projects were deleted and regenerated
+    under `dylan/`.
