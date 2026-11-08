@@ -93,7 +93,7 @@
     </button>
 
     <button type="button" class="card card-light" data-sheet="valheim">
-      <div class="card__eyebrow" style="color:#A3703B">In development &middot; closed beta<span class="card__eyebrow-line">Last commit Oct 2026</span></div>
+      <div class="card__eyebrow" style="color:#A3703B">Shipped &middot; v0.3.1<span class="card__eyebrow-line">Last commit Nov 2026</span></div>
       <div>
         <div class="card__title">Valheim Pathfinder</div>
         <p class="card__body">A Valheim mod about reading the land instead of spotting mobs from far away: fur, scat and footprints, trails that wear in, traps.</p>
@@ -334,23 +334,24 @@
       </article>
 
       <article class="sheet-doc" data-doc="valheim">
-        <div class="sheet-doc__eyebrow" style="color:#A3703B">Personal &middot; in development &middot; closed beta &middot; last commit October 2026</div>
+        <div class="sheet-doc__eyebrow" style="color:#A3703B">Personal &middot; shipped &middot; v0.3.1 &middot; November 2026</div>
         <h1>Valheim Pathfinder</h1>
         <p class="sheet-doc__lede">A BepInEx + Harmony mod for Valheim that makes hunting about reading the land instead of spotting mobs from far away.</p>
-        <a class="repo-link" href="https://github.com/Ghigog/valheim-pathfinder">Ghigog/valheim-pathfinder <span class="repo-link__meta">&middot; private &middot; C# &middot; last commit 31 October 2026</span></a>
+        <a class="repo-link" href="https://github.com/Ghigog/valheim-pathfinder">Ghigog/valheim-pathfinder <span class="repo-link__meta">&middot; private &middot; C# &middot; last commit 7 November 2026</span></a>
 
         <h2>Hunting by sign, not sight</h2>
-        <p style="margin-bottom:30px">A new Hunting skill decides what you can read off the land. Animals leave fur, then scat, then footprints, and each clue becomes visible &mdash; and its detail readable, down to how many hours old it is &mdash; as the skill grows. Spot one and press E to study it for XP; study it twice and it has nothing more to tell you.</p>
+        <p style="margin-bottom:30px">Animals leave fur, droppings and footprints, and you can see all of them from the first day. A new Hunting skill decides how far back you can read: a novice only catches fresh sign, a master at skill 50 can follow prints three days old, and at 100 fur stays readable for about two in-game months. Clues never name the animal. Droppings tell you what it eats &mdash; pellets from grazers, lumpy logs with seeds from boar and bears, thin ropes with fur from wolves &mdash; and prints point the way it walked. Press E on one to study it, learn its age and earn XP.</p>
 
         <div class="feature-grid" style="margin-bottom:30px">
           <div class="feature-card"><div class="feature-card__title">Trails</div><p>Ground that gets walked often, by animals or players, wears into a dirt path over time.</p></div>
-          <div class="feature-card"><div class="feature-card__title">Marking</div><p>Stripe a tree or rock with coal, bone, mushrooms or flowers to leave your own sign on the land.</p></div>
-          <div class="feature-card"><div class="feature-card__title">Conscious roaming</div><p>Animals keep a daily routine &mdash; water at dawn and dusk, meadow or forest by day, bedding at night, cover when it rains &mdash; and prefer existing paths over cutting new ones.</p></div>
-          <div class="feature-card"><div class="feature-card__title">Traps</div><p>Twelve pieces on a new Hammer &rarr; Traps tab: small, medium and large, lethal and non-lethal, high-chance/low-yield and low-chance/high-yield.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Marking</div><p>Paint up to three vertical stripes on a tree or rock with coal, bone, mushrooms or flowers, and build your own trail codes, red-white-red and so on.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Conscious roaming</div><p>Animals keep a daily routine &mdash; water at dawn and dusk, meadow or forest by day, bedding at night, cover when it rains &mdash; and a herd sets off together along the paths it already knows.</p></div>
+          <div class="feature-card"><div class="feature-card__title">Traps</div><p>Twelve pieces on a new Hammer &rarr; Traps tab, small to large, lethal and non-lethal. Bait one with the right food and it lures from further away; feed a held animal and it tames faster.</p></div>
         </div>
 
-        <h2>Being tested, not just built</h2>
-        <p style="margin-bottom:0">A system-by-system testing checklist tracks what actually works in-game rather than what the code intends: the first pass, solo, found a fur-drop timer that took up to 30 real minutes (fixed) and boar scat that reads too close to deer scat (open). The mod has no asset bundle yet &mdash; clues, stripes and traps are built from Unity primitives at runtime as placeholder art &mdash; and every player on a server needs it installed, since clues and traps are networked objects.</p>
+        <h2>Out in beta</h2>
+        <p style="margin-bottom:30px">Version 0.3.0 was the first public beta, packaged for Thunderstore with Hugin the raven explaining each part of the mod the first time it comes up. A week of system-by-system testing shaped it: stripes that overlapped or tilted, a click that painted a mark while closing chat, and trap fixes from the checklist. 0.3.1 followed the same day, showing every clue from Hunting 0 and loading on dedicated servers, which had been turning players away as incompatible.</p>
+        <p style="margin-bottom:0">It has been tested in single player and alongside mods like Seasons, Riverheim and BeastsOfBurden; multiplayer is still untested. The models are placeholder art built from Unity primitives at runtime, and the server and every player need the mod, since clues and traps are networked objects.</p>
       </article>
 
       <article class="sheet-doc" data-doc="lytra">
