@@ -196,3 +196,11 @@ bindings) — not meant to ship as-is per `README.md`.
     what the repository actually contains. Tambo (a meal-prep marketplace
     prototype) was found in the same repo listing and declined — out of
     date, per its owner.
+24. [x] Valheim Pathfinder marked "Shipped · v0.3.1" on request, after its
+    0.3.0 public beta and 0.3.1 release (7 November 2026). The sheet now
+    reflects the release notes: every clue visible from Hunting 0 with
+    skill deciding how old a clue you can read, neutral clue names and
+    diet-revealing droppings, three-stripe trail codes, trap bait, raven
+    tips and dedicated-server support. The repo is still private, so the
+    link meta says so; multiplayer is noted as untested, per the
+    Thunderstore README.
